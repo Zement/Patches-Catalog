@@ -5,15 +5,17 @@
  "description": "",
  "version": "1",
  "revision": 1,
- "date": "2026-09-22",
+ "date": "2026-11-07",
  "category": "mod",
  "length": null,
  "source": {
-  "type": "external"
+  "type": "hosted",
+  "upstream": "https://mega.nz/file/gI4BQAab#7NmpvxCCoBE8b090tpKPDEQVn26yjJhmv7zwtWNVkzo",
+  "checked": "2026-11-07",
+  "tag": "new-super-mario-bros-universe/1-1"
  },
  "download": {
-  "page": "https://mega.nz/file/gI4BQAab#7NmpvxCCoBE8b090tpKPDEQVn26yjJhmv7zwtWNVkzo",
-  "name": "NewSuperMarioBrosUniverseVersion1.zip",
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/new-super-mario-bros-universe/1-1/new-super-mario-bros-universe-1-1.zip",
   "size": 347621742,
   "sha256": "71eb4b0a7cf374e806704a4ad645d4521d29470607fbe4965acc8b26c6ad7543",
   "root": ""

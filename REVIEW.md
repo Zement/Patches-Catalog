@@ -465,3 +465,10 @@ Not added:
 | Swift's 2022-08 Drive folder; Super Dooper World (GameBanana WIP) | gone (404) |
 | GameBanana WIP 65286 | no files (Mario's Final Adventure Wii WIP) |
 | Infinite Wii | ongoing; its site has no download |
+
+**Update (Reply 11):** the three external entries are **rehosted** too - one click,
+ranges, updates by parts - with their page as `source.upstream`; the quarterly *Upstream
+check* workflow lists them for a look at their authors' pages. **Mayro's Heart Throbbing
+Adventure Wii Ultimate 1.1** is in after all: its zip carries a complete Riivolution XML,
+only inside the mod folder (`Mayro/Mayro.xml`) - our revision 1 adds the same file at
+`riivolution/Mayro.xml`, nothing else changed. 122 mods.

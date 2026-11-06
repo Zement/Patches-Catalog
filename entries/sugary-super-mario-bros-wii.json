@@ -3,17 +3,19 @@
  "name": "Sugary Super Mario Bros. Wii",
  "author": "Team Sugary",
  "description": "",
- "version": "1.05 (demo)",
+ "version": "1.05-demo",
  "revision": 1,
- "date": "2026-04-11",
+ "date": "2026-11-07",
  "category": "demo",
  "length": null,
  "source": {
-  "type": "external"
+  "type": "hosted",
+  "upstream": "https://gamebanana.com/mods/668670",
+  "checked": "2026-11-07",
+  "tag": "sugary-super-mario-bros-wii/1.05-demo-1"
  },
  "download": {
-  "page": "https://gamebanana.com/mods/668670",
-  "name": "demo_sugarysmbwii_105.zip",
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/sugary-super-mario-bros-wii/1.05-demo-1/sugary-super-mario-bros-wii-1.05-demo-1.zip",
   "size": 633092428,
   "sha256": "9b2fef4e017d6b29d68a56c96959d5dbcbffc24b4ca453ac1189965c3a68c50c",
   "root": ""

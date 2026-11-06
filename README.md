@@ -16,10 +16,16 @@ Every entry answers two questions.
 
 | Type | When | Download |
 |---|---|---|
-| `hosted` | Mods no longer worked on, and Newer itself. A copy is published here as a release. | A release asset of this repository (or, for now, the old SourceForge catalog, or the archive.org mirror the Horizon wiki links: `source.host`). |
+| `hosted` | Mods no longer worked on, Newer itself, and mods whose authors share them only where a program cannot download from (MEGA, Google Drive, GameBanana). A copy is published here as a release. | A release asset of this repository (or, for now, the old SourceForge catalog, or the archive.org mirror the Horizon wiki links: `source.host`). |
 | `linked-release` | Mods whose authors publish releases. | The author's own release asset. |
 | `linked-source` | Mods kept only as a repository (tags, no release files). | GitHub's archive of the pinned commit. |
 | `external` | Mods still worked on whose only download is a page a program cannot use (MEGA, Google Drive, a mod's own site). | The player downloads the file on `download.page`; Reginald installs it after checking it against `download.sha256`. |
+
+A hosted copy of a mod whose author still works on it names the author's page
+(`source.upstream`) and when it was last looked at (`source.checked`). Every quarter
+the *Upstream check* workflow opens an issue listing the ones due; a new version is
+published with `scripts/publish_hosted.py`, and `scripts/check_upstream.py --mark <id>`
+records the check.
 
 A linked entry is **pinned** (`source.tag` / `source.commit`). The daily
 *Resolve linked mods* workflow looks for newer releases or tags and opens a pull

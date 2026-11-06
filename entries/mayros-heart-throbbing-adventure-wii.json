@@ -1,0 +1,39 @@
+{
+ "id": "mayros-heart-throbbing-adventure-wii",
+ "name": "Mayro's Heart Throbbing Adventure Wii",
+ "author": "DoubleB_J (BigBadJello)",
+ "description": "",
+ "version": "Ultimate-1.1",
+ "revision": 1,
+ "date": "2026-11-07",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "upstream": "https://www.mediafire.com/file/05bak61ll11be4o/",
+  "checked": "2026-11-07",
+  "tag": "mayros-heart-throbbing-adventure-wii/Ultimate-1.1-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/mayros-heart-throbbing-adventure-wii/Ultimate-1.1-1/mayros-heart-throbbing-adventure-wii-Ultimate-1.1-1.zip",
+  "size": 569561394,
+  "sha256": "eb5c803d44a636e41b0b39814c54867770de2f4483a712ba51ef53028c93fe89",
+  "root": ""
+ },
+ "mod": {
+  "folder": "Mayro",
+  "xml": "riivolution/Mayro.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Mayro",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}

@@ -3,17 +3,19 @@
  "name": "Toadiko into Yamato",
  "author": "hitsu",
  "description": "",
- "version": "",
+ "version": "1.0.0.1",
  "revision": 1,
- "date": "2026-10-16",
+ "date": "2026-11-07",
  "category": "mod",
  "length": null,
  "source": {
-  "type": "external"
+  "type": "hosted",
+  "upstream": "https://gamebanana.com/mods/727700",
+  "checked": "2026-11-07",
+  "tag": "toadiko-into-yamato/1.0.0.1-1"
  },
  "download": {
-  "page": "https://gamebanana.com/mods/727700",
-  "name": "toadikointoyamato1001.zip",
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/toadiko-into-yamato/1.0.0.1-1/toadiko-into-yamato-1.0.0.1-1.zip",
   "size": 613401228,
   "sha256": "baf55044e4b5b991506bcaa1108911b0905cc06e59a2ec33edcc81972fc4a08e",
   "root": ""

@@ -1367,6 +1367,45 @@
    }
   },
   {
+   "id": "mayros-heart-throbbing-adventure-wii",
+   "name": "Mayro's Heart Throbbing Adventure Wii",
+   "author": "DoubleB_J (BigBadJello)",
+   "description": "",
+   "version": "Ultimate-1.1",
+   "revision": 1,
+   "date": "2026-11-07",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "upstream": "https://www.mediafire.com/file/05bak61ll11be4o/",
+    "checked": "2026-11-07",
+    "tag": "mayros-heart-throbbing-adventure-wii/Ultimate-1.1-1"
+   },
+   "download": {
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/mayros-heart-throbbing-adventure-wii/Ultimate-1.1-1/mayros-heart-throbbing-adventure-wii-Ultimate-1.1-1.zip",
+    "size": 569561394,
+    "sha256": "eb5c803d44a636e41b0b39814c54867770de2f4483a712ba51ef53028c93fe89",
+    "root": ""
+   },
+   "mod": {
+    "folder": "Mayro",
+    "xml": "riivolution/Mayro.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Mayro",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   }
+  },
+  {
    "id": "mini-super-mario-bros-wii",
    "name": "Mini Super Mario Bros Wii",
    "author": "",
@@ -1815,15 +1854,17 @@
    "description": "",
    "version": "1",
    "revision": 1,
-   "date": "2026-09-22",
+   "date": "2026-11-07",
    "category": "mod",
    "length": null,
    "source": {
-    "type": "external"
+    "type": "hosted",
+    "upstream": "https://mega.nz/file/gI4BQAab#7NmpvxCCoBE8b090tpKPDEQVn26yjJhmv7zwtWNVkzo",
+    "checked": "2026-11-07",
+    "tag": "new-super-mario-bros-universe/1-1"
    },
    "download": {
-    "page": "https://mega.nz/file/gI4BQAab#7NmpvxCCoBE8b090tpKPDEQVn26yjJhmv7zwtWNVkzo",
-    "name": "NewSuperMarioBrosUniverseVersion1.zip",
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/new-super-mario-bros-universe/1-1/new-super-mario-bros-universe-1-1.zip",
     "size": 347621742,
     "sha256": "71eb4b0a7cf374e806704a4ad645d4521d29470607fbe4965acc8b26c6ad7543",
     "root": ""
@@ -3496,17 +3537,19 @@
    "name": "Sugary Super Mario Bros. Wii",
    "author": "Team Sugary",
    "description": "",
-   "version": "1.05 (demo)",
+   "version": "1.05-demo",
    "revision": 1,
-   "date": "2026-04-11",
+   "date": "2026-11-07",
    "category": "demo",
    "length": null,
    "source": {
-    "type": "external"
+    "type": "hosted",
+    "upstream": "https://gamebanana.com/mods/668670",
+    "checked": "2026-11-07",
+    "tag": "sugary-super-mario-bros-wii/1.05-demo-1"
    },
    "download": {
-    "page": "https://gamebanana.com/mods/668670",
-    "name": "demo_sugarysmbwii_105.zip",
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/sugary-super-mario-bros-wii/1.05-demo-1/sugary-super-mario-bros-wii-1.05-demo-1.zip",
     "size": 633092428,
     "sha256": "9b2fef4e017d6b29d68a56c96959d5dbcbffc24b4ca453ac1189965c3a68c50c",
     "root": ""
@@ -4346,17 +4389,19 @@
    "name": "Toadiko into Yamato",
    "author": "hitsu",
    "description": "",
-   "version": "",
+   "version": "1.0.0.1",
    "revision": 1,
-   "date": "2026-10-16",
+   "date": "2026-11-07",
    "category": "mod",
    "length": null,
    "source": {
-    "type": "external"
+    "type": "hosted",
+    "upstream": "https://gamebanana.com/mods/727700",
+    "checked": "2026-11-07",
+    "tag": "toadiko-into-yamato/1.0.0.1-1"
    },
    "download": {
-    "page": "https://gamebanana.com/mods/727700",
-    "name": "toadikointoyamato1001.zip",
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/toadiko-into-yamato/1.0.0.1-1/toadiko-into-yamato-1.0.0.1-1.zip",
     "size": 613401228,
     "sha256": "baf55044e4b5b991506bcaa1108911b0905cc06e59a2ec33edcc81972fc4a08e",
     "root": ""

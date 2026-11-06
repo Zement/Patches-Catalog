@@ -1,0 +1,35 @@
+name: Upstream check
+
+# Quarterly: hosted mods whose authors are still at work (source.upstream)
+# and that were not checked for a newer version for about three months -
+# opened as one issue to work through by hand (G-c Reply 11). Nothing here
+# downloads or changes a mod.
+
+on:
+  schedule:
+    - cron: '23 5 1 1,4,7,10 *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: List what is due
+        run: python scripts/check_upstream.py > due.md
+      - name: Open an issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -s due.md ]; then
+            echo "Nothing is due."
+            exit 0
+          fi
+          gh issue create --title "Update check: hosted mods ($(date -u +%Y-%m))" --body-file due.md
