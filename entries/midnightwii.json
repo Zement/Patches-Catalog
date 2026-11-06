@@ -1,11 +1,13 @@
 {
  "id": "midnightwii",
- "name": "MidnightWii",
+ "name": "Mario's Midnight Adventure",
  "author": "Swiftshine",
  "description": "So uh...yeah. Initially, this mod was supposed to be a bit bigger, but it's just my first mod, so I thought to reduce the size a bit. I spent about 6 months (From March 2021 to September 2021) working on nothing but the levels, and then I made the (barely functional) world map in just a week (or pro...",
  "version": "v2.1",
  "revision": 1,
  "date": "",
+ "category": "mod",
+ "length": "medium",
  "source": {
   "type": "hosted",
   "host": "sourceforge"

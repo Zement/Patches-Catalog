@@ -1,0 +1,37 @@
+{
+ "id": "timmybroswii",
+ "name": "TimmyBrosWii",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/TimmyBrosWii.zip",
+  "size": 6727723,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "TimmyBrosWii",
+  "xml": "riivolution/HardE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/TimmyBrosWii/Stage",
+  "texture": "/TimmyBrosWii/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

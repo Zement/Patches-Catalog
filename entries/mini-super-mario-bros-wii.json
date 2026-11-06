@@ -1,0 +1,37 @@
+{
+ "id": "mini-super-mario-bros-wii",
+ "name": "Mini Super Mario Bros Wii",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Mini%20Super%20Mario%20Bros%20Wii.zip",
+  "size": 10332875,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Mini Super Mario Bros Wii/MSMBW",
+  "xml": "Mini Super Mario Bros Wii/riivolution/MSMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MSMBW",
+  "stage": "Stage",
+  "texture": null,
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

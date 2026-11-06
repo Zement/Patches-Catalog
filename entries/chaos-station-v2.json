@@ -1,0 +1,38 @@
+{
+ "id": "chaos-station-v2",
+ "name": "Chaos Station v2",
+ "author": "Stecca6663",
+ "description": "",
+ "version": "release",
+ "revision": 1,
+ "date": "2026-04-15",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-release",
+  "repo": "Stecca6663/ChaosStation-Wii",
+  "tag": "release"
+ },
+ "download": {
+  "url": "https://github.com/Stecca6663/ChaosStation-Wii/releases/download/release/chaosstation.zip",
+  "size": 296277083,
+  "sha256": "01fda4550482b46a0c0afee3d5fce97fe3040d5e8c4adf6b3fa3bdb7d4705dd5",
+  "root": ""
+ },
+ "mod": {
+  "folder": "ChaosStation",
+  "xml": "riivolution/nsmbw_mod.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/ChaosStation/Stage",
+  "texture": null,
+  "code": null,
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

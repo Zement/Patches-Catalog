@@ -1,0 +1,37 @@
+{
+ "id": "new-super-spike-wii-release",
+ "name": "New Super Spike Wii Release",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Spike%20Wii%20Release.zip",
+  "size": 123180575,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Extras/old version/spikewii",
+  "xml": "Extras/old version/riivolution/spikewii.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/spikewii/Stage",
+  "texture": "/spikewii/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

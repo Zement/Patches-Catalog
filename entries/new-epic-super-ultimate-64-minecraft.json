@@ -1,0 +1,37 @@
+{
+ "id": "new-epic-super-ultimate-64-minecraft",
+ "name": "New Epic Super Ultimate 64 Minecraft",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Epic%20Super%20Ultimate%2064%20Minecraft.zip",
+  "size": 271374697,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "bupcraft",
+  "xml": "Riivolution/NSMBWer+.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/bupcraft",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

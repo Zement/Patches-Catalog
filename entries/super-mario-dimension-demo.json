@@ -1,0 +1,37 @@
+{
+ "id": "super-mario-dimension-demo",
+ "name": "Super Mario Dimension Demo",
+ "author": "",
+ "description": "",
+ "version": "0.42",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Dimension%20Demo%20V0.42.zip",
+  "size": 288738668,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SUPER_MARIO_DIMENSION_Demo_V0.42/DIMENSION",
+  "xml": "SUPER_MARIO_DIMENSION_Demo_V0.42/Riivolution/DIMENSION.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/DIMENSION",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "loader",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

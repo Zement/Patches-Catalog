@@ -1,0 +1,37 @@
+{
+ "id": "nsmbw-the-new-worlds-2-levels-only",
+ "name": "NSMBW The New Worlds (2 Levels only)",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/NSMBW%20The%20New%20Worlds%20%282%20Levels%20only%29.zip",
+  "size": 496257877,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewerSMBW",
+  "xml": "riivolution/NewerSMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerSMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-1.30",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

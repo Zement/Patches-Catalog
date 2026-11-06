@@ -1,0 +1,37 @@
+{
+ "id": "clue4u-s-ultra-epic-mod-demo",
+ "name": "Clue4u's Ultra Epic Mod Demo!!!",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Clue4u%27s%20Ultra%20Epic%20Mod%20Demo%21%21%21.zip",
+  "size": 7905832,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Clue4u's Ultra Epic Mod Demo!!!/Clue4u's_Ultra_Epic_Mod!!!",
+  "xml": "Clue4u's Ultra Epic Mod Demo!!!/riivolution/clue4u's_Ultra_Epic_Mod_Pack!!!.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/",
+  "texture": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/Texture/",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

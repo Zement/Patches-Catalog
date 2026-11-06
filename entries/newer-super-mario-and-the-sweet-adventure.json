@@ -1,0 +1,37 @@
+{
+ "id": "newer-super-mario-and-the-sweet-adventure",
+ "name": "Newer Super Mario And The Sweet Adventure",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Newer%20Super%20Mario%20And%20The%20Sweet%20Adventure.zip",
+  "size": 585288386,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "newer super mario and the sweet adventure/NSMATSA",
+  "xml": "newer super mario and the sweet adventure/riivolution/NSMATSA.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMATSA",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "bowsers-new-recruit",
+ "name": "Bowsers New Recruit",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Bowsers%20New%20Recruit.zip",
+  "size": 478240979,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "BowsersNewRecruit",
+  "xml": "riivolution/BowsersNewRecruit.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/BowsersNewRecruit",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "stupid-super-mario-bros-wii-beta",
+ "name": "Stupid Super Mario Bros Wii (BETA)",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Stupid%20Super%20Mario%20Bros%20Wii%20%28BETA%29.zip",
+  "size": 202270013,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "stupidmariobeta/stupidmariobeta/StupidRiivo/StupidMario",
+  "xml": "stupidmariobeta/stupidmariobeta/StupidRiivo/riivolution/Stoopid.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/StupidMario",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

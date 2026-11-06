@@ -1,0 +1,37 @@
+{
+ "id": "revolution-64-remastered",
+ "name": "Revolution 64 (Remastered)",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Revolution%2064%20%28Remastered%29.zip",
+  "size": 486967701,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Revolution64Remasted/Revolution64",
+  "xml": "Revolution64Remasted/riivolution/Revolution64.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Revolution64",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-1.2.0",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

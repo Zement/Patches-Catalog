@@ -1,0 +1,37 @@
+{
+ "id": "nsmb2-1-1-remade-in-nsmbw",
+ "name": "NSMB2 1-1 Remade in NSMBW",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/NSMB2%201-1%20Remade%20in%20NSMBW.zip",
+  "size": 314850,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMB2 1-1/NSMB2 1-1",
+  "xml": "NSMB2 1-1/riivolution/NSMB21-1.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/NSMB2 1-1/Stage",
+  "texture": "/NSMB2 1-1/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

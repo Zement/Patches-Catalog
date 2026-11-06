@@ -1,0 +1,37 @@
+{
+ "id": "super-mario-insane-islands",
+ "name": "Super Mario Insane Islands",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Insane%20Islands.zip",
+  "size": 747705388,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Super Mario Insane Islands/SMII",
+  "xml": "Super Mario Insane Islands/riivolution/SMII.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SMII",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

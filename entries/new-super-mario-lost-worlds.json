@@ -1,0 +1,39 @@
+{
+ "id": "new-super-mario-lost-worlds",
+ "name": "New Super Mario Lost Worlds",
+ "author": "N-I-N-0",
+ "description": "",
+ "version": "0f11194",
+ "revision": 1,
+ "date": "2026-11-01",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-source",
+  "repo": "N-I-N-0/NSMLW-Riivolution-Patch",
+  "commit": "0f1119489f959edb79deac5747a817ace1d7ebb6"
+ },
+ "download": {
+  "url": "https://codeload.github.com/N-I-N-0/NSMLW-Riivolution-Patch/zip/0f1119489f959edb79deac5747a817ace1d7ebb6",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "NSMLW",
+  "xml": "riivolution/NSMLW.xml"
+ },
+ "definition": {
+  "type": "in-mod",
+  "path": "Reggie/patches/NSMLW"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMLW",
+  "stage": "Stage",
+  "texture": null,
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

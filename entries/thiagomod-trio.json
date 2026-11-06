@@ -1,0 +1,37 @@
+{
+ "id": "thiagomod-trio",
+ "name": "ThiagoMod Trio",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/ThiagoMod%20Trio.zip",
+  "size": 38612024,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "ThiagoMod TRIO/ThiagoMod",
+  "xml": "ThiagoMod TRIO/Riivolution/ThiagoMod.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/ThiagoMod/Reverse/",
+  "texture": "ThiagoMod/Reverse/Texture/",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

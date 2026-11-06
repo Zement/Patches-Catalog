@@ -1,0 +1,38 @@
+{
+ "id": "new-super-mario-bros-wii-new-horizons",
+ "name": "New Super Mario Bros. Wii: New Horizons",
+ "author": "Queen Pixella, Matyssey",
+ "description": "",
+ "version": "v1.2.0",
+ "revision": 1,
+ "date": "2026-09-22",
+ "category": "mod",
+ "length": "full",
+ "source": {
+  "type": "linked-release",
+  "repo": "TheRealQueenPixella/NSMBW-New-Horizons",
+  "tag": "v1.2.0"
+ },
+ "download": {
+  "url": "https://github.com/TheRealQueenPixella/NSMBW-New-Horizons/releases/download/v1.2.0/NSMBW-New_Horizons_v1.2.0.zip",
+  "size": 200136422,
+  "sha256": "426d6bdad2cacfd6cd1a154f17a1a4ac0cfbceeed4797ac0d3aadba1e91c5762",
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewHorizons",
+  "xml": "riivolution/NewHorizons.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewHorizons",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "evil-dark-moon",
+ "name": "Evil Dark Moon",
+ "author": "",
+ "description": "",
+ "version": "1.12",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Evil%20Dark%20Moon%201.12.zip",
+  "size": 448949457,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "EvilDarkMoon",
+  "xml": "riivolution/EvilDarkMoon.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/EvilDarkMoon",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

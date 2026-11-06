@@ -1,0 +1,38 @@
+{
+ "id": "super-mario-bros-world-adventure",
+ "name": "Super Mario Bros World Adventure",
+ "author": "Aaron Mallie",
+ "description": "",
+ "version": "4bdc800",
+ "revision": 1,
+ "date": "2026-07-28",
+ "category": "mod",
+ "length": "full",
+ "source": {
+  "type": "linked-source",
+  "repo": "Ethan-mariofan/Super-Mario-Bros-World-Adventure",
+  "commit": "4bdc800ca45d05d80a85af629b14b8aaedb8c607"
+ },
+ "download": {
+  "url": "https://codeload.github.com/Ethan-mariofan/Super-Mario-Bros-World-Adventure/zip/4bdc800ca45d05d80a85af629b14b8aaedb8c607",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "SuperMarioBrosWorldAdventure/SMBWA",
+  "xml": "SuperMarioBrosWorldAdventure/riivolution/SMBWA.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SMBWA",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

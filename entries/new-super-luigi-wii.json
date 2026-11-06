@@ -1,0 +1,38 @@
+{
+ "id": "new-super-luigi-wii",
+ "name": "New Super Luigi Wii",
+ "author": "TheRealQueenPixella",
+ "description": "Game files for a mod for New Super Mario Bros. Wii that aims to \"New Super Luigi U-fy\" the game",
+ "version": "v1.0.2",
+ "revision": 1,
+ "date": "2026-08-22",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-release",
+  "repo": "TheRealQueenPixella/New-Super-Luigi-Wii",
+  "tag": "v1.0.2"
+ },
+ "download": {
+  "url": "https://github.com/TheRealQueenPixella/New-Super-Luigi-Wii/releases/download/v1.0.2/NewSuperLuigiWii_DEMO_v1.0.2.zip",
+  "size": 10845416,
+  "sha256": "605c1c7c319dca879824d299495a7386b13f75241d5fba6b33748c5b5be7ea28",
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewSuperLuigiWii",
+  "xml": "riivolution/NewSuperLuigiWii.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewSuperLuigiWii",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

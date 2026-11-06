@@ -1,0 +1,37 @@
+{
+ "id": "super-mario-bob-omb-blast-boss-rush",
+ "name": "Super Mario Bob-omb Blast Boss Rush",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Bob-omb%20Blast%20Boss%20Rush.zip",
+  "size": 326378383,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Bob-omb Blast Boss Rush/SMBoB",
+  "xml": "Bob-omb Blast Boss Rush/riivolution/SMBoB.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SMBoB",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

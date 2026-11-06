@@ -6,6 +6,8 @@
  "version": "1.30",
  "revision": 1,
  "date": "2026-11-06",
+ "category": "mod",
+ "length": "full",
  "source": {
   "type": "hosted",
   "tag": "newer-smbw/1.30-1"

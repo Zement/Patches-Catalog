@@ -1,0 +1,37 @@
+{
+ "id": "smbwonder-1-1-reimagined-in-nsmbw",
+ "name": "SMBWonder 1-1 Reimagined in NSMBW",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/SMBWonder%201-1%20Reimagined%20in%20NSMBW.zip",
+  "size": 1452331,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SMBWonder 1-1/SMBWonder 1-1",
+  "xml": "SMBWonder 1-1/riivolution/SMBWonder 1-1.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/SMBWonder 1-1/Stage",
+  "texture": "/SMBWonder 1-1/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

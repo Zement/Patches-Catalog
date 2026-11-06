@@ -1,0 +1,37 @@
+{
+ "id": "mario-goes-to-the-store-buys-a-gallon-of-milk",
+ "name": "Mario Goes to the Store & buys a Gallon of Milk",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Mario%20Goes%20to%20the%20Store%20%26%20buys%20a%20Gallon%20of%20Milk.zip",
+  "size": 487695152,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Milky",
+  "xml": "riivolution/Milky_Mario.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Milky",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

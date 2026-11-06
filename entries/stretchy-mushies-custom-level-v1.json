@@ -1,0 +1,37 @@
+{
+ "id": "stretchy-mushies-custom-level-v1",
+ "name": "Stretchy Mushies Custom Level v1",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Stretchy%20Mushies%20Custom%20Level%20v1.zip",
+  "size": 7634586,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "StretchyMushies/StretchyMushies/MarioBund",
+  "xml": "StretchyMushies/StretchyMushies/riivolution/MarioBund.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MarioBund",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

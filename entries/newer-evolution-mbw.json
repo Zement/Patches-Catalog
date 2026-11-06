@@ -1,0 +1,38 @@
+{
+ "id": "newer-evolution-mbw",
+ "name": "Newer Evolution MBW",
+ "author": "mrmile",
+ "description": "Repository for NSMBW mod.",
+ "version": "v1.0-Part_1v3.2",
+ "revision": 1,
+ "date": "2024-09-21",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-release",
+  "repo": "mrmile/NewerEvoMBW-mod",
+  "tag": "v1.0-Part_1v3.2"
+ },
+ "download": {
+  "url": "https://github.com/mrmile/NewerEvoMBW-mod/releases/download/v1.0-Part_1v3.2/NewerEvoMBW-Part1v3.2.1.Exp.zip",
+  "size": 1126556832,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewerEvoMBW",
+  "xml": "riivolution/NewerEvoMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerEvoMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

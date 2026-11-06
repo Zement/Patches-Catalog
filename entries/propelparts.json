@@ -1,0 +1,39 @@
+{
+ "id": "propelparts",
+ "name": "PropelParts",
+ "author": "PropelParts-org",
+ "description": "A modern base for New Super Mario Bros. Wii custom code",
+ "version": "9933e8a",
+ "revision": 1,
+ "date": "2026-10-28",
+ "category": "base",
+ "length": null,
+ "source": {
+  "type": "linked-source",
+  "repo": "PropelParts-org/PropelParts",
+  "commit": "9933e8a046c775e877eb36925cad5a6f0a8b5b4b"
+ },
+ "download": {
+  "url": "https://codeload.github.com/PropelParts-org/PropelParts/zip/9933e8a046c775e877eb36925cad5a6f0a8b5b4b",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "Riivolution/PropelParts",
+  "xml": "Riivolution/riivolution/PropelParts.xml"
+ },
+ "definition": {
+  "type": "in-mod",
+  "path": "Reggie Patch"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/PropelParts",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

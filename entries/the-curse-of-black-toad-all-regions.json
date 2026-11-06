@@ -1,0 +1,37 @@
+{
+ "id": "the-curse-of-black-toad-all-regions",
+ "name": "The Curse of Black Toad All regions",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/The%20Curse%20of%20Black%20Toad%20All%20regions.zip",
+  "size": 25019584,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "The Curse of Black Toad v2/CursedBlackToad",
+  "xml": "The Curse of Black Toad v2/Riivolution/CursedBlackToad.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/CursedBlackToad",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

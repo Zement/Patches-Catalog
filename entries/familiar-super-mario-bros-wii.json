@@ -1,0 +1,37 @@
+{
+ "id": "familiar-super-mario-bros-wii",
+ "name": "Familiar Super Mario Bros Wii",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Familiar%20Super%20Mario%20Bros%20Wii.zip",
+  "size": 8219646,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Familiar Super Mario Bros Wii/FSMBW",
+  "xml": "Familiar Super Mario Bros Wii/riivolution/fmsbw.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/FSMBW/Stage",
+  "texture": "/FSMBW/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

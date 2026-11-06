@@ -1,0 +1,37 @@
+{
+ "id": "cooler-super-mario-bros-land-demo-1-savannah",
+ "name": "COOLER Super Mario Bros. Land Demo 1 Savannah",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/COOLER%20Super%20Mario%20Bros.%20Land%20Demo%201%20Savannah.zip",
+  "size": 188113731,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "COOLER Super Mario Bros. Land Demo 1 Savannah/CoolerSMBL",
+  "xml": "COOLER Super Mario Bros. Land Demo 1 Savannah/riivolution/CoolerSMBL.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/CoolerSMBL",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

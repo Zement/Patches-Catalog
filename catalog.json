@@ -3,6 +3,80 @@
  "catalog": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/catalog.json",
  "entries": [
   {
+   "id": "a-new-kaizo-era-wip",
+   "name": "A New Kaizo Era WIP",
+   "author": "",
+   "description": "",
+   "version": "1.1",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/A%20New%20Kaizo%20Era%20WIP%20V.%201.1.zip",
+    "size": 71238107,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "A New Kaizo Era",
+    "xml": "riivolution/kaizo.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/A New Kaizo Era",
+    "stage": "Stage",
+    "texture": null,
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "andy-afros-8-new-super-mario-bros-wii",
+   "name": "Andy Afros 8 New Super Mario Bros.Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Andy%20Afros%208%20New%20Super%20Mario%20Bros.Wii.zip",
+    "size": 303851749,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Andy Afros 8 New Super Mario Bros.Wii/Another",
+    "xml": "Andy Afros 8 New Super Mario Bros.Wii/Riivolution/Another.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Another/Stage",
+    "texture": "/Another/Stage/Texture",
+    "code": "kamek",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "another-mario-wii",
    "name": "Another Mario Wii",
    "author": "Skawo",
@@ -10,6 +84,8 @@
    "version": "v2.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -44,6 +120,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -71,6 +149,81 @@
    }
   },
   {
+   "id": "bowsers-new-recruit",
+   "name": "Bowsers New Recruit",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Bowsers%20New%20Recruit.zip",
+    "size": 478240979,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "BowsersNewRecruit",
+    "xml": "riivolution/BowsersNewRecruit.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/BowsersNewRecruit",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "chaos-station-v2",
+   "name": "Chaos Station v2",
+   "author": "Stecca6663",
+   "description": "",
+   "version": "release",
+   "revision": 1,
+   "date": "2026-04-15",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-release",
+    "repo": "Stecca6663/ChaosStation-Wii",
+    "tag": "release"
+   },
+   "download": {
+    "url": "https://github.com/Stecca6663/ChaosStation-Wii/releases/download/release/chaosstation.zip",
+    "size": 296277083,
+    "sha256": "01fda4550482b46a0c0afee3d5fce97fe3040d5e8c4adf6b3fa3bdb7d4705dd5",
+    "root": ""
+   },
+   "mod": {
+    "folder": "ChaosStation",
+    "xml": "riivolution/nsmbw_mod.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/ChaosStation/Stage",
+    "texture": null,
+    "code": null,
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
    "id": "chilly-super-mario-bros-wii",
    "name": "Chilly Super Mario Bros. Wii",
    "author": "Captain Mink, Kurokyra",
@@ -78,6 +231,8 @@
    "version": "v2.0.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -105,6 +260,43 @@
    }
   },
   {
+   "id": "clarissa-s-crack-hack",
+   "name": "Clarissa's crack hack",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Clarissa%27s%20crack%20hack.zip",
+    "size": 323807219,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "clarissa's crack hack/CrackHack",
+    "xml": "clarissa's crack hack/riivolution/CrackHack.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/CrackHack/Stage/",
+    "texture": "/CrackHack/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "cliff-mario-wii",
    "name": "Cliff Mario Wii",
    "author": "GoronGuy123",
@@ -112,6 +304,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -146,6 +340,8 @@
    "version": "v1.02",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -174,6 +370,154 @@
    }
   },
   {
+   "id": "clue4u-s-ultra-epic-mod-demo",
+   "name": "Clue4u's Ultra Epic Mod Demo!!!",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Clue4u%27s%20Ultra%20Epic%20Mod%20Demo%21%21%21.zip",
+    "size": 7905832,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Clue4u's Ultra Epic Mod Demo!!!/Clue4u's_Ultra_Epic_Mod!!!",
+    "xml": "Clue4u's Ultra Epic Mod Demo!!!/riivolution/clue4u's_Ultra_Epic_Mod_Pack!!!.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/",
+    "texture": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "coldpipes-colder-pipe-colors",
+   "name": "Coldpipes - Colder Pipe Colors",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Coldpipes%20-%20Colder%20Pipe%20Colors.zip",
+    "size": 6925411,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "coldpipes/coldpipes",
+    "xml": "coldpipes/riivolution/NightmareMario.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/coldpipes/Stage/",
+    "texture": "/coldpipes/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "cooler-super-mario-bros-land-demo-1-savannah",
+   "name": "COOLER Super Mario Bros. Land Demo 1 Savannah",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/COOLER%20Super%20Mario%20Bros.%20Land%20Demo%201%20Savannah.zip",
+    "size": 188113731,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "COOLER Super Mario Bros. Land Demo 1 Savannah/CoolerSMBL",
+    "xml": "COOLER Super Mario Bros. Land Demo 1 Savannah/riivolution/CoolerSMBL.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/CoolerSMBL",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "custom-super-mario-bros-wii-halloween-special",
+   "name": "Custom Super Mario Bros. Wii Halloween Special",
+   "author": "",
+   "description": "",
+   "version": "1.0.4",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Custom%20Super%20Mario%20Bros.%20Wii%20Halloween%20Special%20v1.0.4.zip",
+    "size": 317267347,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "CustomSMBWHS",
+    "xml": "riivolution/CustomSMBWHS.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/CustomSMBWHS",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.2.0",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "dark-moon-reverse",
    "name": "Dark Moon Reverse",
    "author": "Mullkaw, New Luigi Team",
@@ -181,6 +525,8 @@
    "version": "v0.903",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -216,6 +562,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -243,6 +591,43 @@
    }
   },
   {
+   "id": "depot-smbw-smdylan-edition-2024-latest",
+   "name": "Depot SMBW SMDylan Edition 2024 Latest",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Depot%20SMBW%20SMDylan%20Edition%202024%20Latest.zip",
+    "size": 213731092,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Depot SMBW SMDylan Edition 2024/Depot SMBW SMDylan Edition 2024/Depot",
+    "xml": "Depot SMBW SMDylan Edition 2024/Depot SMBW SMDylan Edition 2024/riivolution/Depot.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Depot",
+    "stage": "Stage",
+    "texture": "/Depot/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "devil-mario-winter-special",
    "name": "Devil Mario Winter Special",
    "author": "Mr. Luigi",
@@ -250,6 +635,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -288,6 +675,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -316,6 +705,117 @@
    }
   },
   {
+   "id": "evil-dark-moon",
+   "name": "Evil Dark Moon",
+   "author": "",
+   "description": "",
+   "version": "1.12",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Evil%20Dark%20Moon%201.12.zip",
+    "size": 448949457,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "EvilDarkMoon",
+    "xml": "riivolution/EvilDarkMoon.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/EvilDarkMoon",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "familiar-super-mario-bros-wii",
+   "name": "Familiar Super Mario Bros Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Familiar%20Super%20Mario%20Bros%20Wii.zip",
+    "size": 8219646,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Familiar Super Mario Bros Wii/FSMBW",
+    "xml": "Familiar Super Mario Bros Wii/riivolution/fmsbw.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/FSMBW/Stage",
+    "texture": "/FSMBW/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "forever-alone-beta",
+   "name": "Forever Alone (BETA)",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Forever%20Alone%20%28BETA%29.zip",
+    "size": 32693983,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Forever Alone/Forever Alone",
+    "xml": "Forever Alone/riivolution/Erm what the sigma.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Forever Alone/Stage",
+    "texture": null,
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "ghostly-super-ghost-boos-wii",
    "name": "Ghostly Super Ghost Boos Wii",
    "author": "LOrb Sheddy",
@@ -323,6 +823,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -350,6 +852,117 @@
    }
   },
   {
+   "id": "harder-mario-bros-meltdown",
+   "name": "Harder Mario Bros. Meltdown",
+   "author": "",
+   "description": "",
+   "version": "1.0.2",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Harder%20Mario%20Bros.%20Meltdown%20v1.0.2.zip",
+    "size": 13010073,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Meltdown",
+    "xml": "Riivolution/MeltdownE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Meltdown/Stage",
+    "texture": "/Meltdown/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "harder-mario-bros-wii",
+   "name": "Harder Mario Bros. Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Harder%20Mario%20Bros.%20Wii.zip",
+    "size": 16476902,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "HarderMario",
+    "xml": "riivolution/HardE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/HarderMario/Stage",
+    "texture": "/HarderMario/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "impossible-new-super-mario-bros-wii",
+   "name": "Impossible New Super Mario Bros. Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Impossible%20New%20Super%20Mario%20Bros.%20Wii.zip",
+    "size": 16975414,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Impossible NSMB Wii/impossible",
+    "xml": "Impossible NSMB Wii/Riivolution/impossible.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/impossible/Stage/",
+    "texture": "/impossible/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "koopa-country",
    "name": "Koopa Country",
    "author": "Hellhog",
@@ -357,6 +970,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -385,6 +1000,44 @@
    }
   },
   {
+   "id": "koopatlas-2-0",
+   "name": "Koopatlas 2.0",
+   "author": "Ethan-mariofan",
+   "description": "",
+   "version": "50d0f7f",
+   "revision": 1,
+   "date": "2026-05-31",
+   "category": "base",
+   "length": null,
+   "source": {
+    "type": "linked-source",
+    "repo": "Ethan-mariofan/Koopatlas-2.0",
+    "commit": "50d0f7f120a5cfaa6d26e1db68b47990a64d8f05"
+   },
+   "download": {
+    "url": "https://codeload.github.com/Ethan-mariofan/Koopatlas-2.0/zip/50d0f7f120a5cfaa6d26e1db68b47990a64d8f05",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "NewerSMBW",
+    "xml": "riivolution/NewerSMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
    "id": "lava-smbw-apocalypse",
    "name": "Lava SMBW Apocalypse",
    "author": "Dan.Team",
@@ -392,6 +1045,8 @@
    "version": "v2.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -420,6 +1075,43 @@
    }
   },
   {
+   "id": "luigi-s-quest",
+   "name": "Luigi's Quest",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Luigi%27s%20Quest.zip",
+    "size": 600948747,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Luigi's Quest/LuigiQuest",
+    "xml": "Luigi's Quest/riivolution/LuigiQuest.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/LuigiQuest",
+    "stage": "Levels",
+    "texture": "Stages/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "mario-and-the-mysterious-meteorite",
    "name": "Mario and the Mysterious Meteorite",
    "author": "Bupdad, Ovenball",
@@ -427,6 +1119,8 @@
    "version": "v3.0.1",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -455,6 +1149,43 @@
    }
   },
   {
+   "id": "mario-goes-to-the-store-buys-a-gallon-of-milk",
+   "name": "Mario Goes to the Store & buys a Gallon of Milk",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Mario%20Goes%20to%20the%20Store%20%26%20buys%20a%20Gallon%20of%20Milk.zip",
+    "size": 487695152,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Milky",
+    "xml": "riivolution/Milky_Mario.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Milky",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "mario-wii-other-world",
    "name": "Mario Wii Other World",
    "author": "Botnox, Johan R.",
@@ -462,6 +1193,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -486,6 +1219,43 @@
    }
   },
   {
+   "id": "midnightwii",
+   "name": "Mario's Midnight Adventure",
+   "author": "Swiftshine",
+   "description": "So uh...yeah. Initially, this mod was supposed to be a bit bigger, but it's just my first mod, so I thought to reduce the size a bit. I spent about 6 months (From March 2021 to September 2021) working on nothing but the levels, and then I made the (barely functional) world map in just a week (or pro...",
+   "version": "v2.1",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": "medium",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Marios%20Midnight%20Adventure%20%28v2.1%29.zip/download",
+    "size": 497869068,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Midnight Riivo/MidnightWii",
+    "xml": "Midnight Riivo/riivolution/Midnight Wii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MidnightWii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.2.0",
+    "fixheaps_off": true
+   }
+  },
+  {
    "id": "marios-final-adventure-wii",
    "name": "Marios Final Adventure Wii",
    "author": "BombKing",
@@ -493,6 +1263,8 @@
    "version": "v1.0.2",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -528,6 +1300,8 @@
    "version": "v2.0",
    "revision": 1,
    "date": "",
+   "category": "demo",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -556,26 +1330,28 @@
    }
   },
   {
-   "id": "midnightwii",
-   "name": "MidnightWii",
-   "author": "Swiftshine",
-   "description": "So uh...yeah. Initially, this mod was supposed to be a bit bigger, but it's just my first mod, so I thought to reduce the size a bit. I spent about 6 months (From March 2021 to September 2021) working on nothing but the levels, and then I made the (barely functional) world map in just a week (or pro...",
-   "version": "v2.1",
+   "id": "marios-ultimate-2d-adveture-2",
+   "name": "Marios Ultimate 2D Adveture 2",
+   "author": "",
+   "description": "",
+   "version": "",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
-    "host": "sourceforge"
+    "host": "archive.org"
    },
    "download": {
-    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Marios%20Midnight%20Adventure%20%28v2.1%29.zip/download",
-    "size": 497869068,
+    "url": "https://archive.org/download/super-mario-wii-mods/Marios%20Ultimate%202D%20Adveture%202.zip",
+    "size": 591706737,
     "sha256": null,
     "root": ""
    },
    "mod": {
-    "folder": "Midnight Riivo/MidnightWii",
-    "xml": "Midnight Riivo/riivolution/Midnight Wii.xml"
+    "folder": "Marios Ultimate 2D Adveture 2/MU2DA2",
+    "xml": "Marios Ultimate 2D Adveture 2/riivolution/MU2DA2.xml"
    },
    "definition": {
     "type": "generated"
@@ -583,11 +1359,48 @@
    "base": "newer-smbw",
    "requires": [],
    "metadata": {
-    "xml_root": "/MidnightWii",
+    "xml_root": "/MU2DA2",
     "stage": "Stages",
     "texture": "Tilesets",
-    "code": "newer-1.2.0",
-    "fixheaps_off": true
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "mini-super-mario-bros-wii",
+   "name": "Mini Super Mario Bros Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Mini%20Super%20Mario%20Bros%20Wii.zip",
+    "size": 10332875,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Mini Super Mario Bros Wii/MSMBW",
+    "xml": "Mini Super Mario Bros Wii/riivolution/MSMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MSMBW",
+    "stage": "Stage",
+    "texture": null,
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
    }
   },
   {
@@ -598,6 +1411,8 @@
    "version": "v1.1",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -623,6 +1438,43 @@
    }
   },
   {
+   "id": "new-epic-super-ultimate-64-minecraft",
+   "name": "New Epic Super Ultimate 64 Minecraft",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Epic%20Super%20Ultimate%2064%20Minecraft.zip",
+    "size": 271374697,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "bupcraft",
+    "xml": "Riivolution/NSMBWer+.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/bupcraft",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "new-mario-bros-cannon",
    "name": "New Mario Bros Cannon",
    "author": "Leplap, Weland",
@@ -630,6 +1482,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -658,6 +1512,229 @@
    }
   },
   {
+   "id": "new-super-luigi-wii",
+   "name": "New Super Luigi Wii",
+   "author": "TheRealQueenPixella",
+   "description": "Game files for a mod for New Super Mario Bros. Wii that aims to \"New Super Luigi U-fy\" the game",
+   "version": "v1.0.2",
+   "revision": 1,
+   "date": "2026-08-22",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-release",
+    "repo": "TheRealQueenPixella/New-Super-Luigi-Wii",
+    "tag": "v1.0.2"
+   },
+   "download": {
+    "url": "https://github.com/TheRealQueenPixella/New-Super-Luigi-Wii/releases/download/v1.0.2/NewSuperLuigiWii_DEMO_v1.0.2.zip",
+    "size": 10845416,
+    "sha256": "605c1c7c319dca879824d299495a7386b13f75241d5fba6b33748c5b5be7ea28",
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewSuperLuigiWii",
+    "xml": "riivolution/NewSuperLuigiWii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewSuperLuigiWii",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-and-the-8-worlds",
+   "name": "New Super Mario Bros And The 8 Worlds",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros%20And%20The%208%20Worlds.zip",
+    "size": 291780989,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewSuperMarioBrosAndTh8Worlds-main/NSMBAT8W",
+    "xml": "NewSuperMarioBrosAndTh8Worlds-main/riivolution/NSMBAT8W.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMBAT8W",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-delta-unfinished",
+   "name": "New Super Mario Bros Delta (unfinished)",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros%20Delta%20%28unfinished%29.zip",
+    "size": 326047304,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "delta",
+    "xml": "riivolution/Delta.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/delta/Stage",
+    "texture": "/delta/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-wiinter",
+   "name": "New Super Mario Bros Wiinter",
+   "author": "",
+   "description": "",
+   "version": "1.1",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros%20Wiinter%20v1.1.zip",
+    "size": 551792711,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBWNT 1.1/NewerSMBW",
+    "xml": "NSMBWNT 1.1/riivolution/NSMBWNT.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-theta-demo",
+   "name": "New Super Mario Bros. Theta DEMO",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20Theta%20DEMO.zip",
+    "size": 189344670,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "New Super Mario Bros. Theta/NSMBTH",
+    "xml": "New Super Mario Bros. Theta/riivolution/nsmbt.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/NSMBTH/Stage",
+    "texture": "/NSMBTH/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-u-wii-demo",
+   "name": "New Super Mario Bros. U Wii Demo",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20U%20Wii%20Demo.zip",
+    "size": 162662840,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBUWii Demo/NSMBUWii",
+    "xml": "NSMBUWii Demo/riivolution/NSMBUWii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMBUWii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "new-super-mario-bros-wii-4",
    "name": "New Super Mario Bros. Wii 4",
    "author": "Orange-Yoshi",
@@ -665,6 +1742,8 @@
    "version": "v3.3",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -692,6 +1771,268 @@
    }
   },
   {
+   "id": "new-super-mario-bros-wii-legacy-demo",
+   "name": "New Super Mario Bros. Wii Legacy Demo",
+   "author": "",
+   "description": "",
+   "version": "1.2",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20Wii%20Legacy%20Demo%201.2.zip",
+    "size": 276152582,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Legacy Demo 1.2/Legacy",
+    "xml": "Legacy Demo 1.2/Riivolution/NSMBLegacy.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Legacy",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.0.3",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-wii-new-horizons",
+   "name": "New Super Mario Bros. Wii: New Horizons",
+   "author": "Queen Pixella, Matyssey",
+   "description": "",
+   "version": "v1.2.0",
+   "revision": 1,
+   "date": "2026-09-22",
+   "category": "mod",
+   "length": "full",
+   "source": {
+    "type": "linked-release",
+    "repo": "TheRealQueenPixella/NSMBW-New-Horizons",
+    "tag": "v1.2.0"
+   },
+   "download": {
+    "url": "https://github.com/TheRealQueenPixella/NSMBW-New-Horizons/releases/download/v1.2.0/NSMBW-New_Horizons_v1.2.0.zip",
+    "size": 200136422,
+    "sha256": "426d6bdad2cacfd6cd1a154f17a1a4ac0cfbceeed4797ac0d3aadba1e91c5762",
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewHorizons",
+    "xml": "riivolution/NewHorizons.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewHorizons",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-wiimix-world-1-demo",
+   "name": "New Super Mario Bros. Wiimix WORLD 1 DEMO",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20Wiimix%20WORLD%201%20DEMO.zip",
+    "size": 8793718,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Wiimix Demo/Wiimix Demo",
+    "xml": "Wiimix Demo/riivolution/Wiimix.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Wiimix Demo/Stage",
+    "texture": "/Wiimix Demo/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-bros-wii-only-up",
+   "name": "New Super Mario Bros.Wii ONLY UP!",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.Wii%20ONLY%20UP%21.zip",
+    "size": 6564113,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBWii Only UP!/NSMBWii Only Up!",
+    "xml": "NSMBWii Only UP!/riivolution/NSMBWii Only UP!.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/NSMBWii Only UP!/Stage",
+    "texture": null,
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-mario-lost-worlds",
+   "name": "New Super Mario Lost Worlds",
+   "author": "N-I-N-0",
+   "description": "",
+   "version": "0f11194",
+   "revision": 1,
+   "date": "2026-11-01",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-source",
+    "repo": "N-I-N-0/NSMLW-Riivolution-Patch",
+    "commit": "0f1119489f959edb79deac5747a817ace1d7ebb6"
+   },
+   "download": {
+    "url": "https://codeload.github.com/N-I-N-0/NSMLW-Riivolution-Patch/zip/0f1119489f959edb79deac5747a817ace1d7ebb6",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "NSMLW",
+    "xml": "riivolution/NSMLW.xml"
+   },
+   "definition": {
+    "type": "in-mod",
+    "path": "Reggie/patches/NSMLW"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMLW",
+    "stage": "Stage",
+    "texture": null,
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "new-super-spike-wii-release",
+   "name": "New Super Spike Wii Release",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Spike%20Wii%20Release.zip",
+    "size": 123180575,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Extras/old version/spikewii",
+    "xml": "Extras/old version/riivolution/spikewii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/spikewii/Stage",
+    "texture": "/spikewii/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "new-super-tropix-bros-wii",
+   "name": "New Super Tropix Bros Wii",
+   "author": "",
+   "description": "",
+   "version": "1.21",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Tropix%20Bros%20Wii%20V1.21.zip",
+    "size": 571016810,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "New Super Tropix Bros Wii V1.21/New Super Tropix Bros Wii V1.21/NSTBW",
+    "xml": "New Super Tropix Bros Wii V1.21/New Super Tropix Bros Wii V1.21/riivolution/NSTBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSTBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "newer-alpine-dream",
    "name": "Newer Alpine Dream",
    "author": "ALPHA T",
@@ -699,6 +2040,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -734,6 +2077,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -762,6 +2107,44 @@
    }
   },
   {
+   "id": "newer-evolution-mbw",
+   "name": "Newer Evolution MBW",
+   "author": "mrmile",
+   "description": "Repository for NSMBW mod.",
+   "version": "v1.0-Part_1v3.2",
+   "revision": 1,
+   "date": "2024-09-21",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-release",
+    "repo": "mrmile/NewerEvoMBW-mod",
+    "tag": "v1.0-Part_1v3.2"
+   },
+   "download": {
+    "url": "https://github.com/mrmile/NewerEvoMBW-mod/releases/download/v1.0-Part_1v3.2/NewerEvoMBW-Part1v3.2.1.Exp.zip",
+    "size": 1126556832,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewerEvoMBW",
+    "xml": "riivolution/NewerEvoMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerEvoMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
    "id": "newer-falling-leaf",
    "name": "Newer FALLING LEAF",
    "author": "Skawo, Newer Team",
@@ -769,6 +2152,8 @@
    "version": "v1.12",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -804,6 +2189,8 @@
    "version": "v1.12",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -839,6 +2226,8 @@
    "version": "v1.12",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -867,6 +2256,80 @@
    }
   },
   {
+   "id": "newer-super-luigi-dark-moon",
+   "name": "Newer Super Luigi Dark Moon",
+   "author": "",
+   "description": "",
+   "version": "1.2",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Newer%20Super%20Luigi%20Dark%20Moon%20v1.2.zip",
+    "size": 347449115,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "DarkMoon",
+    "xml": "riivolution/DarkMoon.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/DarkMoon",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "newer-super-mario-and-the-sweet-adventure",
+   "name": "Newer Super Mario And The Sweet Adventure",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Newer%20Super%20Mario%20And%20The%20Sweet%20Adventure.zip",
+    "size": 585288386,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "newer super mario and the sweet adventure/NSMATSA",
+    "xml": "newer super mario and the sweet adventure/riivolution/NSMATSA.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMATSA",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "newer-smbw",
    "name": "Newer Super Mario Bros. Wii",
    "author": "Newer Team, Treeki, Skawo, Tempus, megazig, Pop006",
@@ -874,6 +2337,8 @@
    "version": "1.30",
    "revision": 1,
    "date": "2026-11-06",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "tag": "newer-smbw/1.30-1"
@@ -910,6 +2375,45 @@
    }
   },
   {
+   "id": "newergem",
+   "name": "NewerGEM",
+   "author": "Developers-Collective",
+   "description": "Newer General Engine Mod (NewerGEM) Main Branch",
+   "version": "7bfd9cc",
+   "revision": 1,
+   "date": "2022-11-27",
+   "category": "base",
+   "length": null,
+   "source": {
+    "type": "linked-source",
+    "repo": "Developers-Collective/NewerGEM",
+    "commit": "7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb"
+   },
+   "download": {
+    "url": "https://codeload.github.com/Developers-Collective/NewerGEM/zip/7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "riivolution/NewerGEM",
+    "xml": "riivolution/riivolution/NewerGEM.xml"
+   },
+   "definition": {
+    "type": "in-mod",
+    "path": "Reggie/reggiedata/patches/NewerGEM"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerGEM",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
    "id": "newerlaa",
    "name": "NewerLAA",
    "author": "wakanameko",
@@ -917,6 +2421,8 @@
    "version": "v1.20",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -952,6 +2458,8 @@
    "version": "v1.25",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -987,6 +2495,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1015,6 +2525,304 @@
    }
   },
   {
+   "id": "newest-super-mario-bros-wii",
+   "name": "Newest Super Mario Bros Wii",
+   "author": "",
+   "description": "",
+   "version": "2.0.2",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Newest%20Super%20Mario%20Bros%20Wii%20V2.0.2.zip",
+    "size": 460356539,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewestSMBW V2.0.2/NewestSMBW",
+    "xml": "NewestSMBW V2.0.2/riivolution/NewestSMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewestSMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.2.0",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "novastar-wii",
+   "name": "NovaStar Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NovaStar%20Wii.zip",
+    "size": 352441032,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NovaStar Wii/NovaStarWii",
+    "xml": "NovaStar Wii/riivolution/NovaStarWii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NovaStarWii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.30",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "nsmb2-1-1-remade-in-nsmbw",
+   "name": "NSMB2 1-1 Remade in NSMBW",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NSMB2%201-1%20Remade%20in%20NSMBW.zip",
+    "size": 314850,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMB2 1-1/NSMB2 1-1",
+    "xml": "NSMB2 1-1/riivolution/NSMB21-1.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/NSMB2 1-1/Stage",
+    "texture": "/NSMB2 1-1/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "nsmb2-1-castle-remade-in-nsmbw",
+   "name": "NSMB2 1-Castle Remade in NSMBW",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NSMB2%201-Castle%20Remade%20in%20NSMBW.zip",
+    "size": 1235836,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMB2 1-Castle/NSMB2 1-Castle",
+    "xml": "NSMB2 1-Castle/riivolution/NSMB21-Castle.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/NSMB2 1-Castle/Stage",
+    "texture": "/NSMB2 1-Castle/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "nsmbw-quebec-edition",
+   "name": "NSMBW - QUEBEC EDITION",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NSMBW%20-%20QUEBEC%20EDITION.zip",
+    "size": 444977476,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBW - QUEBEC EDITION/NSMBWQC",
+    "xml": "NSMBW - QUEBEC EDITION/riivolution/NSMBWQC.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMBWQC",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "nsmbw-grand-star-mode",
+   "name": "NSMBW Grand Star Mode",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NSMBW%20Grand%20Star%20Mode%20.zip",
+    "size": 314624989,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBW Grand Star Mode/GrandStarMode",
+    "xml": "NSMBW Grand Star Mode/Riivolution/GrandStarMode.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/GrandStarMode/Stage/",
+    "texture": "/GrandStarMode/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "nsmbw-the-green-stars",
+   "name": "NSMBW The Green Stars",
+   "author": "NuoKart",
+   "description": "A riivolution mod that replaced Star Coins with Green Stars",
+   "version": "v0.3.0",
+   "revision": 1,
+   "date": "2026-10-20",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-source",
+    "repo": "NuoKart/NSMBW-The-Green-Stars",
+    "commit": "44671f1f46a379a60f0a4fb6f3f19e52197b0cb1",
+    "tag": "v0.3.0"
+   },
+   "download": {
+    "url": "https://codeload.github.com/NuoKart/NSMBW-The-Green-Stars/zip/44671f1f46a379a60f0a4fb6f3f19e52197b0cb1",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "NSMBW-GreenStars",
+    "xml": "riivolution/NSMBW-GreenStars.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/NSMBW-GreenStars/Stage/",
+    "texture": "/NSMBW-GreenStars/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "nsmbw-the-new-worlds-2-levels-only",
+   "name": "NSMBW The New Worlds (2 Levels only)",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/NSMBW%20The%20New%20Worlds%20%282%20Levels%20only%29.zip",
+    "size": 496257877,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewerSMBW",
+    "xml": "riivolution/NewerSMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.30",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "nsmbw2-the-next-levels",
    "name": "NSMBW2: The Next Levels",
    "author": "casper666 (stealer), Old NSMBW Level Depot (creators)",
@@ -1022,6 +2830,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1056,6 +2866,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "base",
+   "length": null,
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1085,6 +2897,268 @@
    }
   },
   {
+   "id": "ok-super-mario-bros-wii",
+   "name": "OK Super Mario Bros. Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/OK%20Super%20Mario%20Bros.%20Wii.zip",
+    "size": 174218241,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "OK",
+    "xml": "Riivolution/OK.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/OK",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "poisons-adventure",
+   "name": "Poisons Adventure",
+   "author": "PoisonRised253",
+   "description": "A Mod for NSMBW in which Level-Specific Modifiers are Added to the game.",
+   "version": "World3",
+   "revision": 1,
+   "date": "2026-05-12",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "linked-release",
+    "repo": "PoisonRised253/NSMBW-Modifiers",
+    "tag": "World3"
+   },
+   "download": {
+    "url": "https://github.com/PoisonRised253/NSMBW-Modifiers/releases/download/World3/Load.zip",
+    "size": 48463564,
+    "sha256": "a675f614a7782142be7f2918c7548de53ea2fc23c9f0242e2930157130349886",
+    "root": ""
+   },
+   "mod": {
+    "folder": "PoisonsAdventure",
+    "xml": "Riivolution/PoisonsAdv.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/PoisonsAdventure",
+    "stage": "Stage",
+    "texture": null,
+    "code": "loader",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "propelparts",
+   "name": "PropelParts",
+   "author": "PropelParts-org",
+   "description": "A modern base for New Super Mario Bros. Wii custom code",
+   "version": "9933e8a",
+   "revision": 1,
+   "date": "2026-10-28",
+   "category": "base",
+   "length": null,
+   "source": {
+    "type": "linked-source",
+    "repo": "PropelParts-org/PropelParts",
+    "commit": "9933e8a046c775e877eb36925cad5a6f0a8b5b4b"
+   },
+   "download": {
+    "url": "https://codeload.github.com/PropelParts-org/PropelParts/zip/9933e8a046c775e877eb36925cad5a6f0a8b5b4b",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "Riivolution/PropelParts",
+    "xml": "Riivolution/riivolution/PropelParts.xml"
+   },
+   "definition": {
+    "type": "in-mod",
+    "path": "Reggie Patch"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/PropelParts",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
+   "id": "revised-super-mario-bros-wii",
+   "name": "Revised Super Mario Bros. Wii",
+   "author": "",
+   "description": "",
+   "version": "1.2",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Revised%20Super%20Mario%20Bros.%20Wii%20Version%201.2.zip",
+    "size": 26318026,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "rsmbw",
+    "xml": "riivolution/RSMBW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/rsmbw/Stage",
+    "texture": "/rsmbw/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "revolution-64-remastered",
+   "name": "Revolution 64 (Remastered)",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Revolution%2064%20%28Remastered%29.zip",
+    "size": 486967701,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Revolution64Remasted/Revolution64",
+    "xml": "Revolution64Remasted/riivolution/Revolution64.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Revolution64",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.2.0",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "rvlution-revived-2025",
+   "name": "RVlution revived 2025",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/RVlution%20revived%202025.zip",
+    "size": 271751850,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "RVLution Wii/rvlwii",
+    "xml": "RVLution Wii/riivolution/rvlwii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/rvlwii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.0.3",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "rvlution-wii",
+   "name": "RVLution Wii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/RVLution%20Wii.zip",
+    "size": 270014082,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "RVLution Wii/rvlwii",
+    "xml": "RVLution Wii/riivolution/rvlwii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/rvlwii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.0.3",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "slwii-the-emissary",
    "name": "SLWii The Emissary",
    "author": "Iggy3434",
@@ -1092,6 +3166,8 @@
    "version": "v1.0.2",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1120,26 +3196,28 @@
    }
   },
   {
-   "id": "smma",
-   "name": "SMMA+",
-   "author": "thethiny, SMMA+ Team",
-   "description": "A community-created patch for NSMBW.",
-   "version": "v1.0",
+   "id": "smbwonder-1-1-reimagined-in-nsmbw",
+   "name": "SMBWonder 1-1 Reimagined in NSMBW",
+   "author": "",
+   "description": "",
+   "version": "",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": null,
    "source": {
     "type": "hosted",
-    "host": "sourceforge"
+    "host": "archive.org"
    },
    "download": {
-    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Mushroom%20Adventure%20Plus%20Winter%20Moon.zip/download",
-    "size": 42136342,
+    "url": "https://archive.org/download/super-mario-wii-mods/SMBWonder%201-1%20Reimagined%20in%20NSMBW.zip",
+    "size": 1452331,
     "sha256": null,
     "root": ""
    },
    "mod": {
-    "folder": "Super Mario Mushroom Adventure Plus Winter Moon/WinterMoon",
-    "xml": "Super Mario Mushroom Adventure Plus Winter Moon/riivolution/WinterMoon.xml"
+    "folder": "SMBWonder 1-1/SMBWonder 1-1",
+    "xml": "SMBWonder 1-1/riivolution/SMBWonder 1-1.xml"
    },
    "definition": {
     "type": "generated"
@@ -1147,13 +3225,11 @@
    "base": "retail",
    "requires": [],
    "metadata": {
-    "xml_root": "/WinterMoon",
-    "stage": "Levels",
-    "texture": "Tilesets",
-    "foreign_folders": [
-     "sample"
-    ],
-    "code": null
+    "xml_root": null,
+    "stage": "/SMBWonder 1-1/Stage",
+    "texture": "/SMBWonder 1-1/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
    }
   },
   {
@@ -1164,6 +3240,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "long",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1192,6 +3270,154 @@
    }
   },
   {
+   "id": "stretchy-mushies-custom-level-v1",
+   "name": "Stretchy Mushies Custom Level v1",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Stretchy%20Mushies%20Custom%20Level%20v1.zip",
+    "size": 7634586,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "StretchyMushies/StretchyMushies/MarioBund",
+    "xml": "StretchyMushies/StretchyMushies/riivolution/MarioBund.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MarioBund",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "stupid-super-mario-bros-wii-beta",
+   "name": "Stupid Super Mario Bros Wii (BETA)",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Stupid%20Super%20Mario%20Bros%20Wii%20%28BETA%29.zip",
+    "size": 202270013,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "stupidmariobeta/stupidmariobeta/StupidRiivo/StupidMario",
+    "xml": "stupidmariobeta/stupidmariobeta/StupidRiivo/riivolution/Stoopid.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/StupidMario",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "sunnysmbw",
+   "name": "SunnySMBW",
+   "author": "",
+   "description": "",
+   "version": "3.0.0",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/SunnySMBW%20v3.0.0.zip",
+    "size": 57897983,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Chilly",
+    "xml": "riivolution/Chilly.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/Chilly/Stage",
+    "texture": "/Chilly/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "sunshine-super-mario-bros-paradise",
+   "name": "Sunshine Super Mario Bros Paradise",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Sunshine%20Super%20Mario%20Bros%20Paradise.zip",
+    "size": 646765496,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Sunshine Super Mario Bros Paradise/Paradise",
+    "xml": "Sunshine Super Mario Bros Paradise/riivolution/Paradise.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Paradise",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "super-luigi-land-wii",
    "name": "Super Luigi Land Wii",
    "author": "Mullkaw, New Luigi Team",
@@ -1199,6 +3425,8 @@
    "version": "v1.120",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1234,6 +3462,8 @@
    "version": "v1.06",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1262,6 +3492,118 @@
    }
   },
   {
+   "id": "super-mario-bob-omb-blast-boss-rush",
+   "name": "Super Mario Bob-omb Blast Boss Rush",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Bob-omb%20Blast%20Boss%20Rush.zip",
+    "size": 326378383,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Bob-omb Blast Boss Rush/SMBoB",
+    "xml": "Bob-omb Blast Boss Rush/riivolution/SMBoB.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMBoB",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-bob-omb-blast-demo",
+   "name": "Super Mario Bob-omb Blast Demo",
+   "author": "",
+   "description": "",
+   "version": "1.0.1",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Bob-omb%20Blast%20Demo%20v1.0.1.zip",
+    "size": 204577308,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "BoB_Demo v1.0.1/SMBoB",
+    "xml": "BoB_Demo v1.0.1/riivolution/SMBoB.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMBoB",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-bros-world-adventure",
+   "name": "Super Mario Bros World Adventure",
+   "author": "Aaron Mallie",
+   "description": "",
+   "version": "4bdc800",
+   "revision": 1,
+   "date": "2026-07-28",
+   "category": "mod",
+   "length": "full",
+   "source": {
+    "type": "linked-source",
+    "repo": "Ethan-mariofan/Super-Mario-Bros-World-Adventure",
+    "commit": "4bdc800ca45d05d80a85af629b14b8aaedb8c607"
+   },
+   "download": {
+    "url": "https://codeload.github.com/Ethan-mariofan/Super-Mario-Bros-World-Adventure/zip/4bdc800ca45d05d80a85af629b14b8aaedb8c607",
+    "size": null,
+    "sha256": null,
+    "root": "*"
+   },
+   "mod": {
+    "folder": "SuperMarioBrosWorldAdventure/SMBWA",
+    "xml": "SuperMarioBrosWorldAdventure/riivolution/SMBWA.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMBWA",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (GitHub)"
+   }
+  },
+  {
    "id": "super-mario-bros-extreme-adventure",
    "name": "Super Mario Bros. Extreme Adventure",
    "author": "Team Alternative",
@@ -1269,6 +3611,8 @@
    "version": "v1.301",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1297,6 +3641,191 @@
    }
   },
   {
+   "id": "super-mario-dimension-demo",
+   "name": "Super Mario Dimension Demo",
+   "author": "",
+   "description": "",
+   "version": "0.42",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Dimension%20Demo%20V0.42.zip",
+    "size": 288738668,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "SUPER_MARIO_DIMENSION_Demo_V0.42/DIMENSION",
+    "xml": "SUPER_MARIO_DIMENSION_Demo_V0.42/Riivolution/DIMENSION.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/DIMENSION",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "loader",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-green-star-groove-demo-version-2",
+   "name": "Super Mario Green Star Groove Demo Version 2",
+   "author": "",
+   "description": "",
+   "version": "1.04",
+   "revision": 1,
+   "date": "",
+   "category": "demo",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Green%20Star%20Groove%20Demo%20Version%202%201.04.zip",
+    "size": 311607927,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "GSG_Demo_Version_2_1.04/GroovDemo2",
+    "xml": "GSG_Demo_Version_2_1.04/riivolution/GroovDemo2.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/GroovDemo2",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-insane-islands",
+   "name": "Super Mario Insane Islands",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Insane%20Islands.zip",
+    "size": 747705388,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario Insane Islands/SMII",
+    "xml": "Super Mario Insane Islands/riivolution/SMII.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMII",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-jungle-jam",
+   "name": "Super Mario Jungle Jam",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Jungle%20Jam.zip",
+    "size": 73595863,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario Jungle Jam/SMJungleJam",
+    "xml": "Super Mario Jungle Jam/riivolution/SMJungleJam.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/SMJungleJam/Stage/",
+    "texture": "/SMJungleJam/Stage/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "super-mario-new-2d-lands-world-1",
+   "name": "Super Mario New 2D Lands World 1",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20New%202D%20Lands%20World%201.zip",
+    "size": 612848238,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario New 2D Lands/SMN2DL",
+    "xml": "Super Mario New 2D Lands/riivolution/SMN2DL.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMN2DL",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "super-mario-snowy-season",
    "name": "Super Mario Snowy Season",
    "author": "Swiftshine",
@@ -1304,6 +3833,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1336,6 +3867,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1371,6 +3904,8 @@
    "version": "v1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1398,6 +3933,193 @@
    }
   },
   {
+   "id": "super-mario-mushroom-adventure-plus",
+   "name": "Super Mario: Mushroom Adventure PLUS - Winter Moon",
+   "author": "thethiny, SMMA+ Team",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": "short",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Mushroom%20Adventure%20Plus%20Winter%20Moon.zip/download",
+    "size": 42136342,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario Mushroom Adventure Plus Winter Moon/WinterMoon",
+    "xml": "Super Mario Mushroom Adventure Plus Winter Moon/riivolution/WinterMoon.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/WinterMoon",
+    "stage": "Levels",
+    "texture": "Tilesets",
+    "foreign_folders": [
+     "sample"
+    ],
+    "code": null
+   }
+  },
+  {
+   "id": "the-curse-of-black-toad-all-regions",
+   "name": "The Curse of Black Toad All regions",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/The%20Curse%20of%20Black%20Toad%20All%20regions.zip",
+    "size": 25019584,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "The Curse of Black Toad v2/CursedBlackToad",
+    "xml": "The Curse of Black Toad v2/Riivolution/CursedBlackToad.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/CursedBlackToad",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "the-legend-of-yoshi",
+   "name": "The Legend Of Yoshi",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/The%20Legend%20Of%20Yoshi.zip",
+    "size": 158406162,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "TLOY (Riivolution) [P] [J] [E] (08-20-2018)  [no custom logo]/The Legend Of Yoshi/tloy",
+    "xml": "TLOY (Riivolution) [P] [J] [E] (08-20-2018)  [no custom logo]/The Legend Of Yoshi/riivolution/TLOY (E).xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/tloy/Stage",
+    "texture": "/tloy/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "thiagomod-trio",
+   "name": "ThiagoMod Trio",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/ThiagoMod%20Trio.zip",
+    "size": 38612024,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "ThiagoMod TRIO/ThiagoMod",
+    "xml": "ThiagoMod TRIO/Riivolution/ThiagoMod.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/ThiagoMod/Reverse/",
+    "texture": "ThiagoMod/Reverse/Texture/",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "timmybroswii",
+   "name": "TimmyBrosWii",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/TimmyBrosWii.zip",
+    "size": 6727723,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "TimmyBrosWii",
+    "xml": "riivolution/HardE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/TimmyBrosWii/Stage",
+    "texture": "/TimmyBrosWii/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
    "id": "ultimate-super-luigi-wii",
    "name": "Ultimate Super Luigi Wii",
    "author": "Ultimate Green Team",
@@ -1405,6 +4127,8 @@
    "version": "v1.1.0",
    "revision": 1,
    "date": "",
+   "category": "mod",
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1430,6 +4154,80 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   }
+  },
+  {
+   "id": "ultimate-super-minecraft-tp",
+   "name": "Ultimate Super Minecraft TP",
+   "author": "",
+   "description": "",
+   "version": "0.8",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/Ultimate%20Super%20Minecraft%20TP%200.8.zip",
+    "size": 153107204,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "UltimateMC",
+    "xml": "riivolution/UltimateMC.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/UltimateMC",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
+   }
+  },
+  {
+   "id": "you-super-mario-bros-me-summer-special",
+   "name": "You Super Mario Bros Me Summer Special",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 1,
+   "date": "",
+   "category": "mod",
+   "length": null,
+   "source": {
+    "type": "hosted",
+    "host": "archive.org"
+   },
+   "download": {
+    "url": "https://archive.org/download/super-mario-wii-mods/You%20Super%20Mario%20Bros%20Me%20Summer%20Special.zip",
+    "size": 110217269,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "You Super Mario Bros Me Summer Special/YSMBMSS",
+    "xml": "You Super Mario Bros Me Summer Special/riivolution/YSMBM Summer Special NTSC.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": "/YSMBMSS/Stage",
+    "texture": "/YSMBMSS/Stage/Texture",
+    "code": null,
+    "found_by": "G-c.7 discovery (archive.org mirror)"
    }
   }
  ]

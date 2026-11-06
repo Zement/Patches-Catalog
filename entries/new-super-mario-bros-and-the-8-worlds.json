@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-and-the-8-worlds",
+ "name": "New Super Mario Bros And The 8 Worlds",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros%20And%20The%208%20Worlds.zip",
+  "size": 291780989,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewSuperMarioBrosAndTh8Worlds-main/NSMBAT8W",
+  "xml": "NewSuperMarioBrosAndTh8Worlds-main/riivolution/NSMBAT8W.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMBAT8W",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

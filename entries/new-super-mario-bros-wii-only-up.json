@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-wii-only-up",
+ "name": "New Super Mario Bros.Wii ONLY UP!",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.Wii%20ONLY%20UP%21.zip",
+  "size": 6564113,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMBWii Only UP!/NSMBWii Only Up!",
+  "xml": "NSMBWii Only UP!/riivolution/NSMBWii Only UP!.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/NSMBWii Only UP!/Stage",
+  "texture": null,
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

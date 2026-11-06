@@ -1,0 +1,37 @@
+{
+ "id": "luigi-s-quest",
+ "name": "Luigi's Quest",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Luigi%27s%20Quest.zip",
+  "size": 600948747,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Luigi's Quest/LuigiQuest",
+  "xml": "Luigi's Quest/riivolution/LuigiQuest.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/LuigiQuest",
+  "stage": "Levels",
+  "texture": "Stages/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

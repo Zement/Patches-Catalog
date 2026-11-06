@@ -1,0 +1,37 @@
+{
+ "id": "ultimate-super-minecraft-tp",
+ "name": "Ultimate Super Minecraft TP",
+ "author": "",
+ "description": "",
+ "version": "0.8",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Ultimate%20Super%20Minecraft%20TP%200.8.zip",
+  "size": 153107204,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "UltimateMC",
+  "xml": "riivolution/UltimateMC.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/UltimateMC",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

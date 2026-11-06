@@ -1,0 +1,39 @@
+{
+ "id": "newergem",
+ "name": "NewerGEM",
+ "author": "Developers-Collective",
+ "description": "Newer General Engine Mod (NewerGEM) Main Branch",
+ "version": "7bfd9cc",
+ "revision": 1,
+ "date": "2022-11-27",
+ "category": "base",
+ "length": null,
+ "source": {
+  "type": "linked-source",
+  "repo": "Developers-Collective/NewerGEM",
+  "commit": "7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb"
+ },
+ "download": {
+  "url": "https://codeload.github.com/Developers-Collective/NewerGEM/zip/7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "riivolution/NewerGEM",
+  "xml": "riivolution/riivolution/NewerGEM.xml"
+ },
+ "definition": {
+  "type": "in-mod",
+  "path": "Reggie/reggiedata/patches/NewerGEM"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerGEM",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

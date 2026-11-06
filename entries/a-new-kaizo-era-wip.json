@@ -1,0 +1,37 @@
+{
+ "id": "a-new-kaizo-era-wip",
+ "name": "A New Kaizo Era WIP",
+ "author": "",
+ "description": "",
+ "version": "1.1",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/A%20New%20Kaizo%20Era%20WIP%20V.%201.1.zip",
+  "size": 71238107,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "A New Kaizo Era",
+  "xml": "riivolution/kaizo.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/A New Kaizo Era",
+  "stage": "Stage",
+  "texture": null,
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

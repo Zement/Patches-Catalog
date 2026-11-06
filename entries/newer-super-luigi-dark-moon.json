@@ -1,0 +1,37 @@
+{
+ "id": "newer-super-luigi-dark-moon",
+ "name": "Newer Super Luigi Dark Moon",
+ "author": "",
+ "description": "",
+ "version": "1.2",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Newer%20Super%20Luigi%20Dark%20Moon%20v1.2.zip",
+  "size": 347449115,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "DarkMoon",
+  "xml": "riivolution/DarkMoon.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/DarkMoon",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "harder-mario-bros-wii",
+ "name": "Harder Mario Bros. Wii",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Harder%20Mario%20Bros.%20Wii.zip",
+  "size": 16476902,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "HarderMario",
+  "xml": "riivolution/HardE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/HarderMario/Stage",
+  "texture": "/HarderMario/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

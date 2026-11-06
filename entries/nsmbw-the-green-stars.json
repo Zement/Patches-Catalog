@@ -1,0 +1,39 @@
+{
+ "id": "nsmbw-the-green-stars",
+ "name": "NSMBW The Green Stars",
+ "author": "NuoKart",
+ "description": "A riivolution mod that replaced Star Coins with Green Stars",
+ "version": "v0.3.0",
+ "revision": 1,
+ "date": "2026-10-20",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-source",
+  "repo": "NuoKart/NSMBW-The-Green-Stars",
+  "commit": "44671f1f46a379a60f0a4fb6f3f19e52197b0cb1",
+  "tag": "v0.3.0"
+ },
+ "download": {
+  "url": "https://codeload.github.com/NuoKart/NSMBW-The-Green-Stars/zip/44671f1f46a379a60f0a4fb6f3f19e52197b0cb1",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "NSMBW-GreenStars",
+  "xml": "riivolution/NSMBW-GreenStars.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/NSMBW-GreenStars/Stage/",
+  "texture": "/NSMBW-GreenStars/Stage/Texture/",
+  "code": null,
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

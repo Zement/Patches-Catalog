@@ -1,0 +1,37 @@
+{
+ "id": "nsmb2-1-castle-remade-in-nsmbw",
+ "name": "NSMB2 1-Castle Remade in NSMBW",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/NSMB2%201-Castle%20Remade%20in%20NSMBW.zip",
+  "size": 1235836,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMB2 1-Castle/NSMB2 1-Castle",
+  "xml": "NSMB2 1-Castle/riivolution/NSMB21-Castle.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/NSMB2 1-Castle/Stage",
+  "texture": "/NSMB2 1-Castle/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

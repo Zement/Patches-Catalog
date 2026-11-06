@@ -6,6 +6,8 @@
  "version": "v1.0",
  "revision": 1,
  "date": "",
+ "category": "base",
+ "length": null,
  "source": {
   "type": "hosted",
   "host": "sourceforge"

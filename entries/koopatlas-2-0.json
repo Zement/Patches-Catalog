@@ -1,0 +1,38 @@
+{
+ "id": "koopatlas-2-0",
+ "name": "Koopatlas 2.0",
+ "author": "Ethan-mariofan",
+ "description": "",
+ "version": "50d0f7f",
+ "revision": 1,
+ "date": "2026-05-31",
+ "category": "base",
+ "length": null,
+ "source": {
+  "type": "linked-source",
+  "repo": "Ethan-mariofan/Koopatlas-2.0",
+  "commit": "50d0f7f120a5cfaa6d26e1db68b47990a64d8f05"
+ },
+ "download": {
+  "url": "https://codeload.github.com/Ethan-mariofan/Koopatlas-2.0/zip/50d0f7f120a5cfaa6d26e1db68b47990a64d8f05",
+  "size": null,
+  "sha256": null,
+  "root": "*"
+ },
+ "mod": {
+  "folder": "NewerSMBW",
+  "xml": "riivolution/NewerSMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerSMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

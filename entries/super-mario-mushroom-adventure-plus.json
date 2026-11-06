@@ -1,11 +1,13 @@
 {
- "id": "smma",
- "name": "SMMA+",
+ "id": "super-mario-mushroom-adventure-plus",
+ "name": "Super Mario: Mushroom Adventure PLUS - Winter Moon",
  "author": "thethiny, SMMA+ Team",
  "description": "A community-created patch for NSMBW.",
  "version": "v1.0",
  "revision": 1,
  "date": "",
+ "category": "mod",
+ "length": "short",
  "source": {
   "type": "hosted",
   "host": "sourceforge"

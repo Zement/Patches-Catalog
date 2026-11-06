@@ -1,0 +1,37 @@
+{
+ "id": "andy-afros-8-new-super-mario-bros-wii",
+ "name": "Andy Afros 8 New Super Mario Bros.Wii",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Andy%20Afros%208%20New%20Super%20Mario%20Bros.Wii.zip",
+  "size": 303851749,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Andy Afros 8 New Super Mario Bros.Wii/Another",
+  "xml": "Andy Afros 8 New Super Mario Bros.Wii/Riivolution/Another.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/Another/Stage",
+  "texture": "/Another/Stage/Texture",
+  "code": "kamek",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

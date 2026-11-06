@@ -1,0 +1,37 @@
+{
+ "id": "the-legend-of-yoshi",
+ "name": "The Legend Of Yoshi",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/The%20Legend%20Of%20Yoshi.zip",
+  "size": 158406162,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "TLOY (Riivolution) [P] [J] [E] (08-20-2018)  [no custom logo]/The Legend Of Yoshi/tloy",
+  "xml": "TLOY (Riivolution) [P] [J] [E] (08-20-2018)  [no custom logo]/The Legend Of Yoshi/riivolution/TLOY (E).xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/tloy/Stage",
+  "texture": "/tloy/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

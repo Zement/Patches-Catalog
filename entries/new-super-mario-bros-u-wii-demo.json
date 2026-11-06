@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-u-wii-demo",
+ "name": "New Super Mario Bros. U Wii Demo",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20U%20Wii%20Demo.zip",
+  "size": 162662840,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMBUWii Demo/NSMBUWii",
+  "xml": "NSMBUWii Demo/riivolution/NSMBUWii.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMBUWii",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

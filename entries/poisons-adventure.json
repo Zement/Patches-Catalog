@@ -1,0 +1,38 @@
+{
+ "id": "poisons-adventure",
+ "name": "Poisons Adventure",
+ "author": "PoisonRised253",
+ "description": "A Mod for NSMBW in which Level-Specific Modifiers are Added to the game.",
+ "version": "World3",
+ "revision": 1,
+ "date": "2026-05-12",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "linked-release",
+  "repo": "PoisonRised253/NSMBW-Modifiers",
+  "tag": "World3"
+ },
+ "download": {
+  "url": "https://github.com/PoisonRised253/NSMBW-Modifiers/releases/download/World3/Load.zip",
+  "size": 48463564,
+  "sha256": "a675f614a7782142be7f2918c7548de53ea2fc23c9f0242e2930157130349886",
+  "root": ""
+ },
+ "mod": {
+  "folder": "PoisonsAdventure",
+  "xml": "Riivolution/PoisonsAdv.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/PoisonsAdventure",
+  "stage": "Stage",
+  "texture": null,
+  "code": "loader",
+  "found_by": "G-c.7 discovery (GitHub)"
+ }
+}

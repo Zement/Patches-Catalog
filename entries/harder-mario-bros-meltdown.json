@@ -1,0 +1,37 @@
+{
+ "id": "harder-mario-bros-meltdown",
+ "name": "Harder Mario Bros. Meltdown",
+ "author": "",
+ "description": "",
+ "version": "1.0.2",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Harder%20Mario%20Bros.%20Meltdown%20v1.0.2.zip",
+  "size": 13010073,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Meltdown",
+  "xml": "Riivolution/MeltdownE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/Meltdown/Stage",
+  "texture": "/Meltdown/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

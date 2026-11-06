@@ -16,8 +16,10 @@ ENTRIES = os.path.join(ROOT, 'entries')
 OUT = os.path.join(ROOT, 'catalog.json')
 HOME = 'https://raw.githubusercontent.com/Zement/Patches-Catalog/main/catalog.json'
 
-SOURCE_TYPES = ('hosted', 'linked-release', 'linked-source')
+SOURCE_TYPES = ('hosted', 'linked-release', 'linked-source', 'external')
 DEFINITION_TYPES = ('in-mod', 'hosted', 'generated')
+CATEGORIES = ('mod', 'demo', 'base')
+LENGTHS = ('short', 'medium', 'long', 'full', None)
 ID = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 SHA256 = re.compile(r'^[0-9a-f]{64}$')
 
@@ -34,13 +36,22 @@ def problems(entry, filename, ids):
             found.append('%s: missing' % field)
     if not isinstance(entry.get('revision', 0), int):
         found.append('revision: a number')
+    if entry.get('category') not in CATEGORIES:
+        found.append('category: one of %s' % ', '.join(CATEGORIES))
+    if entry.get('length') not in LENGTHS:
+        found.append('length: one of %s, or null' % ', '.join(l for l in LENGTHS if l))
     source = entry.get('source') or {}
     if source.get('type') not in SOURCE_TYPES:
         found.append('source.type: one of %s' % ', '.join(SOURCE_TYPES))
     if source.get('type') in ('linked-release', 'linked-source') and not source.get('repo'):
         found.append('source.repo: owner/name for a linked entry')
     download = entry.get('download') or {}
-    if not str(download.get('url', '')).startswith('https://'):
+    if source.get('type') == 'external':
+        if not str(download.get('page', '')).startswith('https://'):
+            found.append('download.page: the https page the file is downloaded from')
+        if not SHA256.match(download.get('sha256') or ''):
+            found.append('download.sha256: required for an external entry (the file is checked)')
+    elif not str(download.get('url', '')).startswith('https://'):
         found.append('download.url: an https address')
     if download.get('sha256') and not SHA256.match(download['sha256']):
         found.append('download.sha256: 64 hex digits')

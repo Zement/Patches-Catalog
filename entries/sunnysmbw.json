@@ -1,0 +1,37 @@
+{
+ "id": "sunnysmbw",
+ "name": "SunnySMBW",
+ "author": "",
+ "description": "",
+ "version": "3.0.0",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/SunnySMBW%20v3.0.0.zip",
+  "size": 57897983,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Chilly",
+  "xml": "riivolution/Chilly.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/Chilly/Stage",
+  "texture": "/Chilly/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "coldpipes-colder-pipe-colors",
+ "name": "Coldpipes - Colder Pipe Colors",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Coldpipes%20-%20Colder%20Pipe%20Colors.zip",
+  "size": 6925411,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "coldpipes/coldpipes",
+  "xml": "coldpipes/riivolution/NightmareMario.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/coldpipes/Stage/",
+  "texture": "/coldpipes/Stage/Texture/",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "super-mario-green-star-groove-demo-version-2",
+ "name": "Super Mario Green Star Groove Demo Version 2",
+ "author": "",
+ "description": "",
+ "version": "1.04",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/Super%20Mario%20Green%20Star%20Groove%20Demo%20Version%202%201.04.zip",
+  "size": 311607927,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "GSG_Demo_Version_2_1.04/GroovDemo2",
+  "xml": "GSG_Demo_Version_2_1.04/riivolution/GroovDemo2.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/GroovDemo2",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

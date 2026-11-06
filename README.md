@@ -16,9 +16,10 @@ Every entry answers two questions.
 
 | Type | When | Download |
 |---|---|---|
-| `hosted` | Mods no longer worked on, and Newer itself. A copy is published here as a release. | A release asset of this repository (or, for now, the old SourceForge catalog). |
+| `hosted` | Mods no longer worked on, and Newer itself. A copy is published here as a release. | A release asset of this repository (or, for now, the old SourceForge catalog, or the archive.org mirror the Horizon wiki links: `source.host`). |
 | `linked-release` | Mods whose authors publish releases. | The author's own release asset. |
 | `linked-source` | Mods kept only as a repository (tags, no release files). | GitHub's archive of the pinned commit. |
+| `external` | Mods still worked on whose only download is a page a program cannot use (MEGA, Google Drive, a mod's own site). | The player downloads the file on `download.page`; Reginald installs it after checking it against `download.sha256`. |
 
 A linked entry is **pinned** (`source.tag` / `source.commit`). The daily
 *Resolve linked mods* workflow looks for newer releases or tags and opens a pull
@@ -37,6 +38,14 @@ request that moves the pin; the new version reaches players when it is merged.
 `version` is the author's own, shown as is. `revision` counts our repacks of a
 hosted mod (Newer `1.30` with revision 1 is `1.30-1`). `date` orders versions -
 version strings are too inconsistent between authors to be compared.
+
+## Categories
+
+`category`: `mod` (a mod to play), `demo` (an unfinished release), `base` (a base to
+build mods on - NSMBWer+, PropelParts, NewerGEM). `length`, from the Horizon wiki:
+`short` (1-2 worlds), `medium` (3-5), `long` (6-7), `full` (8+), or `null`. Only mods
+with levels are listed: a Riivolution mod without a Stage folder (a practice tool, a
+character model) has nothing to edit.
 
 ## Releases
 

@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-theta-demo",
+ "name": "New Super Mario Bros. Theta DEMO",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20Theta%20DEMO.zip",
+  "size": 189344670,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "New Super Mario Bros. Theta/NSMBTH",
+  "xml": "New Super Mario Bros. Theta/riivolution/nsmbt.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/NSMBTH/Stage",
+  "texture": "/NSMBTH/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}

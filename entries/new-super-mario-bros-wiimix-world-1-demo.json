@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-wiimix-world-1-demo",
+ "name": "New Super Mario Bros. Wiimix WORLD 1 DEMO",
+ "author": "",
+ "description": "",
+ "version": "",
+ "revision": 1,
+ "date": "",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "host": "archive.org"
+ },
+ "download": {
+  "url": "https://archive.org/download/super-mario-wii-mods/New%20Super%20Mario%20Bros.%20Wiimix%20WORLD%201%20DEMO.zip",
+  "size": 8793718,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Wiimix Demo/Wiimix Demo",
+  "xml": "Wiimix Demo/riivolution/Wiimix.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": "/Wiimix Demo/Stage",
+  "texture": "/Wiimix Demo/Stage/Texture",
+  "code": null,
+  "found_by": "G-c.7 discovery (archive.org mirror)"
+ }
+}
