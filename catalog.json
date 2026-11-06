@@ -163,13 +163,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/CliffsOfSpring",
     "stage": "Stage",
     "texture": "Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -267,7 +267,7 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/Devil MWSP_English",
@@ -276,7 +276,7 @@
     "foreign_folders": [
      "kitiku mwsp"
     ],
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -305,13 +305,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/ESBW",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -374,13 +374,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/Koopa",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -586,7 +586,7 @@
     "xml_root": "/MidnightWii",
     "stage": "Stages",
     "texture": "Tilesets",
-    "code": "newer-custom",
+    "code": "newer-1.2.0",
     "fixheaps_off": true
    }
   },
@@ -615,10 +615,10 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -647,13 +647,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/Cannon",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -757,7 +757,7 @@
     "xml_root": "/NewerApocalypse",
     "stage": "Stages",
     "texture": "Tilesets",
-    "code": "newer-custom",
+    "code": "newer-1.0.3",
     "fixheaps_off": true
    }
   },
@@ -821,13 +821,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/XmasNewer",
     "stage": null,
     "texture": "Stage/Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -856,13 +856,13 @@
    "definition": {
     "type": "generated"
    },
-   "base": "newer-smbw",
+   "base": "retail",
    "requires": [],
    "metadata": {
     "xml_root": "/SumSun",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": "newer-custom",
+    "code": "loader",
     "fixheaps_off": true
    }
   },
@@ -1010,7 +1010,7 @@
     "xml_root": "/NewerSMB7",
     "stage": "Stages",
     "texture": "Tilesets",
-    "code": "newer-custom",
+    "code": "newer-1.1.1",
     "fixheaps_off": true
    }
   },
@@ -1324,7 +1324,7 @@
    "base": "newer-smbw",
    "requires": [],
    "metadata": {
-    "code": "newer-custom",
+    "code": "newer-1.2.0",
     "fixheaps_off": true
    }
   },
@@ -1359,7 +1359,7 @@
     "xml_root": "/SMSS",
     "stage": "Stages",
     "texture": "Tilesets",
-    "code": "newer-custom",
+    "code": "newer-1.2.0",
     "fixheaps_off": true
    }
   },

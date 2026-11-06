@@ -29,7 +29,7 @@
   "xml_root": "/SMSS",
   "stage": "Stages",
   "texture": "Tilesets",
-  "code": "newer-custom",
+  "code": "newer-1.2.0",
   "fixheaps_off": true
  }
 }

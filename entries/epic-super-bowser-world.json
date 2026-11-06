@@ -23,13 +23,13 @@
  "definition": {
   "type": "generated"
  },
- "base": "newer-smbw",
+ "base": "retail",
  "requires": [],
  "metadata": {
   "xml_root": "/ESBW",
   "stage": "Stage",
   "texture": "Stage/Texture",
-  "code": "newer-custom",
+  "code": "loader",
   "fixheaps_off": true
  }
 }

@@ -29,7 +29,7 @@
   "xml_root": "/NewerSMB7",
   "stage": "Stages",
   "texture": "Tilesets",
-  "code": "newer-custom",
+  "code": "newer-1.1.1",
   "fixheaps_off": true
  }
 }

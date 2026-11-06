@@ -1,7 +1,19 @@
 # Review notes
 
 Measured by `catalog_v2_seed.py` (G-c.3/4) from each zip's file list - nothing
-was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
+was downloaded - and the code again by `reclassify_code.py` (G-c.5) against
+every Newer release. Guesses, for Zement to confirm or correct in `entries/`.
+
+`code` is told from the mod's `DLCode*.bin` files by their CRC-32 and size,
+not by a folder name:
+
+| code | means | base guessed |
+|---|---|---|
+| `newer-1.30`, `newer-1.2.0`, ... | that Newer release's code, unchanged | Newer |
+| `newer-custom` | Newer-sized code of its own (rebuilt; may add sprites) | Newer |
+| `loader` | Newer's loader with a few KB of patches of its own - no Newer code | retail |
+| `kamek` | Kamek code without Newer's loader | retail |
+| `None` | no code | retail |
 
 ## Newer Super Mario Bros. Wii (`newer-smbw`)
 
@@ -23,9 +35,9 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## New Mario Bros Cannon (`new-mario-bros-cannon`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Chilly Super Mario Bros. Wii (`chilly-super-mario-bros-wii`)
@@ -36,9 +48,9 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Cliffs Of Spring (`cliffs-of-spring`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Cliff Mario Wii (`cliff-mario-wii`)
@@ -55,17 +67,17 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Devil Mario Winter Special (`devil-mario-winter-special`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - the XML reaches outside its folder: kitiku mwsp
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Epic Super Bowser World (`epic-super-bowser-world`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Ghostly Super Ghost Boos Wii (`ghostly-super-ghost-boos-wii`)
@@ -76,9 +88,9 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Koopa Country (`koopa-country`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Lava SMBW Apocalypse (`lava-smbw-apocalypse`)
@@ -96,9 +108,8 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## MidnightWii (`midnightwii`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `newer-smbw`, code: `newer-1.2.0`, definition: `generated`
+- base guessed as Newer (code: newer-1.2.0)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Marios Final Adventure Wii (`marios-final-adventure-wii`)
@@ -110,9 +121,9 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## MLG Super Luigi Bros Wii (`mlg-super-luigi-bros-wii`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 - XML path corrected to MLG Super Luigi Bros Wii/riivolution/MLGLuigiE.xml (the zip ships only this one; the PAL XML was taken out - playing on PAL may need it back)
 
@@ -138,16 +149,15 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Newer Apocalypse (`newer-apocalypse`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `newer-smbw`, code: `newer-1.0.3`, definition: `generated`
+- base guessed as Newer (code: newer-1.0.3)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Newer SUMMER SUN (`newer-summer-sun`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Dark Moon Reverse (`dark-moon-reverse`)
@@ -180,9 +190,8 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## NewerSMB7 (`newersmb7`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `newer-smbw`, code: `newer-1.1.1`, definition: `generated`
+- base guessed as Newer (code: newer-1.1.1)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Newer FALLING LEAF (`newer-falling-leaf`)
@@ -194,9 +203,9 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Newer Holiday Special (`newer-holiday-special`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `retail`, code: `loader`, definition: `generated`
+- code of its own (loader): its definition may need more than the base
+- base guessed as retail (Newer's loader with a few KB of patches, no Newer code)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## NSMBW2: The Next Levels (`nsmbw2-the-next-levels`)
@@ -254,17 +263,15 @@ was downloaded. Guesses, for Zement to confirm or correct in `entries/`.
 
 ## Super Mario Snowy Season (`super-mario-snowy-season`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `newer-smbw`, code: `newer-1.2.0`, definition: `generated`
+- base guessed as Newer (code: newer-1.2.0)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 - XML path corrected to Snowy Season Riivo/riivolution/SnowySeason.xml (the zip ships only this one; the PAL XML was taken out - playing on PAL may need it back)
 
 ## Super Mario Super Star (`super-mario-super-star`)
 
-- base: `newer-smbw`, code: `newer-custom`, definition: `generated`
-- code of its own (newer-custom): its definition may need more than the base
-- base guessed as Newer (code: newer-custom)
+- base: `newer-smbw`, code: `newer-1.2.0`, definition: `generated`
+- base guessed as Newer (code: newer-1.2.0)
 - no definition in the zip: needs one written (G-c Reply 2, answer 4)
 
 ## Super Mario Vacation (`super-mario-vacation`)

@@ -23,7 +23,7 @@
  "definition": {
   "type": "generated"
  },
- "base": "newer-smbw",
+ "base": "retail",
  "requires": [],
  "metadata": {
   "xml_root": "/Devil MWSP_English",
@@ -32,7 +32,7 @@
   "foreign_folders": [
    "kitiku mwsp"
   ],
-  "code": "newer-custom",
+  "code": "loader",
   "fixheaps_off": true
  }
 }

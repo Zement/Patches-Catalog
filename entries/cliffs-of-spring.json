@@ -23,13 +23,13 @@
  "definition": {
   "type": "generated"
  },
- "base": "newer-smbw",
+ "base": "retail",
  "requires": [],
  "metadata": {
   "xml_root": "/CliffsOfSpring",
   "stage": "Stage",
   "texture": "Texture",
-  "code": "newer-custom",
+  "code": "loader",
   "fixheaps_off": true
  }
 }
