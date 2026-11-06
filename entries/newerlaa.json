@@ -1,0 +1,35 @@
+{
+ "id": "newerlaa",
+ "name": "NewerLAA",
+ "author": "wakanameko",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.20",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NewerLAA%20ver.1.20.zip/download",
+  "size": 533662739,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewerLAA ver.1.20/NewerLAA",
+  "xml": "NewerLAA ver.1.20/riivolution/NewerLAA.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerLAA",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

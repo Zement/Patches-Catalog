@@ -1,0 +1,34 @@
+{
+ "id": "another-mario-wii",
+ "name": "Another Mario Wii",
+ "author": "Skawo",
+ "description": "Another Super Mario Bros. Wii, the first Newer Special, is a \"simple mod\" for New Super Mario Bros. Wii made by Skawo. It was released in December 2010 and has a full set of new levels replacing the originals.",
+ "version": "v2.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Another_W_2.0.zip/download",
+  "size": 39187697,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Another",
+  "xml": "riivolution/Another.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": null,
+  "texture": "/Another/Stage/Texture",
+  "code": "kamek"
+ }
+}

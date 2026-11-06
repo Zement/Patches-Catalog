@@ -1,0 +1,35 @@
+{
+ "id": "cliffs-of-spring",
+ "name": "Cliffs Of Spring",
+ "author": "duplo",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.02",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SUPER%20MARIO%20and%20the%20CLIFFS%20OF%20SPRING%201.02.zip/download",
+  "size": 231753271,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SUPER MARIO and the CLIFFS OF SPRING/Game/CliffsOfSpring",
+  "xml": "SUPER MARIO and the CLIFFS OF SPRING/Game/riivolution/CliffsOfSpring.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/CliffsOfSpring",
+  "stage": "Stage",
+  "texture": "Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

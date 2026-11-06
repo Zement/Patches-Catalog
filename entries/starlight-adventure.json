@@ -1,0 +1,35 @@
+{
+ "id": "starlight-adventure",
+ "name": "Starlight ADVENTURE",
+ "author": "Supa",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Starlight%20Adventure%201.0.zip/download",
+  "size": 579279449,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Starlight Adventure 1.0/Starlight",
+  "xml": "Starlight Adventure 1.0/riivolution/Starlight.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Starlight",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-1.30",
+  "fixheaps_off": true
+ }
+}

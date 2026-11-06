@@ -1,0 +1,35 @@
+{
+ "id": "marios-final-adventure-wii",
+ "name": "Marios Final Adventure Wii",
+ "author": "BombKing",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0.2",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/MFAWii_v1.0.2.zip/download",
+  "size": 939409116,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "MFAWii_v1.0.2/MFAWii",
+  "xml": "MFAWii_v1.0.2/riivolution/MFAWii.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MFAWii",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

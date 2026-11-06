@@ -1,0 +1,35 @@
+{
+ "id": "midnightwii",
+ "name": "MidnightWii",
+ "author": "Swiftshine",
+ "description": "So uh...yeah. Initially, this mod was supposed to be a bit bigger, but it's just my first mod, so I thought to reduce the size a bit. I spent about 6 months (From March 2021 to September 2021) working on nothing but the levels, and then I made the (barely functional) world map in just a week (or pro...",
+ "version": "v2.1",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Marios%20Midnight%20Adventure%20%28v2.1%29.zip/download",
+  "size": 497869068,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Midnight Riivo/MidnightWii",
+  "xml": "Midnight Riivo/riivolution/Midnight Wii.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MidnightWii",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

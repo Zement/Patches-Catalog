@@ -1,0 +1,34 @@
+{
+ "id": "cliff-mario-wii",
+ "name": "Cliff Mario Wii",
+ "author": "GoronGuy123",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cliff%20Super%20Mario%20Bros.%20Wii.zip/download",
+  "size": 147702751,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Cliff",
+  "xml": "riivolution/CliffP.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Cliff",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null
+ }
+}

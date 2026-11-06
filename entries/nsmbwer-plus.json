@@ -1,0 +1,36 @@
+{
+ "id": "nsmbwer-plus",
+ "name": "NSMBWer+",
+ "author": "Ryguy, Nin0, Danster64 (NSMBWer)",
+ "description": "",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NSMBWerPlus.zip/download",
+  "size": 40581757,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMBWerPlus/Riivolution/NSMBWer+",
+  "xml": "NSMBWerPlus/Riivolution/riivolution/NSMBWer+.xml"
+ },
+ "definition": {
+  "type": "in-mod",
+  "path": "NSMBWerPlus/Reggie! Patches/Reggie! Next 4.90+/NSMBWerPlus"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMBWer+",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

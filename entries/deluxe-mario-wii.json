@@ -1,0 +1,34 @@
+{
+ "id": "deluxe-mario-wii",
+ "name": "Deluxe Mario Wii",
+ "author": "M&SG",
+ "description": "Deluxe Super Mario Bros. Wii is a user-made hack.  It is free, and an unofficial sequel to New Super Mario Bros. Wii.  If you've paid for this hack, you've been scammed, and should demand your money back immediately. You can support...",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Deluxe%20Super%20Mario%20Bros.%20Wii%20.zip/download",
+  "size": 4286385,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "W91/deluxe",
+  "xml": "W91/riivolution/Deluxe.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": null,
+  "texture": "/deluxe/Stage/Texture",
+  "code": null
+ }
+}

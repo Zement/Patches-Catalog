@@ -1,0 +1,38 @@
+{
+ "id": "devil-mario-winter-special",
+ "name": "Devil Mario Winter Special",
+ "author": "Mr. Luigi",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Devil%20Mario%20Winter%20Special%20collabo%20Frozen.zip/download",
+  "size": 130471823,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Devil MWSP_English",
+  "xml": "riivolution/Devil SMWSP-Eng.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Devil MWSP_English",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "foreign_folders": [
+   "kitiku mwsp"
+  ],
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

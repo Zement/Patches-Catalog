@@ -1,0 +1,34 @@
+{
+ "id": "new-super-mario-bros-wii-4",
+ "name": "New Super Mario Bros. Wii 4",
+ "author": "Orange-Yoshi",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v3.3",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/New%20Super%20Mario%20Bros.%20Wii%204%20made%20by%20Orange-Yoshi3.3.zip/download",
+  "size": 87024431,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMB4",
+  "xml": "riivolution/NSMB4.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": null,
+  "texture": null,
+  "code": null
+ }
+}

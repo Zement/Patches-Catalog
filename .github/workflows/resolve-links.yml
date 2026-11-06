@@ -1,0 +1,48 @@
+name: Resolve linked mods
+
+# Daily: moves the pins of linked entries (authors' own repositories) to what
+# they published since, as a pull request. Merging it is what publishes the
+# new version to Reginald - nothing moves on its own.
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Resolve
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/resolve_links.py
+      - name: Check the entries
+        run: python scripts/build_catalog.py --check
+      - name: Open a pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- entries; then
+            echo "Nothing moved."
+            exit 0
+          fi
+          branch="resolve/$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add entries
+          git commit -m "chore: move linked mods to their latest releases"
+          git push -f origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Linked mods: new versions ($(date -u +%Y-%m-%d))" \
+            --body "Found by the daily resolver. Merging publishes these versions to Reginald." \
+            || echo "A pull request for $branch is already open."

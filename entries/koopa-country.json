@@ -1,0 +1,35 @@
+{
+ "id": "koopa-country",
+ "name": "Koopa Country",
+ "author": "Hellhog",
+ "description": "KOOPA COUNTRY -- Credit list: The newer team for letting me use the...",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Koopa%20country.zip/download",
+  "size": 61486516,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Koopa country/Koopa",
+  "xml": "Koopa country/riivolution/KoopaP.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Koopa",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

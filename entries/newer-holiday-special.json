@@ -1,0 +1,35 @@
+{
+ "id": "newer-holiday-special",
+ "name": "Newer Holiday Special",
+ "author": "Newer Team",
+ "description": "Newer Super Mario Bros. Wii Holiday Special v1.12 by Newer Team Level designs: Skawo Retextures/ing: Skawo, Pop006, Colin Noga \"Chronometrics\"",
+ "version": "v1.12",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_W_Holiday_Special_1.12.zip/download",
+  "size": 68818998,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "XmasNewer",
+  "xml": "riivolution/XmasNewer.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/XmasNewer",
+  "stage": null,
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

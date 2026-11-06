@@ -1,0 +1,34 @@
+{
+ "id": "awesomer-super-luigi-mini",
+ "name": "Awesomer Super Luigi Mini",
+ "author": "3DSGamer925",
+ "description": "This mod was extremely buggy, but it has been fixed up. Credits: 3DSGamer925: For making the mod Randonlyh: Fixing all of the levels (to the point of playability)",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/AwesomerSuperLuigiMini.zip/download",
+  "size": 35600456,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Awesomer Super Luigi Mini Fixed/AwesomerSLM",
+  "xml": "Awesomer Super Luigi Mini Fixed/riivolution/ASLMriivo.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/AwesomerSLM",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null
+ }
+}

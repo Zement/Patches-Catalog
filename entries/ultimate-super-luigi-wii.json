@@ -1,0 +1,35 @@
+{
+ "id": "ultimate-super-luigi-wii",
+ "name": "Ultimate Super Luigi Wii",
+ "author": "Ultimate Green Team",
+ "description": "USLWii for Wii and vWii Place the NewerLW folder and riivolution folder in the root of your sd card. You must have a homebrewed Wii or vWii for this to work along with the Riivolution HB application. Visit our website for more info and updates: https://iggy343434.wixsite.com/ultimategreenteam Again...",
+ "version": "v1.1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Ultimate%20Super%20Luigi%20Wii%20V1.1.0.zip/download",
+  "size": 315808416,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Ultimate Super Luigi Wii V1.1/NewerLW",
+  "xml": "Ultimate Super Luigi Wii V1.1/riivolution/NewerLW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerLW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

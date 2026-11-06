@@ -1,0 +1,35 @@
+{
+ "id": "dark-moon-reverse",
+ "name": "Dark Moon Reverse",
+ "author": "Mullkaw, New Luigi Team",
+ "description": "",
+ "version": "v0.903",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Super%20Luigi%20Dark%20Moon%20Reverse%20v0.903.zip/download",
+  "size": 630400437,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "DarkMoonReverse",
+  "xml": "riivolution/DarkMoonReverse.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/DarkMoonReverse",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

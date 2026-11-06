@@ -1,0 +1,40 @@
+{
+ "id": "newer-smbw",
+ "name": "Newer Super Mario Bros. Wii",
+ "author": "Newer Team, Treeki, Skawo, Tempus, megazig, Pop006",
+ "description": "Newer Super Mario Bros. Wii is a fan-made hack for New Super Mario Bros. Wii, a 2D platformer released for the Wii in 2009. Newer, a \"full unofficial sequel\", has new levels, graphics, music, enemies, and other features, in addition to a greater level amount than the vanilla game. Newer was released on June 7th, 2013.",
+ "version": "1.30",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_W_1.30.zip/download",
+  "size": 507532428,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Newer_W_1.30/NewerSMBW",
+  "xml": "Newer_W_1.30/riivolution/NewerSMBW.xml"
+ },
+ "definition": {
+  "type": "in-mod",
+  "path": "Newer_W_1.30/patches/NewerSMBW"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerSMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-1.30",
+  "archive_memory": 20,
+  "fixheaps_off": true
+ },
+ "links": {
+  "website": "https://newerteam.com/wii/",
+  "code": "https://github.com/Newer-Team/NewerSMBW"
+ }
+}

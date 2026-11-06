@@ -1,0 +1,31 @@
+{
+ "id": "mario-wii-other-world",
+ "name": "Mario Wii Other World",
+ "author": "Botnox, Johan R.",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/New%20Super%20Mario%20Bros%20Wii%20Other%20World.zip/download",
+  "size": 51579029,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "New Super Mario Bros Wii Other World/OtherWorld",
+  "xml": "New Super Mario Bros Wii Other World/riivolution/OtherE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "code": null
+ }
+}

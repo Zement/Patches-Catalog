@@ -1,0 +1,1433 @@
+{
+ "schema": 2,
+ "catalog": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/catalog.json",
+ "entries": [
+  {
+   "id": "another-mario-wii",
+   "name": "Another Mario Wii",
+   "author": "Skawo",
+   "description": "Another Super Mario Bros. Wii, the first Newer Special, is a \"simple mod\" for New Super Mario Bros. Wii made by Skawo. It was released in December 2010 and has a full set of new levels replacing the originals.",
+   "version": "v2.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Another_W_2.0.zip/download",
+    "size": 39187697,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Another",
+    "xml": "riivolution/Another.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": null,
+    "texture": "/Another/Stage/Texture",
+    "code": "kamek"
+   }
+  },
+  {
+   "id": "awesomer-super-luigi-mini",
+   "name": "Awesomer Super Luigi Mini",
+   "author": "3DSGamer925",
+   "description": "This mod was extremely buggy, but it has been fixed up. Credits: 3DSGamer925: For making the mod Randonlyh: Fixing all of the levels (to the point of playability)",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/AwesomerSuperLuigiMini.zip/download",
+    "size": 35600456,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Awesomer Super Luigi Mini Fixed/AwesomerSLM",
+    "xml": "Awesomer Super Luigi Mini Fixed/riivolution/ASLMriivo.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/AwesomerSLM",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "chilly-super-mario-bros-wii",
+   "name": "Chilly Super Mario Bros. Wii",
+   "author": "Captain Mink, Kurokyra",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v2.0.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Chilly%20SMBW%20%28Sunny%20Update%29%20v2.0.0.zip/download",
+    "size": 5132591,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Chilly",
+    "xml": "riivolution/Chilly.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": null,
+    "texture": "/Chilly/Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "cliff-mario-wii",
+   "name": "Cliff Mario Wii",
+   "author": "GoronGuy123",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cliff%20Super%20Mario%20Bros.%20Wii.zip/download",
+    "size": 147702751,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Cliff",
+    "xml": "riivolution/CliffP.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Cliff",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "cliffs-of-spring",
+   "name": "Cliffs Of Spring",
+   "author": "duplo",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.02",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SUPER%20MARIO%20and%20the%20CLIFFS%20OF%20SPRING%201.02.zip/download",
+    "size": 231753271,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "SUPER MARIO and the CLIFFS OF SPRING/Game/CliffsOfSpring",
+    "xml": "SUPER MARIO and the CLIFFS OF SPRING/Game/riivolution/CliffsOfSpring.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/CliffsOfSpring",
+    "stage": "Stage",
+    "texture": "Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "dark-moon-reverse",
+   "name": "Dark Moon Reverse",
+   "author": "Mullkaw, New Luigi Team",
+   "description": "",
+   "version": "v0.903",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Super%20Luigi%20Dark%20Moon%20Reverse%20v0.903.zip/download",
+    "size": 630400437,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "DarkMoonReverse",
+    "xml": "riivolution/DarkMoonReverse.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/DarkMoonReverse",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "deluxe-mario-wii",
+   "name": "Deluxe Mario Wii",
+   "author": "M&SG",
+   "description": "Deluxe Super Mario Bros. Wii is a user-made hack.  It is free, and an unofficial sequel to New Super Mario Bros. Wii.  If you've paid for this hack, you've been scammed, and should demand your money back immediately. You can support...",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Deluxe%20Super%20Mario%20Bros.%20Wii%20.zip/download",
+    "size": 4286385,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "W91/deluxe",
+    "xml": "W91/riivolution/Deluxe.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": null,
+    "texture": "/deluxe/Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "devil-mario-winter-special",
+   "name": "Devil Mario Winter Special",
+   "author": "Mr. Luigi",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Devil%20Mario%20Winter%20Special%20collabo%20Frozen.zip/download",
+    "size": 130471823,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Devil MWSP_English",
+    "xml": "riivolution/Devil SMWSP-Eng.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Devil MWSP_English",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "foreign_folders": [
+     "kitiku mwsp"
+    ],
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "epic-super-bowser-world",
+   "name": "Epic Super Bowser World",
+   "author": "Leplap, Weland",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Epic%20Super%20Bowser%20World.zip/download",
+    "size": 192402195,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Epic Super Bowser World/ESBW",
+    "xml": "Epic Super Bowser World/riivolution/ESBWE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/ESBW",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "ghostly-super-ghost-boos-wii",
+   "name": "Ghostly Super Ghost Boos Wii",
+   "author": "LOrb Sheddy",
+   "description": "Ghostly Super Ghost Boos Wii v1.0.2 by LifeOrbShedinja (LOrbSheddy) Development time: 11.12.2013 - 31.10.2015",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Ghostly%20Super%20Ghost%20Boos%20Wii.zip/download",
+    "size": 93365100,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Ghostly",
+    "xml": "riivolution/GhostlyP.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Ghostly",
+    "stage": null,
+    "texture": "Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "koopa-country",
+   "name": "Koopa Country",
+   "author": "Hellhog",
+   "description": "KOOPA COUNTRY -- Credit list: The newer team for letting me use the...",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Koopa%20country.zip/download",
+    "size": 61486516,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Koopa country/Koopa",
+    "xml": "Koopa country/riivolution/KoopaP.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Koopa",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "lava-smbw-apocalypse",
+   "name": "Lava SMBW Apocalypse",
+   "author": "Dan.Team",
+   "description": "Lava Super Mario Bros. Wii Apocalypse v2.0 By Dan.Team Changelog v1.1 Music that requires copyright has been changed",
+   "version": "v2.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Lava%20Super%20Mario%20Bros.%20Wii%20Apocalypse%202.0.zip/download",
+    "size": 1374946181,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Lava Super Mario Bros. Wii Apocalypse/LavaApocalypse",
+    "xml": "Lava Super Mario Bros. Wii Apocalypse/riivolution/LavaApocalypse.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/LavaApocalypse",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "mario-and-the-mysterious-meteorite",
+   "name": "Mario and the Mysterious Meteorite",
+   "author": "Bupdad, Ovenball",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v3.0.1",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Mario%20and%20the%20Mysterious%20Meteorite%20%5BV3.0.1%5D.zip/download",
+    "size": 433534411,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Mario and the Mysterious Meteorite [V3.0.1]/MatMM",
+    "xml": "Mario and the Mysterious Meteorite [V3.0.1]/riivolution/MatMM.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MatMM",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.30",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "mario-wii-other-world",
+   "name": "Mario Wii Other World",
+   "author": "Botnox, Johan R.",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/New%20Super%20Mario%20Bros%20Wii%20Other%20World.zip/download",
+    "size": 51579029,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "New Super Mario Bros Wii Other World/OtherWorld",
+    "xml": "New Super Mario Bros Wii Other World/riivolution/OtherE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "code": null
+   }
+  },
+  {
+   "id": "marios-final-adventure-wii",
+   "name": "Marios Final Adventure Wii",
+   "author": "BombKing",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0.2",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/MFAWii_v1.0.2.zip/download",
+    "size": 939409116,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "MFAWii_v1.0.2/MFAWii",
+    "xml": "MFAWii_v1.0.2/riivolution/MFAWii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MFAWii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "marios-new-adventure-demo",
+   "name": "Marios New Adventure Demo",
+   "author": "B1 Gaming",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v2.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/v2.0_Marios_New_Adventure_Demo_30.05.2022.zip/download",
+    "size": 153572536,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewAdventureDemo",
+    "xml": "riivolution/NewAdventureDemo.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewAdventureDemo",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "midnightwii",
+   "name": "MidnightWii",
+   "author": "Swiftshine",
+   "description": "So uh...yeah. Initially, this mod was supposed to be a bit bigger, but it's just my first mod, so I thought to reduce the size a bit. I spent about 6 months (From March 2021 to September 2021) working on nothing but the levels, and then I made the (barely functional) world map in just a week (or pro...",
+   "version": "v2.1",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Marios%20Midnight%20Adventure%20%28v2.1%29.zip/download",
+    "size": 497869068,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Midnight Riivo/MidnightWii",
+    "xml": "Midnight Riivo/riivolution/Midnight Wii.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/MidnightWii",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "mlg-super-luigi-bros-wii",
+   "name": "MLG Super Luigi Bros Wii",
+   "author": "Iggy3434",
+   "description": "All Mario Characters, Music, program, and all other things in here are reserved by Nintendo. I take no credit in the programing of the full release of the REAL game of New Super Mario Bros Wii Me and my mod team worked on modifications to what Nintendo already created. For example we modified textur...",
+   "version": "v1.1",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/MLG%20Super%20Luigi%20Bros%20Wii%20Final%20V1.1.zip/download",
+    "size": 277498813,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "MLG Super Luigi Bros Wii/MLGLuigi",
+    "xml": "MLG Super Luigi Bros Wii/riivolution/MLGLuigiE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "new-mario-bros-cannon",
+   "name": "New Mario Bros Cannon",
+   "author": "Leplap, Weland",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cannon%20Super%20Mario%20Bros.%20Wii.zip/download",
+    "size": 272037213,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Cannon Super Mario Bros. Wii/Cannon",
+    "xml": "Cannon Super Mario Bros. Wii/riivolution/CannonP.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Cannon",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "new-super-mario-bros-wii-4",
+   "name": "New Super Mario Bros. Wii 4",
+   "author": "Orange-Yoshi",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v3.3",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/New%20Super%20Mario%20Bros.%20Wii%204%20made%20by%20Orange-Yoshi3.3.zip/download",
+    "size": 87024431,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMB4",
+    "xml": "riivolution/NSMB4.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": null,
+    "texture": null,
+    "code": null
+   }
+  },
+  {
+   "id": "newer-alpine-dream",
+   "name": "Newer Alpine Dream",
+   "author": "ALPHA T",
+   "description": "![logoNewerADcomplet](https://user-images.githubusercontent.com/94932316/152683060-8fbf776f-3ec6-48ba-aa45-56d9911ecad4.png) my first RomHack NewerSMBW - 11 levels with 8 classic levels, 1 tower level, 1 castle level, 1 secret hard level - Idea : ALPHA_T;",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer-Alpine-Dream-main.zip/download",
+    "size": 490840806,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Newer-Alpine-Dream-main/NewerAD",
+    "xml": "Newer-Alpine-Dream-main/riivolution/NewerAD.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerAD",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newer-apocalypse",
+   "name": "Newer Apocalypse",
+   "author": "Python",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Apocalypse.zip/download",
+    "size": 378570406,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Newer Apocalypse/NewerApocalypse",
+    "xml": "Newer Apocalypse/riivolution/NewerApocalypse.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerApocalypse",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newer-falling-leaf",
+   "name": "Newer FALLING LEAF",
+   "author": "Skawo, Newer Team",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.12",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_Falling_Leaf_1.12.zip/download",
+    "size": 149915067,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewerFL",
+    "xml": "riivolution/NewerFALLING.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerFL",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newer-holiday-special",
+   "name": "Newer Holiday Special",
+   "author": "Newer Team",
+   "description": "Newer Super Mario Bros. Wii Holiday Special v1.12 by Newer Team Level designs: Skawo Retextures/ing: Skawo, Pop006, Colin Noga \"Chronometrics\"",
+   "version": "v1.12",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_W_Holiday_Special_1.12.zip/download",
+    "size": 68818998,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "XmasNewer",
+    "xml": "riivolution/XmasNewer.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/XmasNewer",
+    "stage": null,
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newer-summer-sun",
+   "name": "Newer SUMMER SUN",
+   "author": "Newer Team",
+   "description": "Newer Super Mario Bros. Wii SuMMeR SUN Special v1.12 by Newer Team Changelog v1.12:",
+   "version": "v1.12",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_Summer_Sun_1.12.zip/download",
+    "size": 131888515,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "SumSun",
+    "xml": "riivolution/SumSun.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SumSun",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newer-smbw",
+   "name": "Newer Super Mario Bros. Wii",
+   "author": "Newer Team, Treeki, Skawo, Tempus, megazig, Pop006",
+   "description": "Newer Super Mario Bros. Wii is a fan-made hack for New Super Mario Bros. Wii, a 2D platformer released for the Wii in 2009. Newer, a \"full unofficial sequel\", has new levels, graphics, music, enemies, and other features, in addition to a greater level amount than the vanilla game. Newer was released on June 7th, 2013.",
+   "version": "1.30",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_W_1.30.zip/download",
+    "size": 507532428,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Newer_W_1.30/NewerSMBW",
+    "xml": "Newer_W_1.30/riivolution/NewerSMBW.xml"
+   },
+   "definition": {
+    "type": "in-mod",
+    "path": "Newer_W_1.30/patches/NewerSMBW"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMBW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.30",
+    "archive_memory": 20,
+    "fixheaps_off": true
+   },
+   "links": {
+    "website": "https://newerteam.com/wii/",
+    "code": "https://github.com/Newer-Team/NewerSMBW"
+   }
+  },
+  {
+   "id": "newerlaa",
+   "name": "NewerLAA",
+   "author": "wakanameko",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.20",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NewerLAA%20ver.1.20.zip/download",
+    "size": 533662739,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewerLAA ver.1.20/NewerLAA",
+    "xml": "NewerLAA ver.1.20/riivolution/NewerLAA.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerLAA",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newersmb2",
+   "name": "NewerSMB2",
+   "author": "Team Les Saisons de la Kermesse",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.25",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Super%20Mario%20Bros%202%20v1.25.zip/download",
+    "size": 726842508,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Newer Super Mario Bros 2 v1.25/NewerSMB2",
+    "xml": "Newer Super Mario Bros 2 v1.25/riivolution/NewerSMB2.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMB2",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "newersmb7",
+   "name": "NewerSMB7",
+   "author": "Supermariobros52, Bros7team",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NewerSMB7%20Demo.zip/download",
+    "size": 608756759,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NewerSMB7",
+    "xml": "riivolution/NewerSMB7.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerSMB7",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "nsmbw2-the-next-levels",
+   "name": "NSMBW2: The Next Levels",
+   "author": "casper666 (stealer), Old NSMBW Level Depot (creators)",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NSMBW2TNL.zip/download",
+    "size": 460905,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBW2TNL/NSMBW2TNL",
+    "xml": "NSMBW2TNL/riivolution/NSMBW2TNL.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": null,
+    "stage": null,
+    "texture": null,
+    "code": null
+   }
+  },
+  {
+   "id": "nsmbwer-plus",
+   "name": "NSMBWer+",
+   "author": "Ryguy, Nin0, Danster64 (NSMBWer)",
+   "description": "",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NSMBWerPlus.zip/download",
+    "size": 40581757,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "NSMBWerPlus/Riivolution/NSMBWer+",
+    "xml": "NSMBWerPlus/Riivolution/riivolution/NSMBWer+.xml"
+   },
+   "definition": {
+    "type": "in-mod",
+    "path": "NSMBWerPlus/Reggie! Patches/Reggie! Next 4.90+/NSMBWerPlus"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NSMBWer+",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "slwii-the-emissary",
+   "name": "SLWii The Emissary",
+   "author": "Iggy3434",
+   "description": "Super Luigi Wii The Emissary for Wii and vWii (also works with latest version of Dolphin)",
+   "version": "v1.0.2",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SLWii%20The%20Emissary%20V1.0.2.zip/download",
+    "size": 222438659,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "SLWiiTE",
+    "xml": "riivolution/SLWiiTE.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SLWiiTE",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "smma",
+   "name": "SMMA+",
+   "author": "thethiny, SMMA+ Team",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Mushroom%20Adventure%20Plus%20Winter%20Moon.zip/download",
+    "size": 42136342,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario Mushroom Adventure Plus Winter Moon/WinterMoon",
+    "xml": "Super Mario Mushroom Adventure Plus Winter Moon/riivolution/WinterMoon.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/WinterMoon",
+    "stage": "Levels",
+    "texture": "Tilesets",
+    "foreign_folders": [
+     "sample"
+    ],
+    "code": null
+   }
+  },
+  {
+   "id": "starlight-adventure",
+   "name": "Starlight ADVENTURE",
+   "author": "Supa",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Starlight%20Adventure%201.0.zip/download",
+    "size": 579279449,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Starlight Adventure 1.0/Starlight",
+    "xml": "Starlight Adventure 1.0/riivolution/Starlight.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Starlight",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-1.30",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-luigi-land-wii",
+   "name": "Super Luigi Land Wii",
+   "author": "Mullkaw, New Luigi Team",
+   "description": "SUPER LUIGI LAND WII 2021-09-07",
+   "version": "v1.120",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Luigi%20Land%20Wii%20v1.120.zip/download",
+    "size": 585660508,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "LuigiLand",
+    "xml": "riivolution/LuigiLand.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/LuigiLand",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-luigi-seasonal-shore",
+   "name": "Super Luigi Seasonal Shore",
+   "author": "Janny",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.06",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Luigi%20Seasonal%20Shore%20v1.06.zip/download",
+    "size": 91754875,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Luigi Seasonal Shore v1.06/LuigiSeasonal",
+    "xml": "Super Luigi Seasonal Shore v1.06/riivolution/LuigiSeasonal.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/LuigiSeasonal",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-mario-bros-extreme-adventure",
+   "name": "Super Mario Bros. Extreme Adventure",
+   "author": "Team Alternative",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.301",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SMBExtremeAdvDEMO1.301.zip/download",
+    "size": 251157764,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Version1.301/SMBExtremeAdvDEMO1.301",
+    "xml": "Version1.301/riivolution/SMBExtremeAdvDEMO1.301.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMBExtremeAdvDEMO1.301",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-mario-snowy-season",
+   "name": "Super Mario Snowy Season",
+   "author": "Swiftshine",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Snowy%20Season%20%28v1.0%29.zip/download",
+    "size": 621188415,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Snowy Season Riivo/SnowySeason",
+    "xml": "Snowy Season Riivo/riivolution/SnowySeason.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-mario-super-star",
+   "name": "Super Mario Super Star",
+   "author": "Hexagamer",
+   "description": "Riivolution v1.06 December 18th, 2013 by Aaron, tueidj, Tempus, and megazig riivolution@japaneatahand.com",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Super%20Star.zip/download",
+    "size": 1426657965,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "SMSS",
+    "xml": "riivolution/SMSS.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/SMSS",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  },
+  {
+   "id": "super-mario-vacation",
+   "name": "Super Mario Vacation",
+   "author": "Leplap, Weland",
+   "description": "A community-created patch for NSMBW.",
+   "version": "v1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Vacation.zip/download",
+    "size": 90098446,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Super Mario Vacation/Vacation",
+    "xml": "Super Mario Vacation/riivolution/VacationP.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Vacation",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null
+   }
+  },
+  {
+   "id": "ultimate-super-luigi-wii",
+   "name": "Ultimate Super Luigi Wii",
+   "author": "Ultimate Green Team",
+   "description": "USLWii for Wii and vWii Place the NewerLW folder and riivolution folder in the root of your sd card. You must have a homebrewed Wii or vWii for this to work along with the Riivolution HB application. Visit our website for more info and updates: https://iggy343434.wixsite.com/ultimategreenteam Again...",
+   "version": "v1.1.0",
+   "revision": 1,
+   "date": "",
+   "source": {
+    "type": "hosted",
+    "host": "sourceforge"
+   },
+   "download": {
+    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Ultimate%20Super%20Luigi%20Wii%20V1.1.0.zip/download",
+    "size": 315808416,
+    "sha256": null,
+    "root": ""
+   },
+   "mod": {
+    "folder": "Ultimate Super Luigi Wii V1.1/NewerLW",
+    "xml": "Ultimate Super Luigi Wii V1.1/riivolution/NewerLW.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "newer-smbw",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/NewerLW",
+    "stage": "Stages",
+    "texture": "Tilesets",
+    "code": "newer-custom",
+    "fixheaps_off": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "super-mario-super-star",
+ "name": "Super Mario Super Star",
+ "author": "Hexagamer",
+ "description": "Riivolution v1.06 December 18th, 2013 by Aaron, tueidj, Tempus, and megazig riivolution@japaneatahand.com",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Super%20Star.zip/download",
+  "size": 1426657965,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SMSS",
+  "xml": "riivolution/SMSS.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SMSS",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

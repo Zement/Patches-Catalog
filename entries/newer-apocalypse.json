@@ -1,0 +1,35 @@
+{
+ "id": "newer-apocalypse",
+ "name": "Newer Apocalypse",
+ "author": "Python",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Apocalypse.zip/download",
+  "size": 378570406,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Newer Apocalypse/NewerApocalypse",
+  "xml": "Newer Apocalypse/riivolution/NewerApocalypse.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerApocalypse",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

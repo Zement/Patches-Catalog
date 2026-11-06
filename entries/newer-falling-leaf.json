@@ -1,0 +1,35 @@
+{
+ "id": "newer-falling-leaf",
+ "name": "Newer FALLING LEAF",
+ "author": "Skawo, Newer Team",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.12",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_Falling_Leaf_1.12.zip/download",
+  "size": 149915067,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewerFL",
+  "xml": "riivolution/NewerFALLING.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerFL",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

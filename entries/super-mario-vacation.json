@@ -1,0 +1,34 @@
+{
+ "id": "super-mario-vacation",
+ "name": "Super Mario Vacation",
+ "author": "Leplap, Weland",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Vacation.zip/download",
+  "size": 90098446,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Super Mario Vacation/Vacation",
+  "xml": "Super Mario Vacation/riivolution/VacationP.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Vacation",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null
+ }
+}

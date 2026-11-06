@@ -1,0 +1,34 @@
+{
+ "id": "nsmbw2-the-next-levels",
+ "name": "NSMBW2: The Next Levels",
+ "author": "casper666 (stealer), Old NSMBW Level Depot (creators)",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NSMBW2TNL.zip/download",
+  "size": 460905,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NSMBW2TNL/NSMBW2TNL",
+  "xml": "NSMBW2TNL/riivolution/NSMBW2TNL.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": null,
+  "texture": null,
+  "code": null
+ }
+}

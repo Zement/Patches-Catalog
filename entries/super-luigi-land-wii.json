@@ -1,0 +1,35 @@
+{
+ "id": "super-luigi-land-wii",
+ "name": "Super Luigi Land Wii",
+ "author": "Mullkaw, New Luigi Team",
+ "description": "SUPER LUIGI LAND WII 2021-09-07",
+ "version": "v1.120",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Luigi%20Land%20Wii%20v1.120.zip/download",
+  "size": 585660508,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "LuigiLand",
+  "xml": "riivolution/LuigiLand.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/LuigiLand",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

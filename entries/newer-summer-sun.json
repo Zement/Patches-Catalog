@@ -1,0 +1,35 @@
+{
+ "id": "newer-summer-sun",
+ "name": "Newer SUMMER SUN",
+ "author": "Newer Team",
+ "description": "Newer Super Mario Bros. Wii SuMMeR SUN Special v1.12 by Newer Team Changelog v1.12:",
+ "version": "v1.12",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer_Summer_Sun_1.12.zip/download",
+  "size": 131888515,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SumSun",
+  "xml": "riivolution/SumSun.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SumSun",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

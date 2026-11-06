@@ -1,0 +1,35 @@
+{
+ "id": "lava-smbw-apocalypse",
+ "name": "Lava SMBW Apocalypse",
+ "author": "Dan.Team",
+ "description": "Lava Super Mario Bros. Wii Apocalypse v2.0 By Dan.Team Changelog v1.1 Music that requires copyright has been changed",
+ "version": "v2.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Lava%20Super%20Mario%20Bros.%20Wii%20Apocalypse%202.0.zip/download",
+  "size": 1374946181,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Lava Super Mario Bros. Wii Apocalypse/LavaApocalypse",
+  "xml": "Lava Super Mario Bros. Wii Apocalypse/riivolution/LavaApocalypse.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/LavaApocalypse",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

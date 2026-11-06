@@ -1,0 +1,35 @@
+{
+ "id": "newer-alpine-dream",
+ "name": "Newer Alpine Dream",
+ "author": "ALPHA T",
+ "description": "![logoNewerADcomplet](https://user-images.githubusercontent.com/94932316/152683060-8fbf776f-3ec6-48ba-aa45-56d9911ecad4.png) my first RomHack NewerSMBW - 11 levels with 8 classic levels, 1 tower level, 1 castle level, 1 secret hard level - Idea : ALPHA_T;",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer-Alpine-Dream-main.zip/download",
+  "size": 490840806,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Newer-Alpine-Dream-main/NewerAD",
+  "xml": "Newer-Alpine-Dream-main/riivolution/NewerAD.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerAD",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

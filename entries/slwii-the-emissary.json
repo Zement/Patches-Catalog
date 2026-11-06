@@ -1,0 +1,35 @@
+{
+ "id": "slwii-the-emissary",
+ "name": "SLWii The Emissary",
+ "author": "Iggy3434",
+ "description": "Super Luigi Wii The Emissary for Wii and vWii (also works with latest version of Dolphin)",
+ "version": "v1.0.2",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SLWii%20The%20Emissary%20V1.0.2.zip/download",
+  "size": 222438659,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "SLWiiTE",
+  "xml": "riivolution/SLWiiTE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SLWiiTE",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

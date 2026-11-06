@@ -1,0 +1,32 @@
+{
+ "id": "mlg-super-luigi-bros-wii",
+ "name": "MLG Super Luigi Bros Wii",
+ "author": "Iggy3434",
+ "description": "All Mario Characters, Music, program, and all other things in here are reserved by Nintendo. I take no credit in the programing of the full release of the REAL game of New Super Mario Bros Wii Me and my mod team worked on modifications to what Nintendo already created. For example we modified textur...",
+ "version": "v1.1",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/MLG%20Super%20Luigi%20Bros%20Wii%20Final%20V1.1.zip/download",
+  "size": 277498813,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "MLG Super Luigi Bros Wii/MLGLuigi",
+  "xml": "MLG Super Luigi Bros Wii/riivolution/MLGLuigiE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

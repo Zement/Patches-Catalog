@@ -1,0 +1,35 @@
+{
+ "id": "super-mario-bros-extreme-adventure",
+ "name": "Super Mario Bros. Extreme Adventure",
+ "author": "Team Alternative",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.301",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SMBExtremeAdvDEMO1.301.zip/download",
+  "size": 251157764,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Version1.301/SMBExtremeAdvDEMO1.301",
+  "xml": "Version1.301/riivolution/SMBExtremeAdvDEMO1.301.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SMBExtremeAdvDEMO1.301",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

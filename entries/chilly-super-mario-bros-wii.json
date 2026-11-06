@@ -1,0 +1,34 @@
+{
+ "id": "chilly-super-mario-bros-wii",
+ "name": "Chilly Super Mario Bros. Wii",
+ "author": "Captain Mink, Kurokyra",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v2.0.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Chilly%20SMBW%20%28Sunny%20Update%29%20v2.0.0.zip/download",
+  "size": 5132591,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Chilly",
+  "xml": "riivolution/Chilly.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": null,
+  "stage": null,
+  "texture": "/Chilly/Stage/Texture",
+  "code": null
+ }
+}

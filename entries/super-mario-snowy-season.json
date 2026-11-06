@@ -1,0 +1,32 @@
+{
+ "id": "super-mario-snowy-season",
+ "name": "Super Mario Snowy Season",
+ "author": "Swiftshine",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Snowy%20Season%20%28v1.0%29.zip/download",
+  "size": 621188415,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Snowy Season Riivo/SnowySeason",
+  "xml": "Snowy Season Riivo/riivolution/SnowySeason.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

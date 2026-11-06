@@ -1,0 +1,35 @@
+{
+ "id": "epic-super-bowser-world",
+ "name": "Epic Super Bowser World",
+ "author": "Leplap, Weland",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Epic%20Super%20Bowser%20World.zip/download",
+  "size": 192402195,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Epic Super Bowser World/ESBW",
+  "xml": "Epic Super Bowser World/riivolution/ESBWE.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/ESBW",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

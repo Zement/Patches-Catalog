@@ -1,0 +1,35 @@
+{
+ "id": "mario-and-the-mysterious-meteorite",
+ "name": "Mario and the Mysterious Meteorite",
+ "author": "Bupdad, Ovenball",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v3.0.1",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Mario%20and%20the%20Mysterious%20Meteorite%20%5BV3.0.1%5D.zip/download",
+  "size": 433534411,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Mario and the Mysterious Meteorite [V3.0.1]/MatMM",
+  "xml": "Mario and the Mysterious Meteorite [V3.0.1]/riivolution/MatMM.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MatMM",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-1.30",
+  "fixheaps_off": true
+ }
+}

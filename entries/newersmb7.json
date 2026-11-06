@@ -1,0 +1,35 @@
+{
+ "id": "newersmb7",
+ "name": "NewerSMB7",
+ "author": "Supermariobros52, Bros7team",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/NewerSMB7%20Demo.zip/download",
+  "size": 608756759,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewerSMB7",
+  "xml": "riivolution/NewerSMB7.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerSMB7",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

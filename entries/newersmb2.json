@@ -1,0 +1,35 @@
+{
+ "id": "newersmb2",
+ "name": "NewerSMB2",
+ "author": "Team Les Saisons de la Kermesse",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.25",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Newer%20Super%20Mario%20Bros%202%20v1.25.zip/download",
+  "size": 726842508,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Newer Super Mario Bros 2 v1.25/NewerSMB2",
+  "xml": "Newer Super Mario Bros 2 v1.25/riivolution/NewerSMB2.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewerSMB2",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

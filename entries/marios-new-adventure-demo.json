@@ -1,0 +1,35 @@
+{
+ "id": "marios-new-adventure-demo",
+ "name": "Marios New Adventure Demo",
+ "author": "B1 Gaming",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v2.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/v2.0_Marios_New_Adventure_Demo_30.05.2022.zip/download",
+  "size": 153572536,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewAdventureDemo",
+  "xml": "riivolution/NewAdventureDemo.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NewAdventureDemo",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

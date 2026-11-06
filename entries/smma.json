@@ -1,0 +1,37 @@
+{
+ "id": "smma",
+ "name": "SMMA+",
+ "author": "thethiny, SMMA+ Team",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Super%20Mario%20Mushroom%20Adventure%20Plus%20Winter%20Moon.zip/download",
+  "size": 42136342,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Super Mario Mushroom Adventure Plus Winter Moon/WinterMoon",
+  "xml": "Super Mario Mushroom Adventure Plus Winter Moon/riivolution/WinterMoon.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/WinterMoon",
+  "stage": "Levels",
+  "texture": "Tilesets",
+  "foreign_folders": [
+   "sample"
+  ],
+  "code": null
+ }
+}

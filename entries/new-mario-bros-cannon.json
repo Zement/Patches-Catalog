@@ -1,0 +1,35 @@
+{
+ "id": "new-mario-bros-cannon",
+ "name": "New Mario Bros Cannon",
+ "author": "Leplap, Weland",
+ "description": "A community-created patch for NSMBW.",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cannon%20Super%20Mario%20Bros.%20Wii.zip/download",
+  "size": 272037213,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Cannon Super Mario Bros. Wii/Cannon",
+  "xml": "Cannon Super Mario Bros. Wii/riivolution/CannonP.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Cannon",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "fixheaps_off": true
+ }
+}

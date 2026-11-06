@@ -1,0 +1,34 @@
+{
+ "id": "ghostly-super-ghost-boos-wii",
+ "name": "Ghostly Super Ghost Boos Wii",
+ "author": "LOrb Sheddy",
+ "description": "Ghostly Super Ghost Boos Wii v1.0.2 by LifeOrbShedinja (LOrbSheddy) Development time: 11.12.2013 - 31.10.2015",
+ "version": "v1.0",
+ "revision": 1,
+ "date": "",
+ "source": {
+  "type": "hosted",
+  "host": "sourceforge"
+ },
+ "download": {
+  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Ghostly%20Super%20Ghost%20Boos%20Wii.zip/download",
+  "size": 93365100,
+  "sha256": null,
+  "root": ""
+ },
+ "mod": {
+  "folder": "Ghostly",
+  "xml": "riivolution/GhostlyP.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Ghostly",
+  "stage": null,
+  "texture": "Stage/Texture",
+  "code": null
+ }
+}
