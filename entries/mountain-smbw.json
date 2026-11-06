@@ -1,0 +1,37 @@
+{
+ "id": "mountain-smbw",
+ "name": "MountainSMBW",
+ "author": "Swift",
+ "description": "",
+ "version": "1.2",
+ "revision": 1,
+ "date": "2026-11-06",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "tag": "mountain-smbw/1.2-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/mountain-smbw/1.2-1/mountain-smbw-1.2-1.zip",
+  "size": 256272575,
+  "sha256": "c6e3eeecc426c9e428a95db35c6f6a22a140c379ee9681fa8430e265ad94c29d",
+  "root": ""
+ },
+ "mod": {
+  "folder": "MountainSMBW_V1.2/MountainSMBW",
+  "xml": "MountainSMBW_V1.2/riivolution/MountainSMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/MountainSMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}

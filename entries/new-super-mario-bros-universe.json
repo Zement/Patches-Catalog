@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-universe",
+ "name": "New Super Mario Bros. Universe",
+ "author": "Aaron Mallie",
+ "description": "",
+ "version": "1",
+ "revision": 1,
+ "date": "2026-09-22",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "external"
+ },
+ "download": {
+  "page": "https://mega.nz/file/gI4BQAab#7NmpvxCCoBE8b090tpKPDEQVn26yjJhmv7zwtWNVkzo",
+  "name": "NewSuperMarioBrosUniverseVersion1.zip",
+  "size": 347621742,
+  "sha256": "71eb4b0a7cf374e806704a4ad645d4521d29470607fbe4965acc8b26c6ad7543",
+  "root": ""
+ },
+ "mod": {
+  "folder": "NewSuperMarioBrosUniverseVersion1/NSMBUniverse",
+  "xml": "NewSuperMarioBrosUniverseVersion1/riivolution/NSMBUniverse.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/NSMBUniverse",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}

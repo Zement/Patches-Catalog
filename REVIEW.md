@@ -433,3 +433,35 @@ Made by `_workspace/tools/g_c/convert_candidates.py` from each zip's file list (
 | Yellow Toad over Blue Toad v0.3 | its XML maps a Stage folder the zip does not have |
 | Yellow Toad over Blue Toad v0.2 | its XML maps a Stage folder the zip does not have |
 | Yellow Toad over Blue Toad v0.1 | its XML maps a Stage folder the zip does not have |
+
+## G-c.8c - mods only on Google Drive, MEGA, MediaFire, GameBanana
+
+Downloaded once (Zement's browser for MEGA and Drive folders), measured from the file
+itself. Reply 9: an inactive mod (nothing posted in the last year) is **rehosted** here
+as a release; an active one is **external** - the player downloads it on its page, and
+Reginald checks it against `download.sha256` before installing.
+
+| id | Name | How | Notes |
+|---|---|---|---|
+| `super-mario-sunlight-adventure` | Super Mario Sunlight Adventure 1.1.1 | rehosted | from Google Drive |
+| `new-super-mario-bros-midnight` | New Super Mario Bros. Midnight | rehosted | Google Drive; no version in the file - the post's date is its version |
+| `mountain-smbw` | MountainSMBW 1.2 | rehosted | Google Drive folder ("Download all") |
+| `newer-super-mario-tourism-in-shimane` | Newer Super Mario Tourism in Shimane 1.2.0 | rehosted | Google Drive folder ("Download all") |
+| `new-super-mario-bros-universe` | New Super Mario Bros. Universe 1 | external | MEGA; installed live from the file (85 levels) |
+| `sugary-super-mario-bros-wii` | Sugary Super Mario Bros. Wii 1.05 (demo) | external | GameBanana |
+| `toadiko-into-yamato` | Toadiko into Yamato | external | GameBanana |
+
+Not added:
+
+| Mod | Why |
+|---|---|
+| Shortest-er NSMBW (MandyIGuess) | code only - its XML maps no Stage folder (no levels) |
+| Mayro's Heart Throbbing Adventure Wii Ultimate 1.1 | the zip has no Riivolution XML |
+| Retro Mario Bros | graphics only, no XML |
+| NSMBW - QUEBEC EDITION (MEGA) | in already, from the archive.org mirror |
+| Newer Super Mario Bros. 2 v1.25 (MEGA, .rar) | the catalog's version already |
+| Newer SMBW: Little Autumn Adventure 1.20 (Drive) | the catalog's version already |
+| Snowy Super Mario Bros. Wii (2025), The Shortest New Super Mario Bros. Wii Mod Ever | active, shared as Google Drive *folders*: Drive zips a folder anew for every download, so there is no checksum to check a player's file against - needs the authors to publish one zip (or a GitHub release) |
+| Swift's 2022-08 Drive folder; Super Dooper World (GameBanana WIP) | gone (404) |
+| GameBanana WIP 65286 | no files (Mario's Final Adventure Wii WIP) |
+| Infinite Wii | ongoing; its site has no download |

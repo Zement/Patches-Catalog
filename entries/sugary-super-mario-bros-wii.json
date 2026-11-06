@@ -1,0 +1,37 @@
+{
+ "id": "sugary-super-mario-bros-wii",
+ "name": "Sugary Super Mario Bros. Wii",
+ "author": "Team Sugary",
+ "description": "",
+ "version": "1.05 (demo)",
+ "revision": 1,
+ "date": "2026-04-11",
+ "category": "demo",
+ "length": null,
+ "source": {
+  "type": "external"
+ },
+ "download": {
+  "page": "https://gamebanana.com/mods/668670",
+  "name": "demo_sugarysmbwii_105.zip",
+  "size": 633092428,
+  "sha256": "9b2fef4e017d6b29d68a56c96959d5dbcbffc24b4ca453ac1189965c3a68c50c",
+  "root": ""
+ },
+ "mod": {
+  "folder": "SugarySMBW",
+  "xml": "riivolution/SugarySMBW.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SugarySMBW",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}

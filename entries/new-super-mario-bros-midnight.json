@@ -1,0 +1,37 @@
+{
+ "id": "new-super-mario-bros-midnight",
+ "name": "New Super Mario Bros. Midnight",
+ "author": "Atomic Mods",
+ "description": "",
+ "version": "2025-07-25",
+ "revision": 1,
+ "date": "2026-11-06",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "tag": "new-super-mario-bros-midnight/2025-07-25-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/new-super-mario-bros-midnight/2025-07-25-1/new-super-mario-bros-midnight-2025-07-25-1.zip",
+  "size": 352061121,
+  "sha256": "d183b42b2cb5a660098a82a41f1cb1ccc34e77adebc95aa3c3102be240d735ac",
+  "root": ""
+ },
+ "mod": {
+  "folder": "SMBmidnight/Riivolution/Midnight",
+  "xml": "SMBmidnight/Riivolution/riivolution/Midnight.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Midnight",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}

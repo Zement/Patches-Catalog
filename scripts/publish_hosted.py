@@ -1,7 +1,10 @@
 """Publishes a hosted mod version as a GitHub Release, and updates its entry.
 
-    python scripts/publish_hosted.py <id> <mod.zip> <definition folder> <version> <revision>
+    python scripts/publish_hosted.py <id> <mod.zip> <definition folder | -> <version> <revision>
         [--notes "text"] [--dry-run]
+
+`-` for the definition: the mod alone; the entry keeps its definition
+(generated, or the one the mod carries).
 
 Example (Newer, G-c.4):
 
@@ -54,20 +57,24 @@ def main():
     label = '%s-%d' % (version, revision)
     entry_path = os.path.join(ROOT, 'entries', eid + '.json')
     entry = json.load(open(entry_path, encoding='utf-8'))
-    if not os.path.isfile(os.path.join(definition, 'main.xml')):
+    # "-": no definition yet - the mod alone, the entry's definition stays
+    # whatever it is (generated, or in the mod) (G-c.8c)
+    has_definition = definition != '-'
+    if has_definition and not os.path.isfile(os.path.join(definition, 'main.xml')):
         sys.exit('%s has no main.xml' % definition)
 
     work = tempfile.mkdtemp(prefix='publish-')
     try:
-        folder = os.path.basename(os.path.normpath(definition))
-        patch_zip = os.path.join(work, '%s-patch-%s.zip' % (eid, label))
-        with zipfile.ZipFile(patch_zip, 'w', zipfile.ZIP_DEFLATED) as z:
-            for dirpath, _dirs, files in os.walk(definition):
-                for f in files:
-                    if f in ('install.json', 'collab.json') or f.endswith('.pyc'):
-                        continue
-                    full = os.path.join(dirpath, f)
-                    z.write(full, os.path.join(folder, os.path.relpath(full, definition)).replace(os.sep, '/'))
+        folder = os.path.basename(os.path.normpath(definition)) if has_definition else None
+        patch_zip = os.path.join(work, '%s-patch-%s.zip' % (eid, label)) if has_definition else None
+        if has_definition:
+            with zipfile.ZipFile(patch_zip, 'w', zipfile.ZIP_DEFLATED) as z:
+                for dirpath, _dirs, files in os.walk(definition):
+                    for f in files:
+                        if f in ('install.json', 'collab.json') or f.endswith('.pyc'):
+                            continue
+                        full = os.path.join(dirpath, f)
+                        z.write(full, os.path.join(folder, os.path.relpath(full, definition)).replace(os.sep, '/'))
         # The mod asset under its catalog name: a hard link where the volume
         # allows it (a 500 MB zip is not copied for a name), else a copy.
         mod_asset = os.path.join(os.path.dirname(os.path.abspath(mod_zip)), '%s-%s.zip' % (eid, label))
@@ -78,22 +85,26 @@ def main():
                 mod_asset = os.path.join(work, '%s-%s.zip' % (eid, label))
                 shutil.copy2(mod_zip, mod_asset)
         print('hashing...')
-        mod_sha, patch_sha = sha256(mod_asset), sha256(patch_zip)
+        mod_sha = sha256(mod_asset)
         base = 'https://github.com/%s/releases/download/%s/' % (REPO, tag)
         entry['version'], entry['revision'] = version, revision
         entry['date'] = datetime.date.today().isoformat()
-        entry['source'] = dict(entry.get('source') or {}, type='hosted', tag=tag)
+        source = dict(entry.get('source') or {}, type='hosted', tag=tag)
+        source.pop('host', None)                     # here now, not on another host
+        entry['source'] = source
         entry['download'] = {'url': base + os.path.basename(mod_asset), 'size': os.path.getsize(mod_asset),
                              'sha256': mod_sha, 'root': ''}
-        entry['definition'] = {'type': 'hosted', 'url': base + os.path.basename(patch_zip),
-                               'sha256': patch_sha, 'folder': folder}
+        if has_definition:
+            entry['definition'] = {'type': 'hosted', 'url': base + os.path.basename(patch_zip),
+                                   'sha256': sha256(patch_zip), 'folder': folder}
         print(json.dumps({k: entry[k] for k in ('version', 'revision', 'download', 'definition')}, indent=1))
         if dry:
             return
         title = '%s %s' % (entry['name'], label)
         body = notes or '%s, hosted for Reginald\'s catalog. All rights remain with its authors: %s.' % (
             entry['name'], entry.get('author', ''))
-        subprocess.run(['gh', 'release', 'create', tag, mod_asset, patch_zip, '--repo', REPO,
+        assets = [mod_asset] + ([patch_zip] if has_definition else [])
+        subprocess.run(['gh', 'release', 'create', tag] + assets + ['--repo', REPO,
                         '--title', title, '--notes', body], check=True)
         with open(entry_path, 'w', encoding='utf-8', newline='\n') as f:
             f.write(json.dumps(entry, indent=1, ensure_ascii=False) + '\n')

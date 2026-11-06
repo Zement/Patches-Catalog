@@ -1,0 +1,37 @@
+{
+ "id": "super-mario-sunlight-adventure",
+ "name": "Super Mario Sunlight Adventure",
+ "author": "Supa",
+ "description": "",
+ "version": "1.1.1",
+ "revision": 1,
+ "date": "2026-11-06",
+ "category": "mod",
+ "length": null,
+ "source": {
+  "type": "hosted",
+  "tag": "super-mario-sunlight-adventure/1.1.1-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/super-mario-sunlight-adventure/1.1.1-1/super-mario-sunlight-adventure-1.1.1-1.zip",
+  "size": 263251649,
+  "sha256": "1ffe2ceb0b09aaa8f482a342e93b0c6e4f24cb49c0d8bf2ddc86754472f77f3e",
+  "root": ""
+ },
+ "mod": {
+  "folder": "SM Sunlight Adventure v1.1.1/SunlightAdv",
+  "xml": "SM Sunlight Adventure v1.1.1/riivolution/Sunlight.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "newer-smbw",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/SunlightAdv",
+  "stage": "Stages",
+  "texture": "Tilesets",
+  "code": "newer-custom",
+  "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+ }
+}
