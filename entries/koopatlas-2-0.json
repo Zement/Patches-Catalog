@@ -11,10 +11,11 @@
  "source": {
   "type": "linked-source",
   "repo": "Ethan-mariofan/Koopatlas-2.0",
-  "commit": "50d0f7f120a5cfaa6d26e1db68b47990a64d8f05"
+  "commit": "50d0f7f120a5cfaa6d26e1db68b47990a64d8f05",
+  "tag": null
  },
  "download": {
-  "url": "https://codeload.github.com/Ethan-mariofan/Koopatlas-2.0/zip/50d0f7f120a5cfaa6d26e1db68b47990a64d8f05",
+  "url": "https://github.com/Ethan-mariofan/Koopatlas-2.0/archive/50d0f7f120a5cfaa6d26e1db68b47990a64d8f05.zip",
   "size": null,
   "sha256": null,
   "root": "*"
