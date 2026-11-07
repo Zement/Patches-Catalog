@@ -16,9 +16,17 @@ ENTRIES = os.path.join(ROOT, 'entries')
 OUT = os.path.join(ROOT, 'catalog.json')
 HOME = 'https://raw.githubusercontent.com/Zement/Patches-Catalog/main/catalog.json'
 
-SOURCE_TYPES = ('hosted', 'linked-release', 'linked-source', 'external')
+ICONS = os.path.join(ROOT, 'icons')
+#: An icon is icons/<id>.png: a PNG of at most 128 x 128 and 256 KB. The build
+#: adds it to its entry with its sha256 - no entry edit needed.
+ICON_MAX_SIDE = 128
+ICON_MAX_BYTES = 256 * 1024
+
+SOURCE_TYPES = ('hosted', 'linked-release', 'linked-source', 'external', 'none')
 DEFINITION_TYPES = ('in-mod', 'hosted', 'generated')
-CATEGORIES = ('mod', 'demo', 'base')
+#: `ongoing`: a mod in development, listed without a download (source.type
+#: "none" and a page in links)
+CATEGORIES = ('mod', 'demo', 'base', 'ongoing')
 LENGTHS = ('short', 'medium', 'long', 'full', None)
 ID = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 SHA256 = re.compile(r'^[0-9a-f]{64}$')
@@ -43,6 +51,14 @@ def problems(entry, filename, ids):
     source = entry.get('source') or {}
     if source.get('type') not in SOURCE_TYPES:
         found.append('source.type: one of %s' % ', '.join(SOURCE_TYPES))
+    if entry.get('category') == 'ongoing' or source.get('type') == 'none':
+        # Listed without a download: the rest of the checks are for one
+        if entry.get('category') != 'ongoing' or source.get('type') != 'none':
+            found.append('an entry without a download: category "ongoing" and source.type "none"')
+        links = entry.get('links') or {}
+        if not any(str(v).startswith('https://') for v in links.values()):
+            found.append('links: at least one https page (website, page or announcement)')
+        return found
     if source.get('type') in ('linked-release', 'linked-source') and not source.get('repo'):
         found.append('source.repo: owner/name for a linked entry')
     download = entry.get('download') or {}
@@ -77,6 +93,25 @@ def problems(entry, filename, ids):
     return found
 
 
+def icon_for(eid):
+    """({'path', 'sha256'} or None, problem or None) for icons/<eid>.png."""
+    import hashlib
+    import struct
+    path = os.path.join(ICONS, eid + '.png')
+    if not os.path.isfile(path):
+        return None, None
+    with open(path, 'rb') as fh:
+        data = fh.read()
+    if not data.startswith(b'\x89PNG\r\n\x1a\n') or data[12:16] != b'IHDR':
+        return None, 'icons/%s.png: not a PNG' % eid
+    width, height = struct.unpack('>II', data[16:24])
+    if max(width, height) > ICON_MAX_SIDE or len(data) > ICON_MAX_BYTES:
+        return None, ('icons/%s.png: %dx%d, %d KB - at most %dx%d and %d KB'
+                      % (eid, width, height, len(data) // 1024, ICON_MAX_SIDE, ICON_MAX_SIDE,
+                         ICON_MAX_BYTES // 1024))
+    return {'path': 'icons/%s.png' % eid, 'sha256': hashlib.sha256(data).hexdigest()}, None
+
+
 def main():
     check_only = '--check' in sys.argv
     files = sorted(f for f in os.listdir(ENTRIES) if f.endswith('.json'))
@@ -90,6 +125,15 @@ def main():
     ids = {e.get('id') for _, e in entries}
     for f, entry in entries:
         errors += ['%s: %s' % (f, p) for p in problems(entry, f, ids)]
+        icon, problem = icon_for(entry.get('id', ''))
+        if problem:
+            errors.append(problem)
+        if icon:
+            entry['icon'] = icon
+    if os.path.isdir(ICONS):
+        for name in sorted(os.listdir(ICONS)):
+            if name.endswith('.png') and name[:-4] not in ids:
+                errors.append('icons/%s: no entry with that id' % name)
     if errors:
         print('\n'.join(errors))
         print('\n%d problem(s) in %d entries' % (len(errors), len(entries)))

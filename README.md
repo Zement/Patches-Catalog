@@ -48,10 +48,23 @@ version strings are too inconsistent between authors to be compared.
 ## Categories
 
 `category`: `mod` (a mod to play), `demo` (an unfinished release), `base` (a base to
-build mods on - NSMBWer+, PropelParts, NewerGEM). `length`, from the Horizon wiki:
+build mods on - NSMBWer+, PropelParts, NewerGEM), `ongoing` (a mod in development,
+listed without a download). `length`, from the Horizon wiki:
 `short` (1-2 worlds), `medium` (3-5), `long` (6-7), `full` (8+), or `null`. Only mods
 with levels are listed: a Riivolution mod without a Stage folder (a practice tool, a
 character model) has nothing to edit.
+
+An `ongoing` entry has `source.type` `none`, no `download`, `mod` or `definition`,
+and at least one https page in `links` (`website`, `page` or `announcement`): Reginald
+shows it with an Open Page button. When it is released, it becomes a normal entry.
+
+## Icons
+
+`icons/<id>.png` is the mod's icon in Reginald's Patch Manager: a PNG of at most
+128 x 128 pixels and 256 KB (shown at 40 and 24 px; 96 x 96 is a good size). The build
+adds it to its entry with its sha256 - the entry itself needs no change. Reginald
+fetches an icon once and again only when its sha256 changes; a mod without one shows
+its initials.
 
 ## Releases
 
