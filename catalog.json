@@ -1296,7 +1296,11 @@
     "url": "https://codeload.github.com/Ethan-mariofan/Koopatlas-2.0/zip/50d0f7f120a5cfaa6d26e1db68b47990a64d8f05",
     "size": null,
     "sha256": null,
-    "root": "*"
+    "root": "*",
+    "files": {
+     "url": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/files/koopatlas-2-0.json",
+     "sha256": "bf4377e359c4226cd8f6dd1bbd72ea4328cb531bbcb485eca4c45c5247921ace"
+    }
    },
    "mod": {
     "folder": "NewerSMBW",
@@ -3564,7 +3568,11 @@
     "url": "https://codeload.github.com/Developers-Collective/NewerGEM/zip/7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb",
     "size": null,
     "sha256": null,
-    "root": "*"
+    "root": "*",
+    "files": {
+     "url": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/files/newergem.json",
+     "sha256": "1b10b21643249d18242c28fad71461d33559fa4146c59e00cca6fb27ddfebe95"
+    }
    },
    "mod": {
     "folder": "riivolution/NewerGEM",
@@ -4001,7 +4009,11 @@
     "url": "https://codeload.github.com/NuoKart/NSMBW-The-Green-Stars/zip/44671f1f46a379a60f0a4fb6f3f19e52197b0cb1",
     "size": null,
     "sha256": null,
-    "root": "*"
+    "root": "*",
+    "files": {
+     "url": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/files/nsmbw-the-green-stars.json",
+     "sha256": "ab60f5ef2c4a0df6505a843ebabf2e9098749f0a7ddeee49b692049f9e0fafc8"
+    }
    },
    "mod": {
     "folder": "NSMBW-GreenStars",
@@ -4308,7 +4320,11 @@
     "url": "https://codeload.github.com/PropelParts-org/PropelParts/zip/9933e8a046c775e877eb36925cad5a6f0a8b5b4b",
     "size": null,
     "sha256": null,
-    "root": "*"
+    "root": "*",
+    "files": {
+     "url": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/files/propelparts.json",
+     "sha256": "0a201d77e71c5e317b72f08673a1519d5f4f263975ea5c1126a10baf04365c0e"
+    }
    },
    "mod": {
     "folder": "Riivolution/PropelParts",
@@ -5157,7 +5173,11 @@
     "url": "https://codeload.github.com/Ethan-mariofan/Super-Mario-Bros-World-Adventure/zip/4bdc800ca45d05d80a85af629b14b8aaedb8c607",
     "size": null,
     "sha256": null,
-    "root": "*"
+    "root": "*",
+    "files": {
+     "url": "https://raw.githubusercontent.com/Zement/Patches-Catalog/main/files/super-mario-bros-world-adventure.json",
+     "sha256": "b306cf35f8526bb9d67ea8c30853b08bea3432550b78395dcbf715383454b150"
+    }
    },
    "mod": {
     "folder": "SuperMarioBrosWorldAdventure/SMBWA",

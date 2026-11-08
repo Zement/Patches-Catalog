@@ -121,6 +121,30 @@ def icon_for(eid):
     return {'path': 'icons/%s.png' % eid, 'sha256': hashlib.sha256(data).hexdigest()}, None
 
 
+FILES = os.path.join(ROOT, 'files')
+
+
+def files_for(entry):
+    """({'url', 'sha256'} or None, note or None) for files/<id>.json - a
+    source-linked mod's file list (scripts/list_files.py, D-o.5 B7). A list for
+    another commit is left out, not refused: Reginald then downloads the whole
+    archive, as before, and a list that failed to update never blocks a pin."""
+    import hashlib
+    path = os.path.join(FILES, entry.get('id', '') + '.json')
+    if (entry.get('source') or {}).get('type') != 'linked-source' or not os.path.isfile(path):
+        return None, None
+    with open(path, 'rb') as fh:
+        data = fh.read()
+    try:
+        commit = json.loads(data.decode('utf-8')).get('commit')
+    except ValueError:
+        return None, 'files/%s.json: not valid JSON' % entry['id']
+    if commit != entry['source'].get('commit'):
+        return None, 'files/%s.json: for another commit, left out' % entry['id']
+    return {'url': HOME.rsplit('/', 1)[0] + '/files/%s.json' % entry['id'],
+            'sha256': hashlib.sha256(data).hexdigest()}, None
+
+
 def main():
     check_only = '--check' in sys.argv
     files = sorted(f for f in os.listdir(ENTRIES) if f.endswith('.json'))
@@ -139,6 +163,16 @@ def main():
             errors.append(problem)
         if icon:
             entry['icon'] = icon
+        listing, note = files_for(entry)
+        if note:
+            print(note)
+        if listing:
+            entry.setdefault('download', {})['files'] = listing
+    if os.path.isdir(FILES):
+        linked = {e.get('id') for _, e in entries if (e.get('source') or {}).get('type') == 'linked-source'}
+        for name in sorted(os.listdir(FILES)):
+            if name.endswith('.json') and name[:-5] not in linked:
+                errors.append('files/%s: no source-linked entry with that id' % name)
     if os.path.isdir(ICONS):
         for name in sorted(os.listdir(ICONS)):
             if name.endswith('.png') and name[:-4] not in ids:

@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if git diff --quiet -- entries; then
+          if git diff --quiet -- entries && [ -z "$(git status --porcelain -- files)" ]; then
             echo "Nothing moved."
             exit 0
           fi
@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add entries
+          git add entries files
           git commit -m "chore: move linked mods to their latest releases"
           git push -f origin "$branch"
           gh pr create --base main --head "$branch" \

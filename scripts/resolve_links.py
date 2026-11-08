@@ -24,6 +24,8 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENTRIES = os.path.join(ROOT, 'entries')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import list_files  # noqa: E402
 API = 'https://api.github.com'
 
 
@@ -93,10 +95,17 @@ def main():
             entry['source']['commit'] = found['commit']
         entry['date'] = found['date']
         entry['download'] = found['download']
-        if (entry['source'].get('tag'), entry['source'].get('commit'), entry['download']['url']) != pin_before:
+        moved = (entry['source'].get('tag'), entry['source'].get('commit'), entry['download']['url']) != pin_before
+        if moved:
             with open(path, 'w', encoding='utf-8', newline='\n') as f:
                 f.write(json.dumps(entry, indent=1, ensure_ascii=False) + '\n')
             changed.append('%s -> %s' % (entry['id'], found['tag'] or found.get('commit', '')[:7]))
+        if kind == 'linked-source' and (moved or not list_files.current(entry)):
+            # The archive's file list, for updates by parts (D-o.5 B7)
+            try:
+                list_files.write_listing(entry)
+            except Exception as error:
+                print('%s: no file list (%s)' % (entry['id'], error))
     print('\n'.join(changed) if changed else 'no linked entry moved')
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:

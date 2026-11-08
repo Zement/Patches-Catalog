@@ -31,6 +31,14 @@ A linked entry is **pinned** (`source.tag` / `source.commit`). The daily
 *Resolve linked mods* workflow looks for newer releases or tags and opens a pull
 request that moves the pin; the new version reaches players when it is merged.
 
+A `linked-source` mod also has a **file list**, `files/<id>.json`: the files in
+GitHub's archive of its pinned commit, with their sizes and CRC-32. Those archives
+send no byte ranges, so without it Reginald could only update or repair the mod by
+downloading it whole; with it, Reginald fetches just the files that differ, one by
+one from raw.githubusercontent.com. The resolver writes the list whenever it moves a
+pin (`scripts/list_files.py` by hand); the build adds it to its entry as
+`download.files` with its sha256, and leaves out a list made for another commit.
+
 **Where the Reginald patch definition comes from** (`definition.type`):
 
 | Type | Meaning |
