@@ -11,10 +11,11 @@
  "source": {
   "type": "linked-source",
   "repo": "PropelParts-org/PropelParts",
-  "commit": "9933e8a046c775e877eb36925cad5a6f0a8b5b4b"
+  "commit": "9933e8a046c775e877eb36925cad5a6f0a8b5b4b",
+  "tag": null
  },
  "download": {
-  "url": "https://codeload.github.com/PropelParts-org/PropelParts/zip/9933e8a046c775e877eb36925cad5a6f0a8b5b4b",
+  "url": "https://github.com/PropelParts-org/PropelParts/archive/9933e8a046c775e877eb36925cad5a6f0a8b5b4b.zip",
   "size": null,
   "sha256": null,
   "root": "*"
