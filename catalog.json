@@ -4997,7 +4997,11 @@
    },
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-and-the-skystar-dreams.png",
+    "sha256": "9bb5b8fac500f9f53bb5e66b9366cb1316c2fa3ab7638ca992b06b6241bf3e21"
+   }
   },
   {
    "id": "super-mario-beach-blast",
