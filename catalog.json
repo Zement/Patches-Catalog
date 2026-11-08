@@ -2843,40 +2843,23 @@
   {
    "id": "new-super-mario-lost-worlds",
    "name": "New Super Mario Lost Worlds",
-   "author": "N-I-N-0",
+   "author": "Nin0, Baddy, Mihi, Bestimum, LiQ, RedStoneMatt, Grop, Asu-chan",
    "description": "New Super Mario Lost Worlds (NSMLW) is a NSMBW mod with 12 new worlds. It will have custom 3d world maps as well as new enemies, boss fights and 7 custom powerups among many other things.",
-   "version": "0f11194",
-   "revision": 1,
-   "date": "2026-11-01",
-   "category": "mod",
+   "version": "",
+   "revision": 0,
+   "date": "2026-09-22",
+   "category": "ongoing",
    "length": "full",
    "source": {
-    "type": "linked-source",
-    "repo": "N-I-N-0/NSMLW-Riivolution-Patch",
-    "commit": "0f1119489f959edb79deac5747a817ace1d7ebb6"
+    "type": "none"
    },
-   "download": {
-    "url": "https://codeload.github.com/N-I-N-0/NSMLW-Riivolution-Patch/zip/0f1119489f959edb79deac5747a817ace1d7ebb6",
-    "size": null,
-    "sha256": null,
-    "root": "*"
+   "links": {
+    "discord": "https://discord.gg/4s72Nnm",
+    "video": "https://www.youtube.com/channel/UCcIegiv4f0e9-XEUbUiHS7A",
+    "code": "https://github.com/N-I-N-0/New-Super-Mario-Lost-Worlds"
    },
-   "mod": {
-    "folder": "NSMLW",
-    "xml": "riivolution/NSMLW.xml"
-   },
-   "definition": {
-    "type": "in-mod",
-    "path": "Reggie/patches/NSMLW"
-   },
-   "base": "newer-smbw",
-   "requires": [],
    "metadata": {
-    "xml_root": "/NSMLW",
-    "stage": "Stage",
-    "texture": null,
-    "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub). The playable files are in a private repository; the public one has the source code and tools only (D-o.5 Reply 37)."
    },
    "listed": [
     "wiki",
