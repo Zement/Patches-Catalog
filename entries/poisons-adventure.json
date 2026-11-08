@@ -34,5 +34,8 @@
   "texture": null,
   "code": "loader",
   "found_by": "G-c.7 discovery (GitHub)"
- }
+ },
+ "listed": [
+  "github"
+ ]
 }

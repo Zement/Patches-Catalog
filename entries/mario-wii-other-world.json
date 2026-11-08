@@ -2,7 +2,7 @@
  "id": "mario-wii-other-world",
  "name": "Mario Wii Other World",
  "author": "Botnox, Johan R.",
- "description": "A community-created patch for NSMBW.",
+ "description": "New levels, made for the US version of the game.",
  "version": "v1.0",
  "revision": 1,
  "date": "",
@@ -29,5 +29,9 @@
  "requires": [],
  "metadata": {
   "code": null
- }
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ]
 }

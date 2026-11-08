@@ -33,5 +33,9 @@
   "texture": "Tilesets",
   "code": "newer-1.0.3",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ]
 }

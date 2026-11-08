@@ -1,8 +1,8 @@
 {
  "id": "coldpipes-colder-pipe-colors",
  "name": "Coldpipes - Colder Pipe Colors",
- "author": "",
- "description": "",
+ "author": "Alexithink",
+ "description": "The pipes in colder colors.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/coldpipes/Stage/Texture/",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

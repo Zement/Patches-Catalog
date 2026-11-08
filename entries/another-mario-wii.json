@@ -32,5 +32,12 @@
   "stage": null,
   "texture": "/Another/Stage/Texture",
   "code": "kamek"
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ],
+ "links": {
+  "wiki": "https://horizon.miraheze.org/wiki/Another_Super_Mario_Bros._Wii"
  }
 }

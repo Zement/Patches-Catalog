@@ -35,5 +35,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
- }
+ },
+ "listed": [
+  "discord"
+ ]
 }

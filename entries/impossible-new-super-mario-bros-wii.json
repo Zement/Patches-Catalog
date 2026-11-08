@@ -2,7 +2,7 @@
  "id": "impossible-new-super-mario-bros-wii",
  "name": "Impossible New Super Mario Bros. Wii",
  "author": "",
- "description": "",
+ "description": "A mod made to be impossible - its readme insists.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/impossible/Stage/Texture/",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "mayros-heart-throbbing-adventure-wii",
  "name": "Mayro's Heart Throbbing Adventure Wii",
  "author": "DoubleB_J (BigBadJello)",
- "description": "",
+ "description": "A full-sized mod with new music, new levels and new tilesets and backgrounds.",
  "version": "Ultimate-1.1",
  "revision": 1,
  "date": "2026-11-07",
@@ -35,5 +35,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
- }
+ },
+ "listed": [
+  "discord"
+ ]
 }

@@ -1,8 +1,8 @@
 {
  "id": "super-mario-bob-omb-blast-demo",
  "name": "Super Mario Bob-omb Blast Demo",
- "author": "",
- "description": "",
+ "author": "UltraMaker",
+ "description": "A demo with 5 levels from various worlds of the full Super Mario Bob-omb Blast.",
  "version": "1.0.1",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

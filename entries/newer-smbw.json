@@ -40,6 +40,11 @@
  },
  "links": {
   "website": "https://newerteam.com/wii/",
-  "code": "https://github.com/Newer-Team/NewerSMBW"
- }
+  "code": "https://github.com/Newer-Team/NewerSMBW",
+  "wiki": "https://horizon.miraheze.org/wiki/Newer_Super_Mario_Bros._Wii"
+ },
+ "listed": [
+  "wiki",
+  "github"
+ ]
 }

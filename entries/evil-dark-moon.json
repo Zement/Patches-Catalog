@@ -1,8 +1,8 @@
 {
  "id": "evil-dark-moon",
  "name": "Evil Dark Moon",
- "author": "",
- "description": "",
+ "author": "Dan.Team",
+ "description": "A hard mod from 2023 with 8 new, harder levels.",
  "version": "1.12",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Stage/Texture",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

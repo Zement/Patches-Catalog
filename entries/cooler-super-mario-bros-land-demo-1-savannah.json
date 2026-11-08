@@ -1,8 +1,8 @@
 {
  "id": "cooler-super-mario-bros-land-demo-1-savannah",
  "name": "COOLER Super Mario Bros. Land Demo 1 Savannah",
- "author": "",
- "description": "",
+ "author": "CoolerTeam",
+ "description": "The first demo of COOLER Super Mario Bros. Land: World 1, Savannah. Best played on an emulator - it was not tested on a Wii.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

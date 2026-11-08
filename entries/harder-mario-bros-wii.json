@@ -1,8 +1,8 @@
 {
  "id": "harder-mario-bros-wii",
  "name": "Harder Mario Bros. Wii",
- "author": "",
- "description": "",
+ "author": "Demonz. Day",
+ "description": "The levels of New Super Mario Bros. Wii edited to be harder (2019). Its re-imagining is Harder Mario Bros. Meltdown.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/HarderMario/Stage/Texture",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

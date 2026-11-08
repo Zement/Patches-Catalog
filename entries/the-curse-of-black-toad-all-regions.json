@@ -1,8 +1,8 @@
 {
  "id": "the-curse-of-black-toad-all-regions",
  "name": "The Curse of Black Toad All regions",
- "author": "",
- "description": "",
+ "author": "White Toad, Doggo",
+ "description": "White Toad's mod, fixed by Doggo to work in every region.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Stage/Texture",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

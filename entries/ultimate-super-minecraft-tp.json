@@ -2,7 +2,7 @@
  "id": "ultimate-super-minecraft-tp",
  "name": "Ultimate Super Minecraft TP",
  "author": "",
- "description": "",
+ "description": "A Minecraft texture pack for New Super Mario Bros. Wii.",
  "version": "0.8",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Stage/Texture",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

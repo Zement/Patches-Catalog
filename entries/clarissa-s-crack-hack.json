@@ -1,8 +1,8 @@
 {
  "id": "clarissa-s-crack-hack",
  "name": "Clarissa's crack hack",
- "author": "",
- "description": "",
+ "author": "Clarissa",
+ "description": "New levels in every world, many inspired by SKJmin's New Super Mario Bros 3. One player is recommended: many levels break with more.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/CrackHack/Stage/Texture/",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

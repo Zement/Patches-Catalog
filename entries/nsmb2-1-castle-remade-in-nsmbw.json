@@ -1,8 +1,8 @@
 {
  "id": "nsmb2-1-castle-remade-in-nsmbw",
  "name": "NSMB2 1-Castle Remade in NSMBW",
- "author": "",
- "description": "",
+ "author": "TallyBoi",
+ "description": "The World 1 castle of New Super Mario Bros. 2, remade in New Super Mario Bros. Wii.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/NSMB2 1-Castle/Stage/Texture",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

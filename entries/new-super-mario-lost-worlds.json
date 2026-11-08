@@ -2,12 +2,12 @@
  "id": "new-super-mario-lost-worlds",
  "name": "New Super Mario Lost Worlds",
  "author": "N-I-N-0",
- "description": "",
+ "description": "New Super Mario Lost Worlds (NSMLW) is a NSMBW mod with 12 new worlds. It will have custom 3d world maps as well as new enemies, boss fights and 7 custom powerups among many other things.",
  "version": "0f11194",
  "revision": 1,
  "date": "2026-11-01",
  "category": "mod",
- "length": null,
+ "length": "full",
  "source": {
   "type": "linked-source",
   "repo": "N-I-N-0/NSMLW-Riivolution-Patch",
@@ -35,5 +35,10 @@
   "texture": null,
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (GitHub)"
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "github"
+ ]
 }

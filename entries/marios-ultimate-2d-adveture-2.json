@@ -1,8 +1,8 @@
 {
  "id": "marios-ultimate-2d-adveture-2",
  "name": "Marios Ultimate 2D Adveture 2",
- "author": "",
- "description": "",
+ "author": "2D Adveture Team",
+ "description": "The sequel to Mario's Ultimate 2D Adventure; plays on a Wii and in Dolphin.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

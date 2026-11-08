@@ -2,7 +2,7 @@
  "id": "devil-mario-winter-special",
  "name": "Devil Mario Winter Special",
  "author": "Mr. Luigi",
- "description": "A community-created patch for NSMBW.",
+ "description": "A Frozen-themed winter special from 2014: Anna as Mario, Elsa as Peach, Oaken as Toad and Marshmallow as Bowser.",
  "version": "v1.0",
  "revision": 1,
  "date": "",
@@ -36,5 +36,8 @@
   ],
   "code": "loader",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki"
+ ]
 }

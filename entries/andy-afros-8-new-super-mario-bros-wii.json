@@ -33,5 +33,8 @@
   "texture": "/Another/Stage/Texture",
   "code": "kamek",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

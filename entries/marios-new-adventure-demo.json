@@ -2,7 +2,7 @@
  "id": "marios-new-adventure-demo",
  "name": "Marios New Adventure Demo",
  "author": "B1 Gaming",
- "description": "A community-created patch for NSMBW.",
+ "description": "A demo of Mario's New Adventure (MNA), a planned 9-world mod with custom tilesets and models.",
  "version": "v2.0",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Stage/Texture",
   "code": "newer-custom",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

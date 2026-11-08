@@ -2,7 +2,7 @@
  "id": "new-super-mario-bros-midnight",
  "name": "New Super Mario Bros. Midnight",
  "author": "Atomic Mods",
- "description": "",
+ "description": "New Super Mario Bros. Midnight a world one mod",
  "version": "2025-07-25",
  "revision": 1,
  "date": "2026-11-06",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
- }
+ },
+ "listed": [
+  "discord"
+ ]
 }

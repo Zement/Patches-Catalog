@@ -1,7 +1,7 @@
 {
  "id": "new-super-mario-bros-and-the-8-worlds",
  "name": "New Super Mario Bros And The 8 Worlds",
- "author": "",
+ "author": "Ethan Mallie",
  "description": "",
  "version": "",
  "revision": 1,
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

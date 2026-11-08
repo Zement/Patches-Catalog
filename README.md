@@ -54,17 +54,29 @@ listed without a download). `length`, from the Horizon wiki:
 with levels are listed: a Riivolution mod without a Stage folder (a practice tool, a
 character model) has nothing to edit.
 
-An `ongoing` entry has `source.type` `none`, no `download`, `mod` or `definition`,
-and at least one https page in `links` (`website`, `page` or `announcement`): Reginald
-shows it with an Open Page button. When it is released, it becomes a normal entry.
+An `ongoing` entry has `source.type` `none` and no `download`, `mod` or `definition`.
+Reginald shows it with an Open Page button for its first page in `links` (`website`,
+`page`, `announcement`, `wiki`, `video`, `discord`), or a disabled In Development
+when it has none. When it is released, it becomes a normal entry. Every value in
+`links` is an https address.
+
+`listed`: where the mod is known from - `wiki` (the Horizon wiki's list of mods, or a
+page of its own there), `discord` (posted on the NSMB Hacking Domain or Horizon
+servers), `github`, `archive` (the archive.org mirror the wiki links). Reginald shows
+these, with the kinds other than `mod`, as the mod's categories.
 
 ## Icons
 
 `icons/<id>.png` is the mod's icon in Reginald's Patch Manager: a PNG of at most
-128 x 128 pixels and 256 KB (shown at 40 and 24 px; 96 x 96 is a good size). The build
-adds it to its entry with its sha256 - the entry itself needs no change. Reginald
-fetches an icon once and again only when its sha256 changes; a mod without one shows
-its initials.
+128 x 128 pixels and 256 KB. Reginald shows it in a 2:1 box (76 x 38 and 48 x 24), the
+shape of a title logo, so 128 x 64 is the size to make. The build adds it to its entry
+with its sha256 - the entry itself needs no change. Reginald fetches an icon once and
+again only when its sha256 changes; a mod without one shows its initials.
+
+`scripts/extract_icons.py` makes them from the mods themselves: the title logo in
+`openingTitle.arc`, read from the release zip with range requests, cropped and scaled.
+For a mod hosted where no program can download (`external`), give it the file:
+`--local <id>=<zip or folder>`.
 
 ## Releases
 

@@ -2,7 +2,7 @@
  "id": "nsmbwer-plus",
  "name": "NSMBWer+",
  "author": "Ryguy, Nin0, Danster64 (NSMBWer)",
- "description": "",
+ "description": "NSMBWer+ is a mod of the vanilla game that adds several features via custom code, and is meant to be a base for people who want to make a mod, but don't want to use Newer Super Mario Bros. Wii as a base.",
  "version": "v1.0",
  "revision": 1,
  "date": "",
@@ -34,5 +34,11 @@
   "texture": "Stage/Texture",
   "code": "newer-custom",
   "fixheaps_off": true
+ },
+ "listed": [
+  "wiki"
+ ],
+ "links": {
+  "wiki": "https://horizon.miraheze.org/wiki/NSMBWer%2B"
  }
 }

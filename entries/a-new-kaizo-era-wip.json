@@ -2,7 +2,7 @@
  "id": "a-new-kaizo-era-wip",
  "name": "A New Kaizo Era WIP",
  "author": "",
- "description": "",
+ "description": "Meant as the first true Kaizo hack of New Super Mario Bros. Wii. This work-in-progress release has the first two levels, with Star Coins and secret areas, and 8 new songs.",
  "version": "1.1",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": null,
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

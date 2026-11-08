@@ -1,8 +1,8 @@
 {
  "id": "super-mario-green-star-groove-demo-version-2",
  "name": "Super Mario Green Star Groove Demo Version 2",
- "author": "",
- "description": "",
+ "author": "CloudyLuigi",
+ "description": "The second demo of Super Mario Green Star Groove, with a save of its own.",
  "version": "1.04",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

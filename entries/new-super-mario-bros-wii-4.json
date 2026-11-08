@@ -2,12 +2,12 @@
  "id": "new-super-mario-bros-wii-4",
  "name": "New Super Mario Bros. Wii 4",
  "author": "Orange-Yoshi",
- "description": "A community-created patch for NSMBW.",
+ "description": "4 worlds, 16 levels, a custom title screen and custom music - the 4 is for 4 players, 4 worlds, 4 you, 4 ever.",
  "version": "v3.3",
  "revision": 1,
  "date": "",
  "category": "mod",
- "length": null,
+ "length": "medium",
  "source": {
   "type": "hosted",
   "host": "sourceforge"
@@ -32,5 +32,8 @@
   "stage": null,
   "texture": null,
   "code": null
- }
+ },
+ "listed": [
+  "wiki"
+ ]
 }

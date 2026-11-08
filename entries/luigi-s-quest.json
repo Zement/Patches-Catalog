@@ -1,8 +1,8 @@
 {
  "id": "luigi-s-quest",
  "name": "Luigi's Quest",
- "author": "",
- "description": "",
+ "author": "hitsu",
+ "description": "Luigi's Quest is a mini mod of New Super Mario Bros. Wii based on the mod Super Luigi Land Wii. ( Logo by Rimea )",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,9 @@
   "texture": "Stages/Texture",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "discord",
+  "archive"
+ ]
 }

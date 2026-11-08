@@ -33,5 +33,10 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "cliffs-of-spring",
  "name": "Cliffs Of Spring",
  "author": "duplo",
- "description": "A community-created patch for NSMBW.",
+ "description": "One-world-hack with fully hand-drawn graphics, diverse platforming action and well-hidden secrets... Download: Trailer:",
  "version": "v1.02",
  "revision": 1,
  "date": "",
@@ -33,5 +33,10 @@
   "texture": "Texture",
   "code": "loader",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }

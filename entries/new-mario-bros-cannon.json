@@ -33,5 +33,9 @@
   "texture": "Stage/Texture",
   "code": "loader",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ]
 }

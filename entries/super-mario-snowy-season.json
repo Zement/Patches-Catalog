@@ -2,7 +2,7 @@
  "id": "super-mario-snowy-season",
  "name": "Super Mario Snowy Season",
  "author": "Swiftshine",
- "description": "A community-created patch for NSMBW.",
+ "description": "A 1 world snow-themed mod with unique stages and several stars to collect!",
  "version": "v1.0",
  "revision": 1,
  "date": "",
@@ -30,5 +30,10 @@
  "metadata": {
   "code": "newer-1.2.0",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }

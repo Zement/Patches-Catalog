@@ -1,0 +1,18 @@
+{
+ "id": "super-mario-cosmic-chaos",
+ "name": "Super Mario Cosmic Chaos",
+ "author": "Lemonstar",
+ "description": "A new 3D land styled adventure built inside of NSMBW itself! It has 1 world at the moment which will then expand into a 8 world adventure. 4 worlds will be normal levels and the other 4 worlds will be “special” levels like in the base 3D land.",
+ "version": "",
+ "revision": 0,
+ "date": "2026-08-12",
+ "category": "ongoing",
+ "length": null,
+ "source": {
+  "type": "none"
+ },
+ "links": {},
+ "listed": [
+  "discord"
+ ]
+}

@@ -2,7 +2,7 @@
  "id": "sugary-super-mario-bros-wii",
  "name": "Sugary Super Mario Bros. Wii",
  "author": "Team Sugary",
- "description": "",
+ "description": "Sugary Super Mario Bros. Wii is a NewerSMBW based mod in development by the Sweet Team; The main theme of the mod is sweets!: each world is based on a specific sweet like Chocolate, Lollipops and there will be probably 12 New Worlds (8 + 3 Secret Worlds and 1 Special World) with 9 Levels for each.",
  "version": "1.05-demo",
  "revision": 1,
  "date": "2026-11-07",
@@ -35,5 +35,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
- }
+ },
+ "listed": [
+  "discord"
+ ]
 }

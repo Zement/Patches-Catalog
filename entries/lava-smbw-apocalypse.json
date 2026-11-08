@@ -33,5 +33,10 @@
   "texture": "Stage/Texture",
   "code": "newer-custom",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }

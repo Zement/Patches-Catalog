@@ -2,7 +2,7 @@
  "id": "super-mario-bros-extreme-adventure",
  "name": "Super Mario Bros. Extreme Adventure",
  "author": "Team Alternative",
- "description": "A community-created patch for NSMBW.",
+ "description": "SMB: Extreme Adventure, is a mod that has 48 levels, 4 Brand New Worlds ( 3 + 1 Bonus World) with a choosen theme for each to be respected in the creation of the levels. A new adventure awaits you inside. Good luck.",
  "version": "v1.301",
  "revision": 1,
  "date": "",
@@ -33,5 +33,10 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }

@@ -7,7 +7,7 @@
  "revision": 1,
  "date": "",
  "category": "mod",
- "length": null,
+ "length": "full",
  "source": {
   "type": "hosted",
   "host": "sourceforge"
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki"
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "super-mario-bros-world-adventure",
  "name": "Super Mario Bros World Adventure",
  "author": "Aaron Mallie",
- "description": "",
+ "description": "This is a mod that nobody knew about it was a secret project of mine. 11 worlds, custom code, cool levels, detailed tilesets, (using Koopatlas 2.0 made by me), etc. Github: Release Trailer:",
  "version": "4bdc800",
  "revision": 1,
  "date": "2026-07-28",
@@ -34,5 +34,9 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (GitHub)"
- }
+ },
+ "listed": [
+  "discord",
+  "github"
+ ]
 }

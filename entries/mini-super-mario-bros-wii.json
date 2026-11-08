@@ -1,8 +1,8 @@
 {
  "id": "mini-super-mario-bros-wii",
  "name": "Mini Super Mario Bros Wii",
- "author": "",
- "description": "",
+ "author": "Bento Emanuel",
+ "description": "All of World 1 replaced with much shorter levels (2019).",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": null,
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

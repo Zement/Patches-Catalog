@@ -17,16 +17,20 @@ OUT = os.path.join(ROOT, 'catalog.json')
 HOME = 'https://raw.githubusercontent.com/Zement/Patches-Catalog/main/catalog.json'
 
 ICONS = os.path.join(ROOT, 'icons')
-#: An icon is icons/<id>.png: a PNG of at most 128 x 128 and 256 KB. The build
-#: adds it to its entry with its sha256 - no entry edit needed.
+#: An icon is icons/<id>.png: a PNG of at most 128 x 128 and 256 KB - mostly
+#: the mod's title logo, 128 x 64 (scripts/extract_icons.py). The build adds it
+#: to its entry with its sha256 - no entry edit needed.
 ICON_MAX_SIDE = 128
 ICON_MAX_BYTES = 256 * 1024
 
 SOURCE_TYPES = ('hosted', 'linked-release', 'linked-source', 'external', 'none')
 DEFINITION_TYPES = ('in-mod', 'hosted', 'generated')
 #: `ongoing`: a mod in development, listed without a download (source.type
-#: "none" and a page in links)
+#: "none"); its page in links when it has one
 CATEGORIES = ('mod', 'demo', 'base', 'ongoing')
+#: Where a mod is known from (`listed`): the Horizon wiki, the NSMB Hacking
+#: Domain and Horizon Discord servers, GitHub, the archive.org mirror
+LISTED = ('wiki', 'discord', 'github', 'archive')
 LENGTHS = ('short', 'medium', 'long', 'full', None)
 ID = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 SHA256 = re.compile(r'^[0-9a-f]{64}$')
@@ -48,16 +52,21 @@ def problems(entry, filename, ids):
         found.append('category: one of %s' % ', '.join(CATEGORIES))
     if entry.get('length') not in LENGTHS:
         found.append('length: one of %s, or null' % ', '.join(l for l in LENGTHS if l))
+    listed = entry.get('listed', [])
+    if not isinstance(listed, list) or any(l not in LISTED for l in listed):
+        found.append('listed: a list of %s' % ', '.join(LISTED))
+    for key, value in (entry.get('links') or {}).items():
+        if not str(value).startswith('https://'):
+            found.append('links.%s: an https address' % key)
     source = entry.get('source') or {}
     if source.get('type') not in SOURCE_TYPES:
         found.append('source.type: one of %s' % ', '.join(SOURCE_TYPES))
     if entry.get('category') == 'ongoing' or source.get('type') == 'none':
-        # Listed without a download: the rest of the checks are for one
+        # Listed without a download: the rest of the checks are for one.
+        # Without a page too (Zement, D-o.5 Reply 36): Reginald shows a
+        # disabled In Development then.
         if entry.get('category') != 'ongoing' or source.get('type') != 'none':
             found.append('an entry without a download: category "ongoing" and source.type "none"')
-        links = entry.get('links') or {}
-        if not any(str(v).startswith('https://') for v in links.values()):
-            found.append('links: at least one https page (website, page or announcement)')
         return found
     if source.get('type') in ('linked-release', 'linked-source') and not source.get('repo'):
         found.append('source.repo: owner/name for a linked entry')

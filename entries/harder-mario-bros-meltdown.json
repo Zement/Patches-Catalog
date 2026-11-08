@@ -1,8 +1,8 @@
 {
  "id": "harder-mario-bros-meltdown",
  "name": "Harder Mario Bros. Meltdown",
- "author": "",
- "description": "",
+ "author": "Demonz. Day",
+ "description": "This is a true re-imagining of Harder Super Mario Bros Wii, which was a very not good but still somewhat and somehow popular mod I made in 2019 that edited all the levels to make them, well, harder.",
  "version": "1.0.2",
  "revision": 1,
  "date": "",
@@ -33,5 +33,9 @@
   "texture": "/Meltdown/Stage/Texture",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "discord",
+  "archive"
+ ]
 }

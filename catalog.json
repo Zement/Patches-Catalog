@@ -6,7 +6,7 @@
    "id": "a-new-kaizo-era-wip",
    "name": "A New Kaizo Era WIP",
    "author": "",
-   "description": "",
+   "description": "Meant as the first true Kaizo hack of New Super Mario Bros. Wii. This work-in-progress release has the first two levels, with Star Coins and secret areas, and 8 new songs.",
    "version": "1.1",
    "revision": 1,
    "date": "",
@@ -37,6 +37,13 @@
     "texture": null,
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/a-new-kaizo-era-wip.png",
+    "sha256": "1096744065522296685d976fadf3da68ddc635ea9cde94be1e1068aa0b0272a9"
    }
   },
   {
@@ -74,6 +81,13 @@
     "texture": "/Another/Stage/Texture",
     "code": "kamek",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/andy-afros-8-new-super-mario-bros-wii.png",
+    "sha256": "3b3926f0155b677d5707928e3eb09b7aa5d37d74f7c3bf39cf9500e1e83f971a"
    }
   },
   {
@@ -110,6 +124,17 @@
     "stage": null,
     "texture": "/Another/Stage/Texture",
     "code": "kamek"
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/Another_Super_Mario_Bros._Wii"
+   },
+   "icon": {
+    "path": "icons/another-mario-wii.png",
+    "sha256": "b2d1e2c8da0f9cc895c2ec79a5f35b915786e98e1c0af40dbb0e1021592774a8"
    }
   },
   {
@@ -146,13 +171,39 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/awesomer-super-luigi-mini.png",
+    "sha256": "5dbefb732000e0e0188fe57078e9d57e1950eeede6650e9fdb0b3225d09faadc"
    }
+  },
+  {
+   "id": "beyond-smbw",
+   "name": "Beyond SMBW",
+   "author": "0D",
+   "description": "Beyond SMBW is a mod that aims towards expert players, without feeling overly challenging. This mod will have: Custom title replays Challenging levels and star coins Custom music 4 - 6 worlds",
+   "version": "",
+   "revision": 0,
+   "date": "2022-11-17",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "bowsers-new-recruit",
    "name": "Bowsers New Recruit",
-   "author": "",
-   "description": "",
+   "author": "LiQ, walDOH, Swiftshine",
+   "description": "The levels of the cancelled Bowser's New Recruit, released as an unstable trial: not every level is reachable in normal play.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -183,7 +234,32 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/bowsers-new-recruit.png",
+    "sha256": "1665427ee8404f1c8b7825bbc88a5bc8f92a9c1fa47b138de21993215f1a29b4"
    }
+  },
+  {
+   "id": "bupcraft-directors-cut",
+   "name": "bupcraft: directors cut",
+   "author": "BupCraft",
+   "description": "the mod major mod update nobody needed nor asked for",
+   "version": "",
+   "revision": 0,
+   "date": "2026-02-24",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "chaos-station-v2",
@@ -221,6 +297,13 @@
     "texture": null,
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "github"
+   ],
+   "icon": {
+    "path": "icons/chaos-station-v2.png",
+    "sha256": "624e6c00e304f49b3bef4aefa086e09531c53d08a66695361aef8111156876ae"
    }
   },
   {
@@ -257,13 +340,22 @@
     "stage": null,
     "texture": "/Chilly/Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/chilly-super-mario-bros-wii.png",
+    "sha256": "ae24a9103514b7f9736e4348464f89fc380eedc87e821ff5536b8d4143225778"
    }
   },
   {
    "id": "clarissa-s-crack-hack",
    "name": "Clarissa's crack hack",
-   "author": "",
-   "description": "",
+   "author": "Clarissa",
+   "description": "New levels in every world, many inspired by SKJmin's New Super Mario Bros 3. One player is recommended: many levels break with more.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -294,7 +386,10 @@
     "texture": "/CrackHack/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "cliff-mario-wii",
@@ -330,13 +425,21 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/cliff-mario-wii.png",
+    "sha256": "9edf204a37a632d32c38bee1faf6fd881eed243683522560603324d0464ee242"
    }
   },
   {
    "id": "cliffs-of-spring",
    "name": "Cliffs Of Spring",
    "author": "duplo",
-   "description": "A community-created patch for NSMBW.",
+   "description": "One-world-hack with fully hand-drawn graphics, diverse platforming action and well-hidden secrets... Download: Trailer:",
    "version": "v1.02",
    "revision": 1,
    "date": "",
@@ -367,12 +470,21 @@
     "texture": "Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/cliffs-of-spring.png",
+    "sha256": "29e4aaca179f7a35b97a8fd139104843fb42f29286592d98ef18219280058bfb"
    }
   },
   {
    "id": "clue4u-s-ultra-epic-mod-demo",
    "name": "Clue4u's Ultra Epic Mod Demo!!!",
-   "author": "",
+   "author": "Clue4u",
    "description": "",
    "version": "",
    "revision": 1,
@@ -404,13 +516,16 @@
     "texture": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "coldpipes-colder-pipe-colors",
    "name": "Coldpipes - Colder Pipe Colors",
-   "author": "",
-   "description": "",
+   "author": "Alexithink",
+   "description": "The pipes in colder colors.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -441,13 +556,16 @@
     "texture": "/coldpipes/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "cooler-super-mario-bros-land-demo-1-savannah",
    "name": "COOLER Super Mario Bros. Land Demo 1 Savannah",
-   "author": "",
-   "description": "",
+   "author": "CoolerTeam",
+   "description": "The first demo of COOLER Super Mario Bros. Land: World 1, Savannah. Best played on an emulator - it was not tested on a Wii.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -478,6 +596,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/cooler-super-mario-bros-land-demo-1-savannah.png",
+    "sha256": "31f8dd9b78beffdab160add9854f732d715f1ecdee636267df850a02925f2421"
    }
   },
   {
@@ -515,13 +640,20 @@
     "texture": "Tilesets",
     "code": "newer-1.2.0",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/custom-super-mario-bros-wii-halloween-special.png",
+    "sha256": "5e58363d41bd4812cc07008fc1a087e57c848f235ddcaf1afe97dd70ded0d243"
    }
   },
   {
    "id": "dark-moon-reverse",
    "name": "Dark Moon Reverse",
    "author": "Mullkaw, New Luigi Team",
-   "description": "",
+   "description": "Newer Super Luigi Wii: Dark Moon Reverse, a Luigi adventure developed by GamerBoy.",
    "version": "v0.903",
    "revision": 1,
    "date": "",
@@ -552,6 +684,15 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/dark-moon-reverse.png",
+    "sha256": "723b96147cd12faec3ca2a140d8de2cc7c2d6c1b085898b7eaa96d4c13a25377"
    }
   },
   {
@@ -588,6 +729,14 @@
     "stage": null,
     "texture": "/deluxe/Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/deluxe-mario-wii.png",
+    "sha256": "b5c29f62c174be8521491c4e1c7cffd00f54baf23509ca1ce6f5da50b6dfff8f"
    }
   },
   {
@@ -625,13 +774,16 @@
     "texture": "/Depot/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "devil-mario-winter-special",
    "name": "Devil Mario Winter Special",
    "author": "Mr. Luigi",
-   "description": "A community-created patch for NSMBW.",
+   "description": "A Frozen-themed winter special from 2014: Anna as Mario, Elsa as Peach, Oaken as Toad and Marshmallow as Bowser.",
    "version": "v1.0",
    "revision": 1,
    "date": "",
@@ -665,6 +817,13 @@
     ],
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/devil-mario-winter-special.png",
+    "sha256": "ab53ecd734a46c937a88635ae237c89713c19397da8e2d63328de09c77297c7b"
    }
   },
   {
@@ -702,13 +861,21 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/epic-super-bowser-world.png",
+    "sha256": "92eeec80a5138434bbb9efa52bf52daeff981414a1612ce2db8ea3d6666818a7"
    }
   },
   {
    "id": "evil-dark-moon",
    "name": "Evil Dark Moon",
-   "author": "",
-   "description": "",
+   "author": "Dan.Team",
+   "description": "A hard mod from 2023 with 8 new, harder levels.",
    "version": "1.12",
    "revision": 1,
    "date": "",
@@ -739,7 +906,32 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/evil-dark-moon.png",
+    "sha256": "bf3d2abeb72f6f9b21d3c1a1c0debb1872e16aa1b69d1c71cd41b9732f255625"
    }
+  },
+  {
+   "id": "extra-super-mario-bros-wii",
+   "name": "Extra Super Mario Bros. Wii",
+   "author": "ccasey12",
+   "description": "An upcoming NSMBW mod featuring new assests, music, levels, and much more to come! (8 Worlds Total)",
+   "version": "",
+   "revision": 0,
+   "date": "2023-01-20",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "familiar-super-mario-bros-wii",
@@ -776,6 +968,13 @@
     "texture": "/FSMBW/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/familiar-super-mario-bros-wii.png",
+    "sha256": "b6a543906b095ec53739a9d859f59443092874aacaeadcb35e5d9e0dfb21e326"
    }
   },
   {
@@ -813,6 +1012,13 @@
     "texture": null,
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/forever-alone-beta.png",
+    "sha256": "a00042252efdbcdbba004a8e05342758af84a4cb94aee46136007cb72629ffa5"
    }
   },
   {
@@ -849,13 +1055,39 @@
     "stage": null,
     "texture": "Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/ghostly-super-ghost-boos-wii.png",
+    "sha256": "9e3f4b7d647dec2523fac79801ca607bcb8c7bc3a64c97c4933c2baf71af9938"
    }
+  },
+  {
+   "id": "greatest-super-mario-adventure-wii",
+   "name": "Greatest Super Mario Adventure Wii",
+   "author": "fuut_neymarjr",
+   "description": "greatest super mario adventure wii will be a mod with 7 world ,remixes and many other surprises",
+   "version": "",
+   "revision": 0,
+   "date": "2022-11-17",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "harder-mario-bros-meltdown",
    "name": "Harder Mario Bros. Meltdown",
-   "author": "",
-   "description": "",
+   "author": "Demonz. Day",
+   "description": "This is a true re-imagining of Harder Super Mario Bros Wii, which was a very not good but still somewhat and somehow popular mod I made in 2019 that edited all the levels to make them, well, harder.",
    "version": "1.0.2",
    "revision": 1,
    "date": "",
@@ -886,13 +1118,21 @@
     "texture": "/Meltdown/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/harder-mario-bros-meltdown.png",
+    "sha256": "abd021c492e3e292d1b799cb155e9a07cf5d522fa778c112076b46940144e543"
    }
   },
   {
    "id": "harder-mario-bros-wii",
    "name": "Harder Mario Bros. Wii",
-   "author": "",
-   "description": "",
+   "author": "Demonz. Day",
+   "description": "The levels of New Super Mario Bros. Wii edited to be harder (2019). Its re-imagining is Harder Mario Bros. Meltdown.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -923,13 +1163,20 @@
     "texture": "/HarderMario/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/harder-mario-bros-wii.png",
+    "sha256": "62398d3688231ab3b2307e89d87096b55447703ccb611a6361e4de9ab593447b"
    }
   },
   {
    "id": "impossible-new-super-mario-bros-wii",
    "name": "Impossible New Super Mario Bros. Wii",
    "author": "",
-   "description": "",
+   "description": "A mod made to be impossible - its readme insists.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -960,7 +1207,10 @@
     "texture": "/impossible/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "koopa-country",
@@ -997,6 +1247,14 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/koopa-country.png",
+    "sha256": "3414e8efc0dabc5b62af4a46e2ce292a1acfa50301a5b718e8a603aac30f9224"
    }
   },
   {
@@ -1035,7 +1293,10 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
-   }
+   },
+   "listed": [
+    "github"
+   ]
   },
   {
    "id": "lava-smbw-apocalypse",
@@ -1072,13 +1333,22 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/lava-smbw-apocalypse.png",
+    "sha256": "6ca06eca65ed6ac4929915a72eaa5786af78e6e89e3e0677ceea7bf85540ed39"
    }
   },
   {
    "id": "luigi-s-quest",
    "name": "Luigi's Quest",
-   "author": "",
-   "description": "",
+   "author": "hitsu",
+   "description": "Luigi's Quest is a mini mod of New Super Mario Bros. Wii based on the mod Super Luigi Land Wii. ( Logo by Rimea )",
    "version": "",
    "revision": 1,
    "date": "",
@@ -1109,13 +1379,39 @@
     "texture": "Stages/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/luigi-s-quest.png",
+    "sha256": "3c3b519efb42127b5e79731e23294a16217bb57b1d74abb73b81748f10145013"
    }
+  },
+  {
+   "id": "mario-across-the-world",
+   "name": "Mario Across the World",
+   "author": "surrealism",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2022-11-16",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "mario-and-the-mysterious-meteorite",
    "name": "Mario and the Mysterious Meteorite",
    "author": "Bupdad, Ovenball",
-   "description": "A community-created patch for NSMBW.",
+   "description": "Mario and the Mysterious Meteorite is a one-world mod that originally released in september of 2024. We felt like we still had a lot of room to improve and expand on the original, so we are now working towards an update that doubles the hack's length.",
    "version": "v3.0.1",
    "revision": 1,
    "date": "",
@@ -1146,13 +1442,40 @@
     "texture": "Tilesets",
     "code": "newer-1.30",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/mario-and-the-mysterious-meteorite.png",
+    "sha256": "0af4dca349d12f37e69023f527529ddf435fa62be0e81b8b0bd46dbf9316cc43"
    }
+  },
+  {
+   "id": "mario-and-the-sky-high-symphony",
+   "name": "Mario And The Sky High Symphony",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2024-07-29",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "mario-goes-to-the-store-buys-a-gallon-of-milk",
    "name": "Mario Goes to the Store & buys a Gallon of Milk",
    "author": "",
-   "description": "",
+   "description": "Mario and Luigi are out of milk and have to go to the store to get more.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -1183,13 +1506,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/mario-goes-to-the-store-buys-a-gallon-of-milk.png",
+    "sha256": "ba1114669366aaed686e3ce41651e954e9d6686e4e82da32a0136c59f4e16347"
    }
   },
   {
    "id": "mario-wii-other-world",
    "name": "Mario Wii Other World",
    "author": "Botnox, Johan R.",
-   "description": "A community-created patch for NSMBW.",
+   "description": "New levels, made for the US version of the game.",
    "version": "v1.0",
    "revision": 1,
    "date": "",
@@ -1216,7 +1546,53 @@
    "requires": [],
    "metadata": {
     "code": null
-   }
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ]
+  },
+  {
+   "id": "marios-cosmic-quest",
+   "name": "Mario's Cosmic Quest",
+   "author": "pikmintoad10",
+   "description": "[MCA] This mod is made possible due to the cancel of a mod made by us called, Mario's Adventure for The Superstars. This mod contains 8 worlds,More new songs,More coming..., This is made using the NEWER Engine. So credits to the Newer Team for making Newer SMBW.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-06-10",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/jI114cEucxs",
+    "discord": "https://discord.gg/Bf3Fjsrt"
+   },
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "marios-haunted-adventure",
+   "name": "Mario's Haunted Adventure",
+   "author": "Jacopo Plays",
+   "description": "A small NSMBW mod based on NewerSMBW Contents: New Levels, New World Maps, Custom Tilesets, Custom Music and more! The Mod Has 2 Full Worlds!",
+   "version": "",
+   "revision": 0,
+   "date": "2023-04-13",
+   "category": "ongoing",
+   "length": "short",
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/kQhjgHbSXE"
+   },
+   "listed": [
+    "wiki",
+    "discord"
+   ]
   },
   {
    "id": "midnightwii",
@@ -1253,6 +1629,13 @@
     "texture": "Tilesets",
     "code": "newer-1.2.0",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/midnightwii.png",
+    "sha256": "a7025103e0115f27302f06893253be804171714b846d26a311743ca4c96bd85e"
    }
   },
   {
@@ -1290,13 +1673,21 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/marios-final-adventure-wii.png",
+    "sha256": "3b86ebde805997e22bc797ca7971c6bd5e368005acf6f493df7947f1e1ebbaae"
    }
   },
   {
    "id": "marios-new-adventure-demo",
    "name": "Marios New Adventure Demo",
    "author": "B1 Gaming",
-   "description": "A community-created patch for NSMBW.",
+   "description": "A demo of Mario's New Adventure (MNA), a planned 9-world mod with custom tilesets and models.",
    "version": "v2.0",
    "revision": 1,
    "date": "",
@@ -1327,13 +1718,20 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/marios-new-adventure-demo.png",
+    "sha256": "68e3b0a635ade9e33b526816ec89305fde9217371841388c83e703fabbdbf753"
    }
   },
   {
    "id": "marios-ultimate-2d-adveture-2",
    "name": "Marios Ultimate 2D Adveture 2",
-   "author": "",
-   "description": "",
+   "author": "2D Adveture Team",
+   "description": "The sequel to Mario's Ultimate 2D Adventure; plays on a Wii and in Dolphin.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -1364,13 +1762,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/marios-ultimate-2d-adveture-2.png",
+    "sha256": "d2d0fadd084b16bec64457bf162209bcac184b198a6906bf1160db9c845b86c6"
    }
   },
   {
    "id": "mayros-heart-throbbing-adventure-wii",
    "name": "Mayro's Heart Throbbing Adventure Wii",
    "author": "DoubleB_J (BigBadJello)",
-   "description": "",
+   "description": "A full-sized mod with new music, new levels and new tilesets and backgrounds.",
    "version": "Ultimate-1.1",
    "revision": 1,
    "date": "2026-11-07",
@@ -1403,13 +1808,56 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/mayros-heart-throbbing-adventure-wii.png",
+    "sha256": "27133f546047c733a319bde4db8f8b5ced8ce0b927de0c241cfe7c0d51cf9cbf"
    }
+  },
+  {
+   "id": "mayros-heart-throbbing-adventure-wii-silver-star-quest",
+   "name": "Mayro's Heart Throbbing Adventure Wii: Silver Star Quest!",
+   "author": "DoubleB_J(BigBadJello)",
+   "description": "IS BACK!: A year after Mayro saved Princess Peach from the evil clenches of King Koopa. Her and Rosalina were invited to attend the star festival as a \"thank you\" while Mario was on vacation.",
+   "version": "",
+   "revision": 0,
+   "date": "2026-05-19",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "mini-mega-hell",
+   "name": "mini mega hell",
+   "author": "prob younger than everyone here",
+   "description": "nsmbw mod i made causei was bored",
+   "version": "",
+   "revision": 0,
+   "date": "2026-07-10",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "mini-super-mario-bros-wii",
    "name": "Mini Super Mario Bros Wii",
-   "author": "",
-   "description": "",
+   "author": "Bento Emanuel",
+   "description": "All of World 1 replaced with much shorter levels (2019).",
    "version": "",
    "revision": 1,
    "date": "",
@@ -1440,6 +1888,13 @@
     "texture": null,
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/mini-super-mario-bros-wii.png",
+    "sha256": "4ffe5a59577d5092e988711cd90f79ba828b929535be94ef1a195e4c2e801162"
    }
   },
   {
@@ -1474,7 +1929,33 @@
    "metadata": {
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/mlg-super-luigi-bros-wii.png",
+    "sha256": "ccc52bd5b2a21bdab7346db4a7b9ac7c6c9d425bfcee756300b32c6d738c24d9"
    }
+  },
+  {
+   "id": "mohamedpeep70s-epic-mod",
+   "name": "mohamedpeep70s epic mod",
+   "author": "prob younger than everyone here",
+   "description": "this was originally called the worst nsmbw romhack",
+   "version": "",
+   "revision": 0,
+   "date": "2026-08-12",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "mountain-smbw",
@@ -1511,6 +1992,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/mountain-smbw.png",
+    "sha256": "34e5ce8fed9c272361903eaa2ad7595e9c4912c6a52eab23733b85e96bb1021d"
    }
   },
   {
@@ -1548,6 +2036,13 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-epic-super-ultimate-64-minecraft.png",
+    "sha256": "010f27f35b42fa269b85c40442b331e3574317b4fb68c862ad4585f9e4ec5617"
    }
   },
   {
@@ -1585,7 +2080,33 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-mario-bros-cannon.png",
+    "sha256": "96a10013bcaa632b7e8575fd3d360571e1e08928be8797be9bf3dfac7daae291"
    }
+  },
+  {
+   "id": "new-super-anime-bros-wii",
+   "name": "New Super Anime Bros. Wii",
+   "author": "Fluff",
+   "description": "New Super Anime Bros. Wii is a Full 9 world mod for New Super Mario Bros. Wii built with NSMBWer+. Featuring new levels, music, and more! This mod is being developed by me and @Countryballs Nya and we plan on releasing a demo soon!",
+   "version": "",
+   "revision": 0,
+   "date": "2025-11-11",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-luigi-wii",
@@ -1623,12 +2144,38 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "discord",
+    "github"
+   ],
+   "icon": {
+    "path": "icons/new-super-luigi-wii.png",
+    "sha256": "9cbf5275b682fb83aa28a17978f2df9e8a02140767546b08da1869dfd36f76e3"
    }
+  },
+  {
+   "id": "new-super-mario-bowser-invasion",
+   "name": "New Super Mario Bowser Invasion",
+   "author": "",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2024-07-24",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-and-the-8-worlds",
    "name": "New Super Mario Bros And The 8 Worlds",
-   "author": "",
+   "author": "Ethan Mallie",
    "description": "",
    "version": "",
    "revision": 1,
@@ -1660,7 +2207,10 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "new-super-mario-bros-delta-unfinished",
@@ -1697,6 +2247,13 @@
     "texture": "/delta/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-delta-unfinished.png",
+    "sha256": "982526d2b99098b4db5fa052c5350814b0bb43aafbbb53724c5d971f12878b34"
    }
   },
   {
@@ -1734,13 +2291,38 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-wiinter.png",
+    "sha256": "8e407a248ac62dc77eebf052f7fb64d9ae3126cf1595af2f67727d1fe286f35d"
    }
+  },
+  {
+   "id": "new-super-mario-bros-dawn",
+   "name": "New Super Mario Bros. Dawn",
+   "author": "zygarde",
+   "description": "A little passion project with a working name I am working on that is currently vanilla based.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-05-13",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-midnight",
    "name": "New Super Mario Bros. Midnight",
    "author": "Atomic Mods",
-   "description": "",
+   "description": "New Super Mario Bros. Midnight a world one mod",
    "version": "2025-07-25",
    "revision": 1,
    "date": "2026-11-06",
@@ -1771,7 +2353,50 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-midnight.png",
+    "sha256": "1bffd89a405b2694da6ba6b6aec5d48d57fd00d28aaa49187f3ced365da4bdb1"
    }
+  },
+  {
+   "id": "new-super-mario-bros-riivolved",
+   "name": "New Super Mario Bros. Riivolved",
+   "author": "Williamo",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2026-05-17",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "new-super-mario-bros-superstars",
+   "name": "New Super Mario Bros. Superstars",
+   "author": "GoodFine",
+   "description": "New Super Mario Bros. Superstars is a mod that aims to be a new game in the New Super Mario Bros. series. This mod will try to be as faithful as possible to the other games, so don't expect anything groundbreaking. It will have 9 worlds and over 100 levels.",
+   "version": "",
+   "revision": 0,
+   "date": "2026-08-04",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-theta-demo",
@@ -1808,6 +2433,13 @@
     "texture": "/NSMBTH/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-theta-demo.png",
+    "sha256": "e1833dbfa7e746c8dc7c09814219785c5c8717828c48cf57fdbbef726097dcea"
    }
   },
   {
@@ -1845,13 +2477,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-u-wii-demo.png",
+    "sha256": "8d999c90ca08647046c1bc045df640c462817f13a02076cbbd8f0bed45700291"
    }
   },
   {
    "id": "new-super-mario-bros-universe",
    "name": "New Super Mario Bros. Universe",
    "author": "Aaron Mallie",
-   "description": "",
+   "description": "This mod contains: 9 worlds, custom code, cool levels, custom 3d world maps, custom bosses and more. The link to the release trailer:",
    "version": "1",
    "revision": 1,
    "date": "2026-11-07",
@@ -1884,18 +2523,25 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-universe.png",
+    "sha256": "af1ec1a5f95f2ea5c21b967df968bab6ea6ec9ed13b24f2e9f8204bddf592d2f"
    }
   },
   {
    "id": "new-super-mario-bros-wii-4",
    "name": "New Super Mario Bros. Wii 4",
    "author": "Orange-Yoshi",
-   "description": "A community-created patch for NSMBW.",
+   "description": "4 worlds, 16 levels, a custom title screen and custom music - the 4 is for 4 players, 4 worlds, 4 you, 4 ever.",
    "version": "v3.3",
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -1920,7 +2566,32 @@
     "stage": null,
     "texture": null,
     "code": null
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-wii-4.png",
+    "sha256": "c09d199bbc746c4c6321dd3d7f210e8d64cf2429189e928bcedfef90a72b852d"
    }
+  },
+  {
+   "id": "new-super-mario-bros-wii-islands",
+   "name": "New Super Mario Bros. Wii Islands",
+   "author": "aayan",
+   "description": "New Super Mario Bros Wii Island is a mod of newer based on an island with 8 new levels any suggestions or help is appreciated",
+   "version": "",
+   "revision": 0,
+   "date": "2023-07-20",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-wii-legacy-demo",
@@ -1957,7 +2628,48 @@
     "texture": "Tilesets",
     "code": "newer-1.0.3",
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
+  },
+  {
+   "id": "new-super-mario-bros-wii-the-super-stars",
+   "name": "New Super Mario Bros. Wii The Super Stars",
+   "author": "Super Emir",
+   "description": "This is A Newer Mod and will Have at Least 5 Worlds. I'll be Taking my Time On this So Any updates Will Be posted Here, at The Discord:",
+   "version": "",
+   "revision": 0,
+   "date": "2024-07-02",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/RDr644GCNN"
+   },
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "new-super-mario-bros-wii-the-uncharted-sphere",
+   "name": "New Super Mario Bros. Wii The Uncharted Sphere",
+   "author": "risBo",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2022-11-27",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-wii-new-horizons",
@@ -1995,7 +2707,36 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "wiki",
+    "github"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-wii-new-horizons.png",
+    "sha256": "09015fe29221ff38328084fb920dc8dc1648bcd0135eca47c0fbb7a6a99db460"
    }
+  },
+  {
+   "id": "new-super-mario-bros-wii-the-galaxy-expansion",
+   "name": "New Super Mario Bros. Wii: The Galaxy Expansion",
+   "author": "Acing",
+   "description": "New Super Mario Bros. Wii: The Galaxy Expansion [NSMBW] NSMBW: The Galaxy Expansion is an upcoming moderately-sized (~3 world) mod for NSMBW that features levels themed entirely on galaxies from Super Mario Galaxy and Super Mario Galaxy 2.",
+   "version": "",
+   "revision": 0,
+   "date": "2023-03-18",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/d8wI4l9VdS8",
+    "discord": "https://discord.gg/dwEaYEaMNg"
+   },
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bros-wiimix-world-1-demo",
@@ -2032,7 +2773,10 @@
     "texture": "/Wiimix Demo/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "new-super-mario-bros-wii-only-up",
@@ -2069,18 +2813,43 @@
     "texture": null,
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-wii-only-up.png",
+    "sha256": "e986869ec1e19255ee68bd17e3e6c13c12363bcad0eb17bdff30532dac5dd911"
    }
+  },
+  {
+   "id": "new-super-mario-cliffside-journey",
+   "name": "New Super Mario Cliffside Journey",
+   "author": "pikmintoad10",
+   "description": "NSMCJ is a mini mod for NSMBW (Newer) made by only one person. This mod contains 1 world,10 (or more) levels,New Assets,New Music,etc.... But this mod will probably be slow because it is made by only one person.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-06-17",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-lost-worlds",
    "name": "New Super Mario Lost Worlds",
    "author": "N-I-N-0",
-   "description": "",
+   "description": "New Super Mario Lost Worlds (NSMLW) is a NSMBW mod with 12 new worlds. It will have custom 3d world maps as well as new enemies, boss fights and 7 custom powerups among many other things.",
    "version": "0f11194",
    "revision": 1,
    "date": "2026-11-01",
    "category": "mod",
-   "length": null,
+   "length": "full",
    "source": {
     "type": "linked-source",
     "repo": "N-I-N-0/NSMLW-Riivolution-Patch",
@@ -2108,13 +2877,38 @@
     "texture": null,
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
-   }
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "github"
+   ]
+  },
+  {
+   "id": "new-super-mario-world-wii",
+   "name": "New Super Mario World. Wii",
+   "author": "ReaZ0n#0203",
+   "description": "Welcome to my first mod and thread! I'll post this mod's progresses in here. And I'm finding supporters. (Such as world map designer, level designer, and programmers.) Our team's discord server: //I cannot speak English well, so I'm often using the DeepL translator.",
+   "version": "",
+   "revision": 0,
+   "date": "2023-07-17",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/eqWtSFwXt9"
+   },
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-spike-wii-release",
    "name": "New Super Spike Wii Release",
    "author": "",
-   "description": "",
+   "description": "Abandoned and incomplete. Tested in Dolphin only.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -2145,6 +2939,13 @@
     "texture": "/spikewii/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-spike-wii-release.png",
+    "sha256": "2dff8491b50094bee5103ce4004ea99d7834438ad55b538ca17e445a97345a8f"
    }
   },
   {
@@ -2182,6 +2983,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/new-super-tropix-bros-wii.png",
+    "sha256": "223ff149cc5ad0cb0b24bf1475e78d286790728677cf66e29e1224530d57cd88"
    }
   },
   {
@@ -2219,6 +3027,14 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/newer-alpine-dream.png",
+    "sha256": "c9fd094208dc7805c099941e6a2a5e99b1f9f813802a01c95624fa29e3e20d95"
    }
   },
   {
@@ -2256,6 +3072,14 @@
     "texture": "Tilesets",
     "code": "newer-1.0.3",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/newer-apocalypse.png",
+    "sha256": "a6a4b09d494165b56cf61be96a6d16a549005a1d234cd283ac4cab0676c5f3e9"
    }
   },
   {
@@ -2294,13 +3118,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "github"
+   ],
+   "icon": {
+    "path": "icons/newer-evolution-mbw.png",
+    "sha256": "d2e2bdc6cd534ca6da9c9babb79c87ae134140698c0fa87e6001f8fabcfc70fd"
    }
   },
   {
    "id": "newer-falling-leaf",
    "name": "Newer FALLING LEAF",
    "author": "Skawo, Newer Team",
-   "description": "A community-created patch for NSMBW.",
+   "description": "Newer: Falling Leaf, the fourth and latest Newer Special, is a mini-hack for New Super Mario Bros. Wii that was released in December 2014. It features 8 new levels and is the first Newer Special based on the Newer engine.",
    "version": "v1.12",
    "revision": 1,
    "date": "",
@@ -2331,6 +3162,17 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/Newer:_Falling_Leaf"
+   },
+   "icon": {
+    "path": "icons/newer-falling-leaf.png",
+    "sha256": "f647d57c2c5292e1bc2e618f716e685dff7687ee5c64f8ea77ef6d9e966fe926"
    }
   },
   {
@@ -2368,6 +3210,17 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/Newer:_Holiday_Special"
+   },
+   "icon": {
+    "path": "icons/newer-holiday-special.png",
+    "sha256": "f399b50e06d6a131a7365b1bb6679c011eb9e26c8670b9bd9123ced36cedaf1a"
    }
   },
   {
@@ -2405,6 +3258,17 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/Newer:_Summer_Sun"
+   },
+   "icon": {
+    "path": "icons/newer-summer-sun.png",
+    "sha256": "323e029d7952bae5ab4df6cd88bec89e66b2b74e94c189a0770a363f963756cc"
    }
   },
   {
@@ -2442,6 +3306,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/newer-super-luigi-dark-moon.png",
+    "sha256": "b8866ae8de282d49feb48d0b93117c2cc42bdc902a3d654e8036ecb8b965a163"
    }
   },
   {
@@ -2479,7 +3350,34 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/newer-super-mario-and-the-sweet-adventure.png",
+    "sha256": "d452b20c396fed9b466bc4d0934311f77fcd58a299abc0ea8b66c27e3a224b9f"
    }
+  },
+  {
+   "id": "newer-super-mario-bros-u-remastered",
+   "name": "Newer Super Mario Bros. U REMASTERED",
+   "author": "surrealism",
+   "description": "info this is a remix and remaster of @Ethan-Mario-gamer's first mod, Newer Super Mario Bros U (for the wii). We will: fix the tilesets do it this time scrap pretty much all the old levels and the maps and the other things add newergem to the mix (maybe) OR add our own code (50/50 chance) and...",
+   "version": "",
+   "revision": 0,
+   "date": "2023-05-13",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/6buMNVVe3V"
+   },
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "newer-smbw",
@@ -2523,8 +3421,38 @@
    },
    "links": {
     "website": "https://newerteam.com/wii/",
-    "code": "https://github.com/Newer-Team/NewerSMBW"
+    "code": "https://github.com/Newer-Team/NewerSMBW",
+    "wiki": "https://horizon.miraheze.org/wiki/Newer_Super_Mario_Bros._Wii"
+   },
+   "listed": [
+    "wiki",
+    "github"
+   ],
+   "icon": {
+    "path": "icons/newer-smbw.png",
+    "sha256": "121e010dd2f87f5747be21d106ed020b47c12d6144000cee7d4b7eda234b13c2"
    }
+  },
+  {
+   "id": "newer-super-mario-bros-wii-the-lost-islands",
+   "name": "Newer Super Mario Bros. Wii: The Lost Islands",
+   "author": "Olivefilms",
+   "description": "This mod is set on a forgotten island that has no inhabitants but bowsers army conquered it and the Mario bros has to re-conquer it. This mod is currently in development and features 4 worlds of diverse tilesets, new backgrounds, custom music and action packed levels.",
+   "version": "",
+   "revision": 0,
+   "date": "2023-07-09",
+   "category": "ongoing",
+   "length": "medium",
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/pGJeGhxrER"
+   },
+   "listed": [
+    "wiki",
+    "discord"
+   ]
   },
   {
    "id": "newer-super-mario-tourism-in-shimane",
@@ -2561,6 +3489,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/newer-super-mario-tourism-in-shimane.png",
+    "sha256": "7b6e174fc1d05b126c5f2acaa9e6feb5b490a4cff11470643f6375890a89bee5"
    }
   },
   {
@@ -2600,7 +3535,10 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
-   }
+   },
+   "listed": [
+    "github"
+   ]
   },
   {
    "id": "newerlaa",
@@ -2611,7 +3549,7 @@
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -2637,6 +3575,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/newerlaa.png",
+    "sha256": "9de56ef5af87678ef8b1f9baba0bcc641fbfed4696e965537be989757cec9144"
    }
   },
   {
@@ -2648,7 +3593,7 @@
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -2674,6 +3619,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/newersmb2.png",
+    "sha256": "0941af2ba590448df67a01071272017a494838964da71c71cf951dbcd53bc619"
    }
   },
   {
@@ -2685,7 +3637,7 @@
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "short",
    "source": {
     "type": "hosted",
     "host": "sourceforge"
@@ -2711,13 +3663,20 @@
     "texture": "Tilesets",
     "code": "newer-1.1.1",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "icon": {
+    "path": "icons/newersmb7.png",
+    "sha256": "5187db5289d1028a48ee7ce63e2e20315967fe10ee3078088d6be70f19c332a4"
    }
   },
   {
    "id": "newest-super-mario-bros-wii",
    "name": "Newest Super Mario Bros Wii",
-   "author": "",
-   "description": "",
+   "author": "Luis",
+   "description": "A new mod for New Super Mario Bros. Wii, remastered music, new levels and new worlds :\"D (If anyone can help with the development, that would be great.)",
    "version": "2.0.2",
    "revision": 1,
    "date": "",
@@ -2748,13 +3707,17 @@
     "texture": "Tilesets",
     "code": "newer-1.2.0",
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "discord",
+    "archive"
+   ]
   },
   {
    "id": "novastar-wii",
    "name": "NovaStar Wii",
-   "author": "",
-   "description": "",
+   "author": "hitsu",
+   "description": "Levels first made for another project, restored into a mod of their own.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -2785,13 +3748,21 @@
     "texture": "Tilesets",
     "code": "newer-1.30",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/novastar-wii.png",
+    "sha256": "5a3225325f80934f9b271237dd6d540c6883830bdb90e445ea78bda8f91a7b7b"
    }
   },
   {
    "id": "nsmb2-1-1-remade-in-nsmbw",
    "name": "NSMB2 1-1 Remade in NSMBW",
-   "author": "",
-   "description": "",
+   "author": "TallyBoi",
+   "description": "World 1-1 of New Super Mario Bros. 2, remade in New Super Mario Bros. Wii.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -2822,13 +3793,16 @@
     "texture": "/NSMB2 1-1/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "nsmb2-1-castle-remade-in-nsmbw",
    "name": "NSMB2 1-Castle Remade in NSMBW",
-   "author": "",
-   "description": "",
+   "author": "TallyBoi",
+   "description": "The World 1 castle of New Super Mario Bros. 2, remade in New Super Mario Bros. Wii.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -2859,7 +3833,10 @@
     "texture": "/NSMB2 1-Castle/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "nsmbw-quebec-edition",
@@ -2896,13 +3873,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/nsmbw-quebec-edition.png",
+    "sha256": "8ed987d4d4cf512981c4eaa7603ceed872c908f1ecfeaab3d7ec1ee81d32b291"
    }
   },
   {
    "id": "nsmbw-grand-star-mode",
    "name": "NSMBW Grand Star Mode",
-   "author": "",
-   "description": "",
+   "author": "StarTech Entertainment",
+   "description": "A harder mode, inspired by Harder Super Mario Bros. Wii.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -2933,6 +3917,13 @@
     "texture": "/GrandStarMode/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/nsmbw-grand-star-mode.png",
+    "sha256": "153ed93798a4909ccb19a39be96106ec21139ad9ced71ce1570dc5b5e16ca4f7"
    }
   },
   {
@@ -2972,7 +3963,10 @@
     "texture": "/NSMBW-GreenStars/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)"
-   }
+   },
+   "listed": [
+    "github"
+   ]
   },
   {
    "id": "nsmbw-the-new-worlds-2-levels-only",
@@ -3009,7 +4003,10 @@
     "texture": "Tilesets",
     "code": "newer-1.30",
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "nsmbw2-the-next-levels",
@@ -3045,13 +4042,21 @@
     "stage": null,
     "texture": null,
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/nsmbw2-the-next-levels.png",
+    "sha256": "251773c39bdb3ca9873f4aacb5e577fc9ce8a4679876b431f9224f44432e08fc"
    }
   },
   {
    "id": "nsmbwer-plus",
    "name": "NSMBWer+",
    "author": "Ryguy, Nin0, Danster64 (NSMBWer)",
-   "description": "",
+   "description": "NSMBWer+ is a mod of the vanilla game that adds several features via custom code, and is meant to be a base for people who want to make a mod, but don't want to use Newer Super Mario Bros. Wii as a base.",
    "version": "v1.0",
    "revision": 1,
    "date": "",
@@ -3083,6 +4088,12 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/NSMBWer%2B"
    }
   },
   {
@@ -3120,7 +4131,55 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/ok-super-mario-bros-wii.png",
+    "sha256": "dfc1c656d293cad576806630af863a791209a0333e98b81b5c23ac75e0ed6c4e"
    }
+  },
+  {
+   "id": "oops-all-1-1",
+   "name": "Oops! All 1-1",
+   "author": "conn.artist",
+   "description": "A lot of players and critics have slammed New SUPER MARIO BROS. Wii for its supposedly \"uninspired\" level design. So, I thought, why not make it worse? Oops! All 1-1 is a joke mod of New SUPER MARIO BROS. Wii that replaces every level with 1-1. However, this is not just a tacky copy and paste job.",
+   "version": "",
+   "revision": 0,
+   "date": "2026-08-08",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "pipeshroom-mario-bros",
+   "name": "Pipeshroom Mario Bros.",
+   "author": "SuperAngyo01",
+   "description": "Pipeshroom Mario Bros. is a very short (and very basic) NSMBW mod that features levels and ideas revolved around pipes and mushrooms. It is my attempt at learning to mod and a passion project",
+   "version": "",
+   "revision": 0,
+   "date": "2024-07-03",
+   "category": "ongoing",
+   "length": "short",
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/una7uAdFqw0",
+    "discord": "https://discord.com/invite/eUzuUGGetr",
+    "channel": "https://www.youtube.com/channel/UC--7rpff4sxsQ0Q3Z94XoQg"
+   },
+   "listed": [
+    "wiki",
+    "discord"
+   ]
   },
   {
    "id": "poisons-adventure",
@@ -3158,6 +4217,13 @@
     "texture": null,
     "code": "loader",
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "github"
+   ],
+   "icon": {
+    "path": "icons/poisons-adventure.png",
+    "sha256": "0ba126067f68337ccda80bc618a75036cb8ffbd0aa4dac7cc3db3199f05f91fe"
    }
   },
   {
@@ -3197,18 +4263,21 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)"
-   }
+   },
+   "listed": [
+    "github"
+   ]
   },
   {
    "id": "revised-super-mario-bros-wii",
    "name": "Revised Super Mario Bros. Wii",
-   "author": "",
-   "description": "",
+   "author": "MeTheMarioMan/MTLenz",
+   "description": "Brand-new levels in all nine worlds (version 1.2). Not tested in multiplayer; Coin Battle is unchanged.",
    "version": "1.2",
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "full",
    "source": {
     "type": "hosted",
     "host": "archive.org"
@@ -3234,12 +4303,20 @@
     "texture": "/rsmbw/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/revised-super-mario-bros-wii.png",
+    "sha256": "539715c686e6fbd513c095365886de12f05fc067d68c347a3116ebf960931985"
    }
   },
   {
    "id": "revolution-64-remastered",
    "name": "Revolution 64 (Remastered)",
-   "author": "",
+   "author": "Saltymcsoybeans, MarioBurgee",
    "description": "",
    "version": "",
    "revision": 1,
@@ -3271,6 +4348,13 @@
     "texture": "Tilesets",
     "code": "newer-1.2.0",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/revolution-64-remastered.png",
+    "sha256": "49b1d41ae80fcf0ad8ce0a4626fe29317771fa770acb370ef907cfdfccb5b948"
    }
   },
   {
@@ -3308,18 +4392,25 @@
     "texture": "Tilesets",
     "code": "newer-1.0.3",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/rvlution-revived-2025.png",
+    "sha256": "ee596a6fb8949942bb992f4615bfdc904dd9fa22c3f79233f5b5de232fb05973"
    }
   },
   {
    "id": "rvlution-wii",
    "name": "RVLution Wii",
-   "author": "",
+   "author": "Python",
    "description": "",
    "version": "",
    "revision": 1,
    "date": "",
    "category": "mod",
-   "length": null,
+   "length": "medium",
    "source": {
     "type": "hosted",
     "host": "archive.org"
@@ -3345,7 +4436,33 @@
     "texture": "Tilesets",
     "code": "newer-1.0.3",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/rvlution-wii.png",
+    "sha256": "ee596a6fb8949942bb992f4615bfdc904dd9fa22c3f79233f5b5de232fb05973"
    }
+  },
+  {
+   "id": "sakura-smbw",
+   "name": "Sakura SMBW",
+   "author": "Builder Mario",
+   "description": "An in the work adaptation of Newer Super Mario Bros. Wii Focused on the Sakura Theme!",
+   "version": "",
+   "revision": 0,
+   "date": "2024-09-23",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "slwii-the-emissary",
@@ -3382,13 +4499,21 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/slwii-the-emissary.png",
+    "sha256": "22521fc3a0e7034e520a83ee2ea3859d20f553959c9f2265209e3e368b6f9fec"
    }
   },
   {
    "id": "smbwonder-1-1-reimagined-in-nsmbw",
    "name": "SMBWonder 1-1 Reimagined in NSMBW",
-   "author": "",
-   "description": "",
+   "author": "TallyBoi",
+   "description": "World 1-1 of Super Mario Bros. Wonder, reimagined in New Super Mario Bros. Wii.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -3419,6 +4544,13 @@
     "texture": "/SMBWonder 1-1/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/smbwonder-1-1-reimagined-in-nsmbw.png",
+    "sha256": "39083ea54687ab1bbdfc60292d430cab4516700d6374f974e8f84f2af080b3fa"
    }
   },
   {
@@ -3456,6 +4588,15 @@
     "texture": "Tilesets",
     "code": "newer-1.30",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/starlight-adventure.png",
+    "sha256": "fdf84b5a473aab77f772a3af5e4ddea2dd0c3b862f02138d40bd0551dedab2bd"
    }
   },
   {
@@ -3493,7 +4634,10 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "stupid-super-mario-bros-wii-beta",
@@ -3530,13 +4674,20 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/stupid-super-mario-bros-wii-beta.png",
+    "sha256": "def1abf19f972721c26b467fbd4ffdce9dfeb37f8b014f78c9cd2232398cfe17"
    }
   },
   {
    "id": "sugary-super-mario-bros-wii",
    "name": "Sugary Super Mario Bros. Wii",
    "author": "Team Sugary",
-   "description": "",
+   "description": "Sugary Super Mario Bros. Wii is a NewerSMBW based mod in development by the Sweet Team; The main theme of the mod is sweets!: each world is based on a specific sweet like Chocolate, Lollipops and there will be probably 12 New Worlds (8 + 3 Secret Worlds and 1 Special World) with 9 Levels for each.",
    "version": "1.05-demo",
    "revision": 1,
    "date": "2026-11-07",
@@ -3569,6 +4720,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/sugary-super-mario-bros-wii.png",
+    "sha256": "a63867b3a5c653e14e60ee71774c7f40bc4d05a5a3a9aed544174458f2503e14"
    }
   },
   {
@@ -3606,6 +4764,13 @@
     "texture": "/Chilly/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/sunnysmbw.png",
+    "sha256": "ae24a9103514b7f9736e4348464f89fc380eedc87e821ff5536b8d4143225778"
    }
   },
   {
@@ -3643,6 +4808,13 @@
     "texture": "Stage/Texture",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/sunshine-super-mario-bros-paradise.png",
+    "sha256": "32147c6a1f24fc2825a6696978399f6355a60bc65effc9bb454905052f3d87bd"
    }
   },
   {
@@ -3680,6 +4852,18 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "links": {
+    "wiki": "https://horizon.miraheze.org/wiki/Super_Luigi_Land_Wii"
+   },
+   "icon": {
+    "path": "icons/super-luigi-land-wii.png",
+    "sha256": "4c7a3b673468b808fb2439cd6149bc7b35ef4024d5368fe4b961ce47efb47f6d"
    }
   },
   {
@@ -3717,7 +4901,54 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-luigi-seasonal-shore.png",
+    "sha256": "4dbeeed17d8f630b17f0e06c7b6542c338f940dc17ded80aaa3d22d4cd77c38e"
    }
+  },
+  {
+   "id": "super-mario-and-the-skystar-dreams",
+   "name": "Super Mario and the SkyStar Dreams",
+   "author": "Mone",
+   "description": "Super Mario and the SkyStar Dreams ,Super Mario and the SkyStar Dreams is a one-world NSMBW mod that I started the development in 2025!",
+   "version": "",
+   "revision": 0,
+   "date": "2025-07-22",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/Fo9ro6RREGU"
+   },
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "super-mario-beach-blast",
+   "name": "Super Mario Beach Blast",
+   "author": "ThankfulGio",
+   "description": "I don't use this server alot I didn't know this existed until now. Super Mario Beach Blast (Formerly Super Beach Bros. Wii (SBBW)) is a 1 world mod based off Newer and has custom music, assets, tilesets, world maps, and even Custom Code!",
+   "version": "",
+   "revision": 0,
+   "date": "2026-02-15",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "super-mario-bob-omb-blast-boss-rush",
@@ -3754,13 +4985,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-bob-omb-blast-boss-rush.png",
+    "sha256": "b65806d3811f3c8ec4a895ce7897da08e81cb458e79a416877d69ec9d821e3af"
    }
   },
   {
    "id": "super-mario-bob-omb-blast-demo",
    "name": "Super Mario Bob-omb Blast Demo",
-   "author": "",
-   "description": "",
+   "author": "UltraMaker",
+   "description": "A demo with 5 levels from various worlds of the full Super Mario Bob-omb Blast.",
    "version": "1.0.1",
    "revision": 1,
    "date": "",
@@ -3791,13 +5029,41 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-bob-omb-blast-demo.png",
+    "sha256": "7921b3e487e42602a77c03d9521bd729cd80b723b577bd7ba08fa44f6fc41192"
    }
+  },
+  {
+   "id": "super-mario-bros-impending-doom",
+   "name": "Super Mario Bros Impending Doom",
+   "author": "Jaker, D-rex, Impending Doom Team",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "",
+   "category": "ongoing",
+   "length": "full",
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "discord": "https://discord.gg/9Fy4YyKsB5",
+    "channel": "https://www.youtube.com/channel/UCBUO1_SV0qUQwfMYAVhUT6w"
+   },
+   "listed": [
+    "wiki"
+   ]
   },
   {
    "id": "super-mario-bros-world-adventure",
    "name": "Super Mario Bros World Adventure",
    "author": "Aaron Mallie",
-   "description": "",
+   "description": "This is a mod that nobody knew about it was a secret project of mine. 11 worlds, custom code, cool levels, detailed tilesets, (using Koopatlas 2.0 made by me), etc. Github: Release Trailer:",
    "version": "4bdc800",
    "revision": 1,
    "date": "2026-07-28",
@@ -3829,13 +5095,21 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (GitHub)"
+   },
+   "listed": [
+    "discord",
+    "github"
+   ],
+   "icon": {
+    "path": "icons/super-mario-bros-world-adventure.png",
+    "sha256": "06f4f894615c52d3592bb478f6ad18df37293bc45f5f646251b8a92dde5a92af"
    }
   },
   {
    "id": "super-mario-bros-extreme-adventure",
    "name": "Super Mario Bros. Extreme Adventure",
    "author": "Team Alternative",
-   "description": "A community-created patch for NSMBW.",
+   "description": "SMB: Extreme Adventure, is a mod that has 48 levels, 4 Brand New Worlds ( 3 + 1 Bonus World) with a choosen theme for each to be respected in the creation of the levels. A new adventure awaits you inside. Good luck.",
    "version": "v1.301",
    "revision": 1,
    "date": "",
@@ -3866,7 +5140,52 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-bros-extreme-adventure.png",
+    "sha256": "fcf860a4f8e254878f9818c6c184f2da7d879a29375890949253c435c8efdc1c"
    }
+  },
+  {
+   "id": "super-mario-codename-wonder",
+   "name": "Super Mario Codename Wonder",
+   "author": "",
+   "description": "This is a mod not entirely based of of super mario bros wonder. this mod has this wonder-esque feel to it and a level style like wonder. Depened on how much can be made it may be 1 world or 2. It could be 8.",
+   "version": "",
+   "revision": 0,
+   "date": "2023-11-26",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "super-mario-cosmic-chaos",
+   "name": "Super Mario Cosmic Chaos",
+   "author": "Lemonstar",
+   "description": "A new 3D land styled adventure built inside of NSMBW itself! It has 1 world at the moment which will then expand into a 8 world adventure. 4 worlds will be normal levels and the other 4 worlds will be “special” levels like in the base 3D land.",
+   "version": "",
+   "revision": 0,
+   "date": "2026-08-12",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "super-mario-dimension-demo",
@@ -3903,13 +5222,57 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-dimension-demo.png",
+    "sha256": "6de5a0c71bde81d4b40cc3e74d523745a3499283a45d84a1497d9b6e3eecc089"
    }
+  },
+  {
+   "id": "super-mario-epic-wii",
+   "name": "Super Mario Epic Wii",
+   "author": "Team Les Saisons de la Kermesse",
+   "description": "",
+   "version": "",
+   "revision": 0,
+   "date": "2024-04-11",
+   "category": "ongoing",
+   "length": "full",
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "wiki",
+    "discord"
+   ]
+  },
+  {
+   "id": "super-mario-eternal-eclipse",
+   "name": "Super Mario Eternal Eclipse",
+   "author": "Kirblue",
+   "description": "This mod takes assets from NSMBW, NSMB2, Mario Across the World, and B1's tileset extensions and aims to combine them in a way that makes it look semi-official. With new character designs, powerups, and a brand new story, are you able to defeat Bowser and make the Mushroom Kingdom's sun rise again?",
+   "version": "",
+   "revision": 0,
+   "date": "2023-06-24",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "super-mario-green-star-groove-demo-version-2",
    "name": "Super Mario Green Star Groove Demo Version 2",
-   "author": "",
-   "description": "",
+   "author": "CloudyLuigi",
+   "description": "The second demo of Super Mario Green Star Groove, with a save of its own.",
    "version": "1.04",
    "revision": 1,
    "date": "",
@@ -3940,13 +5303,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-green-star-groove-demo-version-2.png",
+    "sha256": "8906a12e191984d241d19c8319d949997b5e07700052f0e4975a1a4d1ea67bfc"
    }
   },
   {
    "id": "super-mario-insane-islands",
    "name": "Super Mario Insane Islands",
-   "author": "",
-   "description": "",
+   "author": "Ethan Mallie",
+   "description": "Plays in Dolphin only, not on a Wii (2024).",
    "version": "",
    "revision": 1,
    "date": "",
@@ -3977,13 +5347,20 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-insane-islands.png",
+    "sha256": "9cacc346c06e0f92bf2235c6742ba49f96290ca329f9119d0e77b0b9006724a9"
    }
   },
   {
    "id": "super-mario-jungle-jam",
    "name": "Super Mario Jungle Jam",
    "author": "",
-   "description": "",
+   "description": "No code changes, so it works in every region; Dolphin is recommended.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -4014,6 +5391,13 @@
     "texture": "/SMJungleJam/Stage/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-jungle-jam.png",
+    "sha256": "c158c43a11dee38bbf0e1a24293c211b4cd81eedc947392c8f9160b3a44ed060"
    }
   },
   {
@@ -4051,13 +5435,58 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-new-2d-lands-world-1.png",
+    "sha256": "d1a75eb15a6be3a0d5fede26769bb1b29f4325184f71fbf2c1cf0b20b6028263"
    }
+  },
+  {
+   "id": "super-mario-nightfall",
+   "name": "Super Mario Nightfall",
+   "author": "Supa",
+   "description": "Super Mario Nightfall is a NSMBWii mod which features night-to-day theming throughout it! This mod contains: 30+ levels Tons of new tilesets and other visual elements A new soundtrack And much more! Check out the latest trailer [here!](",
+   "version": "",
+   "revision": 0,
+   "date": "2024-05-12",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/FDrMmruNmVA"
+   },
+   "listed": [
+    "discord"
+   ]
+  },
+  {
+   "id": "super-mario-skyward-ascent",
+   "name": "Super Mario Skyward Ascent",
+   "author": "Ian926",
+   "description": "Super Mario Skyward Ascent is a 1 world mod featuring 10 vertical levels, a new world map, new music, and more, releasing later this year!",
+   "version": "",
+   "revision": 0,
+   "date": "2024-01-08",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "super-mario-snowy-season",
    "name": "Super Mario Snowy Season",
    "author": "Swiftshine",
-   "description": "A community-created patch for NSMBW.",
+   "description": "A 1 world snow-themed mod with unique stages and several stars to collect!",
    "version": "v1.0",
    "revision": 1,
    "date": "",
@@ -4085,6 +5514,15 @@
    "metadata": {
     "code": "newer-1.2.0",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-snowy-season.png",
+    "sha256": "088070180abc458ea77bce5664d2546569fd5b6a4136b8d90331a49ce59a763d"
    }
   },
   {
@@ -4122,6 +5560,13 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/super-mario-sunlight-adventure.png",
+    "sha256": "148d31b213f97efcc7d2760fd9488828039faf1078f0777c32e1dbf5a987e38a"
    }
   },
   {
@@ -4159,7 +5604,12 @@
     "texture": "Tilesets",
     "code": "newer-1.2.0",
     "fixheaps_off": true
-   }
+   },
+   "listed": [
+    "wiki",
+    "discord",
+    "archive"
+   ]
   },
   {
    "id": "super-mario-vacation",
@@ -4195,6 +5645,14 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/super-mario-vacation.png",
+    "sha256": "72c64088d41f2fd650d28e9a34bb64b22530f30deb6b6cf5a9767d24ba7f1fa7"
    }
   },
   {
@@ -4234,13 +5692,34 @@
      "sample"
     ],
     "code": null
-   }
+   },
+   "listed": [
+    "wiki"
+   ]
+  },
+  {
+   "id": "super-mario-seasons",
+   "name": "Super Mario: SEASONS",
+   "author": "PurpleStuff",
+   "description": "Originally called New Super Mario Bros. Halloween Hack. Rebranded to: Super Mario: SEASONS,Unsure if it will be a minimod or a big mod, unsure of scope atm. but i do personally plan on a custom overworld. Sadly no previews or screenshots at this time.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-07-07",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "the-curse-of-black-toad-all-regions",
    "name": "The Curse of Black Toad All regions",
-   "author": "",
-   "description": "",
+   "author": "White Toad, Doggo",
+   "description": "White Toad's mod, fixed by Doggo to work in every region.",
    "version": "",
    "revision": 1,
    "date": "",
@@ -4271,13 +5750,20 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/the-curse-of-black-toad-all-regions.png",
+    "sha256": "075e8792981751d020b351f2a18afbe6b0341bb9bb5604bd96fd5f654e9c80ad"
    }
   },
   {
    "id": "the-legend-of-yoshi",
    "name": "The Legend Of Yoshi",
-   "author": "",
-   "description": "",
+   "author": "Yoshivert99",
+   "description": "Levels, custom tilesets and sprites by Yoshivert99 (2018).",
    "version": "",
    "revision": 1,
    "date": "",
@@ -4308,6 +5794,13 @@
     "texture": "/tloy/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/the-legend-of-yoshi.png",
+    "sha256": "42aca0cf0ec94cda5e4ed8f40d146737ad093070d945b59cf57fc0f84d4748fc"
    }
   },
   {
@@ -4345,7 +5838,10 @@
     "texture": "ThiagoMod/Reverse/Texture/",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "timmybroswii",
@@ -4382,7 +5878,10 @@
     "texture": "/TimmyBrosWii/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
-   }
+   },
+   "listed": [
+    "archive"
+   ]
   },
   {
    "id": "toadiko-into-yamato",
@@ -4421,7 +5920,35 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/toadiko-into-yamato.png",
+    "sha256": "679df6729e8a2eebeaf9c836182e2dc3bc47376bdbbcf7e8344a9f4b419d2730"
    }
+  },
+  {
+   "id": "trickier-wii",
+   "name": "Trickier Wii",
+   "author": "Lurker",
+   "description": "Trickier Wii is a fan-made modification of New Super Mario Bros. Wii that takes the original game and expands upon it with redesigned levels, brand new stages, custom environments, and new challenges.",
+   "version": "",
+   "revision": 0,
+   "date": "2026-06-23",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {
+    "video": "https://youtu.be/979FJlkqXX4",
+    "discord": "https://discord.gg/MdMYWRemEH"
+   },
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "ultimate-super-luigi-wii",
@@ -4458,13 +5985,21 @@
     "texture": "Tilesets",
     "code": "newer-custom",
     "fixheaps_off": true
+   },
+   "listed": [
+    "wiki",
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/ultimate-super-luigi-wii.png",
+    "sha256": "ad20ccb64d7e94886884cd87ea53372828608a0cc4f8c3dd0f2e71c422679af8"
    }
   },
   {
    "id": "ultimate-super-minecraft-tp",
    "name": "Ultimate Super Minecraft TP",
    "author": "",
-   "description": "",
+   "description": "A Minecraft texture pack for New Super Mario Bros. Wii.",
    "version": "0.8",
    "revision": 1,
    "date": "",
@@ -4495,6 +6030,13 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/ultimate-super-minecraft-tp.png",
+    "sha256": "12bda8e853dbd078c04a7ce935e94562625a0ff9d557fd78c07c3a2637577c8d"
    }
   },
   {
@@ -4532,6 +6074,13 @@
     "texture": "/YSMBMSS/Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)"
+   },
+   "listed": [
+    "archive"
+   ],
+   "icon": {
+    "path": "icons/you-super-mario-bros-me-summer-special.png",
+    "sha256": "920a42d9b306aa44301d074ba59f88fef269f1bbd2bb2124affc25457559279e"
    }
   }
  ]

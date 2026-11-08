@@ -2,7 +2,7 @@
  "id": "mario-goes-to-the-store-buys-a-gallon-of-milk",
  "name": "Mario Goes to the Store & buys a Gallon of Milk",
  "author": "",
- "description": "",
+ "description": "Mario and Luigi are out of milk and have to go to the store to get more.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

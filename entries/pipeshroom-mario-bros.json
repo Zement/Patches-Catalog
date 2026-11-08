@@ -1,0 +1,23 @@
+{
+ "id": "pipeshroom-mario-bros",
+ "name": "Pipeshroom Mario Bros.",
+ "author": "SuperAngyo01",
+ "description": "Pipeshroom Mario Bros. is a very short (and very basic) NSMBW mod that features levels and ideas revolved around pipes and mushrooms. It is my attempt at learning to mod and a passion project",
+ "version": "",
+ "revision": 0,
+ "date": "2024-07-03",
+ "category": "ongoing",
+ "length": "short",
+ "source": {
+  "type": "none"
+ },
+ "links": {
+  "video": "https://youtu.be/una7uAdFqw0",
+  "discord": "https://discord.com/invite/eUzuUGGetr",
+  "channel": "https://www.youtube.com/channel/UC--7rpff4sxsQ0Q3Z94XoQg"
+ },
+ "listed": [
+  "wiki",
+  "discord"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "trickier-wii",
+ "name": "Trickier Wii",
+ "author": "Lurker",
+ "description": "Trickier Wii is a fan-made modification of New Super Mario Bros. Wii that takes the original game and expands upon it with redesigned levels, brand new stages, custom environments, and new challenges.",
+ "version": "",
+ "revision": 0,
+ "date": "2026-06-23",
+ "category": "ongoing",
+ "length": null,
+ "source": {
+  "type": "none"
+ },
+ "links": {
+  "video": "https://youtu.be/979FJlkqXX4",
+  "discord": "https://discord.gg/MdMYWRemEH"
+ },
+ "listed": [
+  "discord"
+ ]
+}

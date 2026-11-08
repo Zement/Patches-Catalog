@@ -2,7 +2,7 @@
  "id": "newer-falling-leaf",
  "name": "Newer FALLING LEAF",
  "author": "Skawo, Newer Team",
- "description": "A community-created patch for NSMBW.",
+ "description": "Newer: Falling Leaf, the fourth and latest Newer Special, is a mini-hack for New Super Mario Bros. Wii that was released in December 2014. It features 8 new levels and is the first Newer Special based on the Newer engine.",
  "version": "v1.12",
  "revision": 1,
  "date": "",
@@ -33,5 +33,12 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "fixheaps_off": true
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ],
+ "links": {
+  "wiki": "https://horizon.miraheze.org/wiki/Newer:_Falling_Leaf"
  }
 }

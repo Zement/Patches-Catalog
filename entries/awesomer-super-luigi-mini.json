@@ -32,5 +32,9 @@
   "stage": "Stage",
   "texture": "Stage/Texture",
   "code": null
- }
+ },
+ "listed": [
+  "wiki",
+  "archive"
+ ]
 }

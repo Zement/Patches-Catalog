@@ -1,8 +1,8 @@
 {
  "id": "bowsers-new-recruit",
  "name": "Bowsers New Recruit",
- "author": "",
- "description": "",
+ "author": "LiQ, walDOH, Swiftshine",
+ "description": "The levels of the cancelled Bowser's New Recruit, released as an unstable trial: not every level is reachable in normal play.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

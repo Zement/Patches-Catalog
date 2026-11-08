@@ -2,7 +2,7 @@
  "id": "super-mario-jungle-jam",
  "name": "Super Mario Jungle Jam",
  "author": "",
- "description": "",
+ "description": "No code changes, so it works in every region; Dolphin is recommended.",
  "version": "",
  "revision": 1,
  "date": "",
@@ -33,5 +33,8 @@
   "texture": "/SMJungleJam/Stage/Texture/",
   "code": null,
   "found_by": "G-c.7 discovery (archive.org mirror)"
- }
+ },
+ "listed": [
+  "archive"
+ ]
 }

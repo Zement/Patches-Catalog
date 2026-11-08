@@ -2,7 +2,7 @@
  "id": "mario-and-the-mysterious-meteorite",
  "name": "Mario and the Mysterious Meteorite",
  "author": "Bupdad, Ovenball",
- "description": "A community-created patch for NSMBW.",
+ "description": "Mario and the Mysterious Meteorite is a one-world mod that originally released in september of 2024. We felt like we still had a lot of room to improve and expand on the original, so we are now working towards an update that doubles the hack's length.",
  "version": "v3.0.1",
  "revision": 1,
  "date": "",
@@ -33,5 +33,10 @@
   "texture": "Tilesets",
   "code": "newer-1.30",
   "fixheaps_off": true
- }
+ },
+ "listed": [
+  "wiki",
+  "discord",
+  "archive"
+ ]
 }
