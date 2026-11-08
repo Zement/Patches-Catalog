@@ -5,17 +5,18 @@
  "description": "SMB: Extreme Adventure, is a mod that has 48 levels, 4 Brand New Worlds ( 3 + 1 Bonus World) with a choosen theme for each to be respected in the creation of the levels. A new adventure awaits you inside. Good luck.",
  "version": "v1.301",
  "revision": 1,
- "date": "",
+ "date": "2024-08-06",
  "category": "mod",
  "length": "medium",
  "source": {
-  "type": "hosted",
-  "host": "sourceforge"
+  "type": "linked-release",
+  "repo": "TeamAlternative2026/Super-Mario-Bros-Extreme-Adventure",
+  "tag": "relase1.301"
  },
  "download": {
-  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/SMBExtremeAdvDEMO1.301.zip/download",
-  "size": 251157764,
-  "sha256": null,
+  "url": "https://github.com/TeamAlternative2026/Super-Mario-Bros-Extreme-Adventure/releases/download/relase1.301/Version1.301.zip",
+  "size": 251157795,
+  "sha256": "fb4ef4c169d45f20b902fcf1979932c9ef93c73392a44638b84e994df8320a61",
   "root": ""
  },
  "mod": {
@@ -37,6 +38,7 @@
  "listed": [
   "wiki",
   "discord",
+  "github",
   "archive"
  ]
 }
