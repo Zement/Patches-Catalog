@@ -190,14 +190,18 @@
    "revision": 0,
    "date": "2022-11-17",
    "category": "ongoing",
-   "length": null,
+   "length": "medium",
    "source": {
     "type": "none"
    },
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/beyond-smbw.png",
+    "sha256": "627a926e83066502a322e4040019e76711bbf91e5a9cca0a6aec4064f859c89f"
+   }
   },
   {
    "id": "bowsers-new-recruit",
@@ -259,7 +263,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/bupcraft-directors-cut.png",
+    "sha256": "d07e7cb0b33fac84c656058e0d25d31a7ecc58308b1e8cdedf24402f466d957b"
+   }
   },
   {
    "id": "chaos-station-v2",
@@ -519,7 +527,11 @@
    },
    "listed": [
     "archive"
-   ]
+   ],
+   "icon": {
+    "path": "icons/clue4u-s-ultra-epic-mod-demo.png",
+    "sha256": "649f6364e35ea09b26d346db3e5515c38313024cb31bcdb04eaa45c2f1dd6c31"
+   }
   },
   {
    "id": "coldpipes-colder-pipe-colors",
@@ -931,7 +943,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/extra-super-mario-bros-wii.png",
+    "sha256": "aca9e406a813ff7773da7ce59708adce9cb7decc12a37544eae51c2db6949a86"
+   }
   },
   {
    "id": "familiar-super-mario-bros-wii",
@@ -1081,7 +1097,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/greatest-super-mario-adventure-wii.png",
+    "sha256": "06cb2c97d36641993047015e7115e49c4044434fe002d250ffade7f5e28224f1"
+   }
   },
   {
    "id": "harder-mario-bros-meltdown",
@@ -1571,7 +1591,11 @@
    },
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/marios-cosmic-quest.png",
+    "sha256": "3b2985dab80e704c6b2f23ea54675813aaf492894e8683a43e29bb598f09ce18"
+   }
   },
   {
    "id": "marios-haunted-adventure",
@@ -1592,7 +1616,11 @@
    "listed": [
     "wiki",
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/marios-haunted-adventure.png",
+    "sha256": "efb2e4f99d6c505e2ddb1a5b6e92343b5367d68f5149df8012ab00cf67764304"
+   }
   },
   {
    "id": "midnightwii",
@@ -1833,7 +1861,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/mayros-heart-throbbing-adventure-wii-silver-star-quest.png",
+    "sha256": "5962517e84ee13c87779fbadf79e4a3288e6035b4a25dda51677119cc003ed56"
+   }
   },
   {
    "id": "mini-mega-hell",
@@ -1851,7 +1883,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/mini-mega-hell.png",
+    "sha256": "3d84498ae58e48895004cdcf84310d175c8a8636f04066761b91f9fe4267d891"
+   }
   },
   {
    "id": "mini-super-mario-bros-wii",
@@ -1955,7 +1991,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/mohamedpeep70s-epic-mod.png",
+    "sha256": "538b5a45a5c17d0d023ce4b35bb8701702eb1e43cd66c05bd0701a2da8e1035e"
+   }
   },
   {
    "id": "mountain-smbw",
@@ -2316,7 +2356,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-dawn.png",
+    "sha256": "66a27ad74b52e036c8e82f4f8491723d02fef8f851e75965aa47597c4028ae92"
+   }
   },
   {
    "id": "new-super-mario-bros-midnight",
@@ -2396,7 +2440,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-superstars.png",
+    "sha256": "9e3c0a8c8e679ca9a20812e965fc8e87570c315583db58201e47d32652eb10c7"
+   }
   },
   {
    "id": "new-super-mario-bros-theta-demo",
@@ -2591,7 +2639,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-bros-wii-islands.png",
+    "sha256": "40887d4f236d07f41ff30b73a05840ce6c241dc6a2d08c5799feb8501fce06cd"
+   }
   },
   {
    "id": "new-super-mario-bros-wii-legacy-demo",
@@ -2838,7 +2890,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/new-super-mario-cliffside-journey.png",
+    "sha256": "a1e10eb655ac70126c41f732240d91eb63b371c2630f634905ab1f9bb36e4196"
+   }
   },
   {
    "id": "new-super-mario-lost-worlds",
@@ -3360,7 +3416,11 @@
    },
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/newer-super-mario-bros-u-remastered.png",
+    "sha256": "1cb149c8081eeb202dce92e465b3846249c96abfe0becd8f6b4ca79a704d8674"
+   }
   },
   {
    "id": "newer-smbw",
@@ -3435,7 +3495,11 @@
    "listed": [
     "wiki",
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/newer-super-mario-bros-wii-the-lost-islands.png",
+    "sha256": "e011fb501bda60416f059ad972c5e4ee59405fa82b0516e9b212bdbbca94d565"
+   }
   },
   {
    "id": "newer-super-mario-tourism-in-shimane",
@@ -3521,7 +3585,11 @@
    },
    "listed": [
     "github"
-   ]
+   ],
+   "icon": {
+    "path": "icons/newergem.png",
+    "sha256": "526dd06fa57d74279980931be2d5a0666a76d18f47bd0ae3ec1585eab358339f"
+   }
   },
   {
    "id": "newerlaa",
@@ -3694,7 +3762,11 @@
    "listed": [
     "discord",
     "archive"
-   ]
+   ],
+   "icon": {
+    "path": "icons/newest-super-mario-bros-wii.png",
+    "sha256": "c9a0b65a53b8bc798b674a9145f37c2f32110322a31bacc5e93e1314d63a4f6b"
+   }
   },
   {
    "id": "novastar-wii",
@@ -4139,7 +4211,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/oops-all-1-1.png",
+    "sha256": "251430441dc6324c1163322bd000ad633e664d64bf39fa75f9c12f28ce1b0f85"
+   }
   },
   {
    "id": "pipeshroom-mario-bros",
@@ -4162,7 +4238,11 @@
    "listed": [
     "wiki",
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/pipeshroom-mario-bros.png",
+    "sha256": "bf29790521cd6e319f654de3791cbc8f3c4d8f6107b6a90744e30737173d6044"
+   }
   },
   {
    "id": "poisons-adventure",
@@ -4445,7 +4525,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/sakura-smbw.png",
+    "sha256": "408aeec165df21b8ed91b74b94b75183e8806bd6561997e1ba74ac49bb1d1de1"
+   }
   },
   {
    "id": "slwii-the-emissary",
@@ -4931,7 +5015,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-beach-blast.png",
+    "sha256": "0c07e1f6494c36d03c98ebabd673d2660d07e262e180878717f73e2405d99a27"
+   }
   },
   {
    "id": "super-mario-bob-omb-blast-boss-rush",
@@ -5040,7 +5128,11 @@
    },
    "listed": [
     "wiki"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-bros-impending-doom.png",
+    "sha256": "67107fa53ef5435b0a00386054fc13ad2fccb04c39207fc2078e23dda2c3cff7"
+   }
   },
   {
    "id": "super-mario-bros-world-adventure",
@@ -5249,7 +5341,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-eternal-eclipse.png",
+    "sha256": "ab2fbdf03748eec6aa9cfb89baa1fea2fc2d6b73f9374f15ae7e7b50d1605380"
+   }
   },
   {
    "id": "super-mario-green-star-groove-demo-version-2",
@@ -5445,7 +5541,11 @@
    },
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-nightfall.png",
+    "sha256": "5ca02a42ace2d28e63152388c0e920e5cf452252020cce19c6e1ba80c01c5491"
+   }
   },
   {
    "id": "super-mario-skyward-ascent",
@@ -5463,7 +5563,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-skyward-ascent.png",
+    "sha256": "3072e7b21de3badbb9b430078d1f3b4deb76493b31fd15b2ad7bd2bcdec4ece0"
+   }
   },
   {
    "id": "super-mario-snowy-season",
@@ -5696,7 +5800,11 @@
    "links": {},
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/super-mario-seasons.png",
+    "sha256": "be086d1ec07e366ca4b927bd084b33ce836c1827ce5c1b1f6e2c9a2e28fdf0ce"
+   }
   },
   {
    "id": "the-curse-of-black-toad-all-regions",
@@ -5931,7 +6039,11 @@
    },
    "listed": [
     "discord"
-   ]
+   ],
+   "icon": {
+    "path": "icons/trickier-wii.png",
+    "sha256": "e5b3b65cf852cb9ad1052ae0ff3e9f7a48e4869c117678d578291b1f6f720f9f"
+   }
   },
   {
    "id": "ultimate-super-luigi-wii",

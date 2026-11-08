@@ -6,6 +6,9 @@
                                                     # from a file you have (MEGA,
                                                     # Google Drive: no program
                                                     # downloads from those)
+    python scripts/extract_icons.py --image <id>=<picture> ...
+                                                    # a logo found elsewhere: cropped
+                                                    # and scaled like the others
 
 Nearly every mod replaces the title screen's logo: `wiiMario_Title_logo_*.tpl`
 in `openingTitle.arc` (a U8 archive in the mod's Opening/Layout folder). This
@@ -377,12 +380,27 @@ def to_icon(logo):
 
 def main():
     args = sys.argv[1:]
-    local = {}
-    while '--local' in args:
-        i = args.index('--local')
-        eid, _, path = args[i + 1].partition('=')
-        local[eid] = path
-        del args[i:i + 2]
+    local, pictures = {}, {}
+    for flag, into in (('--local', local), ('--image', pictures)):
+        while flag in args:
+            i = args.index(flag)
+            eid, _, path = args[i + 1].partition('=')
+            into[eid] = path
+            del args[i:i + 2]
+    if pictures:
+        from PIL import Image
+        os.makedirs(ICONS, exist_ok=True)
+        for eid, path in pictures.items():
+            if not os.path.exists(os.path.join(ENTRIES, eid + '.json')):
+                print('%-48s no entry of that id' % eid)
+                continue
+            image = Image.open(path).convert('RGBA')
+            png, _pixels = to_icon((image.width, image.height, image.tobytes()))
+            with open(os.path.join(ICONS, eid + '.png'), 'wb') as f:
+                f.write(png)
+            print('%-48s from %s, %d bytes' % (eid, os.path.basename(path), len(png)))
+        if not args and not local:
+            return
     wanted = set(args) | set(local)
     entries = []
     for name in sorted(os.listdir(ENTRIES)):
