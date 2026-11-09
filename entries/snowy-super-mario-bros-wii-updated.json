@@ -1,0 +1,44 @@
+{
+ "id": "snowy-super-mario-bros-wii-updated",
+ "name": "Snowy Super Mario Bros. Wii Updated",
+ "author": "VioletNATP",
+ "description": "An updated version of Snowy Super Mario Bros. Wii by VioletNATP (Dread Modders), built on NSMBWer+. Made for one player; multiplayer works, but some sections are harder with more.",
+ "version": "1",
+ "revision": 1,
+ "date": "2026-11-09",
+ "category": "mod",
+ "length": "short",
+ "source": {
+  "type": "hosted",
+  "upstream": "https://drive.google.com/drive/folders/17SdQ63etVfnsLHfLl9q9LcdR7jTn8rER",
+  "checked": "2026-11-09",
+  "tag": "snowy-super-mario-bros-wii-updated/1-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/snowy-super-mario-bros-wii-updated/1-1/snowy-super-mario-bros-wii-updated-1-1.zip",
+  "size": 184887611,
+  "sha256": "dc4a6548bb8d7ef5e77e1491ff987e5d73c092868d55626fe257d2d4c14c7011",
+  "root": ""
+ },
+ "mod": {
+  "folder": "Snowy/Snowy",
+  "xml": "Snowy/Riivolution/Snowy.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "nsmbwer-plus",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/Snowy",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": "newer-custom",
+  "found_by": "G-c.8c discovery; Drive folder downloaded 2026-11-09 (D-o.5 Reply 42)",
+  "archive_memory": 20,
+  "fixheaps_off": true
+ },
+ "listed": [
+  "discord"
+ ]
+}

@@ -5,28 +5,22 @@
  "description": "A community-created patch for NSMBW.",
  "version": "v1.0",
  "revision": 2,
- "date": "",
+ "date": "2026-11-09",
  "category": "mod",
  "length": "short",
  "source": {
   "type": "hosted",
-  "host": "sourceforge"
+  "tag": "cliff-mario-wii/v1.0-2"
  },
  "download": {
-  "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cliff%20Super%20Mario%20Bros.%20Wii.zip/download",
-  "size": 147702751,
-  "sha256": null,
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/cliff-mario-wii/v1.0-2/cliff-mario-wii-v1.0-2.zip",
+  "size": 149170313,
+  "sha256": "8a90146c23da47861d7b5e979b20c526e905db68a83696632a16a2ed84b5cedf",
   "root": ""
  },
  "mod": {
   "folder": "Cliff",
-  "xml": "riivolution/CliffP.xml",
-  "xml_fix": [
-   [
-    "<folder external=\"Layout/textures\">",
-    "<folder external=\"Layout/textures\"/>"
-   ]
-  ]
+  "xml": "riivolution/CliffP.xml"
  },
  "definition": {
   "type": "generated"

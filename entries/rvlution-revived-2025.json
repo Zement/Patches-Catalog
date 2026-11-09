@@ -3,30 +3,24 @@
  "name": "RVlution revived 2025",
  "author": "",
  "description": "",
- "version": "",
+ "version": "1",
  "revision": 2,
- "date": "",
+ "date": "2026-11-09",
  "category": "mod",
  "length": null,
  "source": {
   "type": "hosted",
-  "host": "archive.org"
+  "tag": "rvlution-revived-2025/1-2"
  },
  "download": {
-  "url": "https://archive.org/download/super-mario-wii-mods/RVlution%20revived%202025.zip",
-  "size": 271751850,
-  "sha256": null,
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/rvlution-revived-2025/1-2/rvlution-revived-2025-1-2.zip",
+  "size": 270551936,
+  "sha256": "46e6373c054295ff847ef961114a90b2fcff4f7522da57d5347b499985adf989",
   "root": ""
  },
  "mod": {
   "folder": "RVLution Wii/rvlwii",
-  "xml": "RVLution Wii/riivolution/rvlwii.xml",
-  "xml_fix": [
-   [
-    "</wiidisc>\r\nmory offset=\"0x80001800\" valuefile=\"Loader.bin\" />\r\n\t</patch>\r\n</wiidisc>\r\n",
-    "</wiidisc>\r\n"
-   ]
-  ]
+  "xml": "RVLution Wii/riivolution/rvlwii.xml"
  },
  "definition": {
   "type": "generated"

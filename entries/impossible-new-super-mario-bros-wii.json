@@ -3,30 +3,24 @@
  "name": "Impossible New Super Mario Bros. Wii",
  "author": "",
  "description": "A mod made to be impossible - its readme insists.",
- "version": "",
+ "version": "1",
  "revision": 2,
- "date": "",
+ "date": "2026-11-09",
  "category": "mod",
  "length": null,
  "source": {
   "type": "hosted",
-  "host": "archive.org"
+  "tag": "impossible-new-super-mario-bros-wii/1-2"
  },
  "download": {
-  "url": "https://archive.org/download/super-mario-wii-mods/Impossible%20New%20Super%20Mario%20Bros.%20Wii.zip",
-  "size": 16975414,
-  "sha256": null,
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/impossible-new-super-mario-bros-wii/1-2/impossible-new-super-mario-bros-wii-1-2.zip",
+  "size": 16837448,
+  "sha256": "1fb6fdb739eddb7b1b7813fdbd7caf79b47ee16daf4393db8d9bb723599086e7",
   "root": ""
  },
  "mod": {
   "folder": "Impossible NSMB Wii/impossible",
-  "xml": "Impossible NSMB Wii/Riivolution/impossible.xml",
-  "xml_fix": [
-   [
-    "<option name=\"Mod Impossible>",
-    "<option name=\"Mod Impossible\">"
-   ]
-  ]
+  "xml": "Impossible NSMB Wii/Riivolution/impossible.xml"
  },
  "definition": {
   "type": "generated"

@@ -102,10 +102,10 @@ running game, which settles the ones left out.
 ## Corrections
 
 A mod whose Riivolution XML is not well-formed - an unclosed quote, a tag left open -
-does not load in Dolphin at all. `mod.xml_fix` corrects it without republishing the
-mod: `[old text, new text]` pairs, each replaced once in the XML Reginald installs. A
-correction is a new `revision`, so installs offer the update (which fetches the XML
-alone). `scripts/scan_memory.py` reports the XMLs that still do not parse.
+does not load in Dolphin at all. It is corrected in the mod itself and published here
+as a new `revision` (`scripts/publish_hosted.py`), every other file unchanged: installs
+offer the update, which fetches the XML alone. `scripts/scan_memory.py` reports the
+XMLs that do not parse.
 
 ## Releases
 

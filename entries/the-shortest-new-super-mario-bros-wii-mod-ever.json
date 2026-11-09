@@ -1,0 +1,44 @@
+{
+ "id": "the-shortest-new-super-mario-bros-wii-mod-ever",
+ "name": "The Shortest New Super Mario Bros. Wii Mod Ever",
+ "author": "ThankfulGio",
+ "description": "A joke mod of a single level, World 1-1.",
+ "version": "1",
+ "revision": 1,
+ "date": "2026-11-09",
+ "category": "mod",
+ "length": "short",
+ "source": {
+  "type": "hosted",
+  "upstream": "https://drive.google.com/drive/folders/1LZafCfjbvAq0-1NhSF85BEeVa9PfFLiA",
+  "checked": "2026-11-09",
+  "tag": "the-shortest-new-super-mario-bros-wii-mod-ever/1-1"
+ },
+ "download": {
+  "url": "https://github.com/Zement/Patches-Catalog/releases/download/the-shortest-new-super-mario-bros-wii-mod-ever/1-1/the-shortest-new-super-mario-bros-wii-mod-ever-1-1.zip",
+  "size": 153267,
+  "sha256": "d2e7624f1f2ff0f2955fa3f2304d7e5965c5c943543dba94e82fc20674359591",
+  "root": ""
+ },
+ "mod": {
+  "folder": "ShortestWii",
+  "xml": "riivolution/TSNSMBWME.xml"
+ },
+ "definition": {
+  "type": "generated"
+ },
+ "base": "retail",
+ "requires": [],
+ "metadata": {
+  "xml_root": "/ShortestWii",
+  "stage": "Stage",
+  "texture": "Stage/Texture",
+  "code": null,
+  "found_by": "G-c.8c discovery; Drive folder downloaded 2026-11-09 (D-o.5 Reply 42)",
+  "archive_memory": 18,
+  "fixheaps_off": false
+ },
+ "listed": [
+  "discord"
+ ]
+}

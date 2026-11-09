@@ -21,8 +21,8 @@ the System*.bin code files:
   has no code; left out when its code cannot show it (Kamek code linked at
   load time - DLCode*.bin - or code without the patch as bytes);
 - an XML that is not well-formed is reported: Dolphin cannot load the mod,
-  and Reginald cannot read it. `mod.xml_fix` in its entry corrects it at
-  install ([old, new] text pairs); the scan reads the XML with them applied.
+  and Reginald cannot read it. Correct it in the mod and publish a new
+  revision (README, Corrections).
 """
 
 import io
@@ -151,11 +151,7 @@ def scan(entry):
         out['problem'] = 'its XML %s is not in the download' % mod.get('xml')
         return out
     out['xml'] = xml_name
-    data = files.read(xml_name)
-    # The XML as Reginald installs it: with the entry's corrections
-    for old, new in mod.get('xml_fix') or ():
-        data = data.replace(old.encode('utf-8'), new.encode('utf-8'), 1)
-    xml, out['problem'] = read_xml(data)
+    xml, out['problem'] = read_xml(files.read(xml_name))
     out['heap'] = heap_of(xml)
 
     if xml_turns_fixheaps_off(xml):
