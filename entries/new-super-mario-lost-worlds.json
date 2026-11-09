@@ -17,7 +17,9 @@
   "code": "https://github.com/N-I-N-0/New-Super-Mario-Lost-Worlds"
  },
  "metadata": {
-  "found_by": "G-c.7 discovery (GitHub). The playable files are in a private repository; the public one has the source code and tools only (D-o.5 Reply 37)."
+  "found_by": "G-c.7 discovery (GitHub). The playable files are in a private repository; the public one has the source code and tools only (D-o.5 Reply 37).",
+  "archive_memory": 20,
+  "fixheaps_off": true
  },
  "listed": [
   "wiki",
