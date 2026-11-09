@@ -34,7 +34,9 @@
   "stage": "/NSMBW-GreenStars/Stage/",
   "texture": "/NSMBW-GreenStars/Stage/Texture/",
   "code": null,
-  "found_by": "G-c.7 discovery (GitHub)"
+  "found_by": "G-c.7 discovery (GitHub)",
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "github"

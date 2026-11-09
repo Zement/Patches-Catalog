@@ -83,6 +83,11 @@ def problems(entry, filename, ids):
     mod = entry.get('mod') or {}
     if not mod.get('folder') or not mod.get('xml'):
         found.append('mod.folder and mod.xml: paths in the download')
+    fixes = mod.get('xml_fix', [])
+    if not isinstance(fixes, list) or not all(
+            isinstance(f, list) and len(f) == 2 and all(isinstance(s, str) for s in f) and f[0]
+            for f in fixes):
+        found.append('mod.xml_fix: a list of [old text, new text] pairs')
     definition = entry.get('definition') or {}
     if definition.get('type') not in DEFINITION_TYPES:
         found.append('definition.type: one of %s' % ', '.join(DEFINITION_TYPES))

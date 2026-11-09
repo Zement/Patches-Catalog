@@ -32,7 +32,9 @@
   "stage": "Stages",
   "texture": "Tilesets",
   "code": "newer-1.30",
-  "found_by": "G-c.7 discovery (archive.org mirror)"
+  "found_by": "G-c.7 discovery (archive.org mirror)",
+  "archive_memory": 20,
+  "fixheaps_off": true
  },
  "listed": [
   "discord",

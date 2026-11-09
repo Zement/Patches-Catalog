@@ -33,7 +33,9 @@
   "stage": "Stages",
   "texture": "Tilesets",
   "code": "newer-custom",
-  "found_by": "G-c.7 discovery (GitHub)"
+  "found_by": "G-c.7 discovery (GitHub)",
+  "archive_memory": 20,
+  "fixheaps_off": true
  },
  "listed": [
   "discord",

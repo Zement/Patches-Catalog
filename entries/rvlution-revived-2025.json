@@ -4,7 +4,7 @@
  "author": "",
  "description": "",
  "version": "",
- "revision": 1,
+ "revision": 2,
  "date": "",
  "category": "mod",
  "length": null,
@@ -20,7 +20,13 @@
  },
  "mod": {
   "folder": "RVLution Wii/rvlwii",
-  "xml": "RVLution Wii/riivolution/rvlwii.xml"
+  "xml": "RVLution Wii/riivolution/rvlwii.xml",
+  "xml_fix": [
+   [
+    "</wiidisc>\r\nmory offset=\"0x80001800\" valuefile=\"Loader.bin\" />\r\n\t</patch>\r\n</wiidisc>\r\n",
+    "</wiidisc>\r\n"
+   ]
+  ]
  },
  "definition": {
   "type": "generated"
@@ -32,7 +38,9 @@
   "stage": "Stages",
   "texture": "Tilesets",
   "code": "newer-1.0.3",
-  "found_by": "G-c.7 discovery (archive.org mirror)"
+  "found_by": "G-c.7 discovery (archive.org mirror)",
+  "archive_memory": 20,
+  "fixheaps_off": true
  },
  "listed": [
   "archive"

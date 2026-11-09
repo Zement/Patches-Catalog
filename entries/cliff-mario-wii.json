@@ -4,7 +4,7 @@
  "author": "GoronGuy123",
  "description": "A community-created patch for NSMBW.",
  "version": "v1.0",
- "revision": 1,
+ "revision": 2,
  "date": "",
  "category": "mod",
  "length": "short",
@@ -20,7 +20,13 @@
  },
  "mod": {
   "folder": "Cliff",
-  "xml": "riivolution/CliffP.xml"
+  "xml": "riivolution/CliffP.xml",
+  "xml_fix": [
+   [
+    "<folder external=\"Layout/textures\">",
+    "<folder external=\"Layout/textures\"/>"
+   ]
+  ]
  },
  "definition": {
   "type": "generated"
@@ -31,7 +37,9 @@
   "xml_root": "/Cliff",
   "stage": "Stage",
   "texture": "Stage/Texture",
-  "code": null
+  "code": null,
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "wiki",

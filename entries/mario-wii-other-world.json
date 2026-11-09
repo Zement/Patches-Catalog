@@ -28,7 +28,9 @@
  "base": "retail",
  "requires": [],
  "metadata": {
-  "code": null
+  "code": null,
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "wiki",

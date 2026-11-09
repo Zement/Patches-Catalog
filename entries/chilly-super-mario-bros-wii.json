@@ -31,7 +31,9 @@
   "xml_root": null,
   "stage": null,
   "texture": "/Chilly/Stage/Texture",
-  "code": null
+  "code": null,
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "wiki",

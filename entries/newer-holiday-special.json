@@ -32,7 +32,8 @@
   "stage": null,
   "texture": "Stage/Texture",
   "code": "loader",
-  "fixheaps_off": true
+  "fixheaps_off": true,
+  "archive_memory": 18
  },
  "listed": [
   "wiki",

@@ -32,7 +32,8 @@
   "stage": "Stages",
   "texture": "Tilesets",
   "code": "newer-1.2.0",
-  "fixheaps_off": true
+  "fixheaps_off": true,
+  "archive_memory": 20
  },
  "listed": [
   "wiki"

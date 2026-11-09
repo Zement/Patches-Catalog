@@ -4,7 +4,7 @@
  "author": "LOrb Sheddy",
  "description": "Ghostly Super Ghost Boos Wii v1.0.2 by LifeOrbShedinja (LOrbSheddy) Development time: 11.12.2013 - 31.10.2015",
  "version": "v1.0",
- "revision": 1,
+ "revision": 2,
  "date": "",
  "category": "mod",
  "length": "short",
@@ -20,7 +20,13 @@
  },
  "mod": {
   "folder": "Ghostly",
-  "xml": "riivolution/GhostlyP.xml"
+  "xml": "riivolution/GhostlyP.xml",
+  "xml_fix": [
+   [
+    "<section name=\"Ghostly Super Ghost Boos Wii>",
+    "<section name=\"Ghostly Super Ghost Boos Wii\">"
+   ]
+  ]
  },
  "definition": {
   "type": "generated"
@@ -31,7 +37,9 @@
   "xml_root": "/Ghostly",
   "stage": null,
   "texture": "Stage/Texture",
-  "code": null
+  "code": null,
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "wiki",

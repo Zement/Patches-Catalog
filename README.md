@@ -86,6 +86,27 @@ again only when its sha256 changes; a mod without one shows its initials.
 For a mod hosted where no program can download (`external`), give it the file:
 `--local <id>=<zip or folder>`.
 
+## Memory
+
+`metadata.archive_memory` is the size of the game's archive heap with the mod, in MB:
+the memory every file of a level is loaded into, 18 in the game and 20 in Newer and
+most mods, which enlarge it through a `<memory>` patch in their Riivolution XML.
+`metadata.fixheaps_off` is true when the mod's code turns off the reserve of about
+3.85 MB the game keeps at every course start (Kamek mods do), false when the mod keeps
+it; left out when the code cannot show it. Reginald writes both into the definition's
+*Archive Memory Size* plugin at install, for its memory estimate.
+`scripts/scan_memory.py --write` reads them from each release (only the XML and the
+code files, with range requests); Reginald's *Import Game Data* measures them in the
+running game, which settles the ones left out.
+
+## Corrections
+
+A mod whose Riivolution XML is not well-formed - an unclosed quote, a tag left open -
+does not load in Dolphin at all. `mod.xml_fix` corrects it without republishing the
+mod: `[old text, new text]` pairs, each replaced once in the XML Reginald installs. A
+correction is a new `revision`, so installs offer the update (which fetches the XML
+alone). `scripts/scan_memory.py` reports the XMLs that still do not parse.
+
 ## Releases
 
 One release per hosted mod version, tagged `<id>/<version>-<revision>`, with two

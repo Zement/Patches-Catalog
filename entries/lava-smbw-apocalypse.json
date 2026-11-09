@@ -32,7 +32,8 @@
   "stage": "Stage",
   "texture": "Stage/Texture",
   "code": "newer-custom",
-  "fixheaps_off": true
+  "fixheaps_off": true,
+  "archive_memory": 20
  },
  "listed": [
   "wiki",

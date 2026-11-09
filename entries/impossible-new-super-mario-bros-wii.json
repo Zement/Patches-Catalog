@@ -4,7 +4,7 @@
  "author": "",
  "description": "A mod made to be impossible - its readme insists.",
  "version": "",
- "revision": 1,
+ "revision": 2,
  "date": "",
  "category": "mod",
  "length": null,
@@ -20,7 +20,13 @@
  },
  "mod": {
   "folder": "Impossible NSMB Wii/impossible",
-  "xml": "Impossible NSMB Wii/Riivolution/impossible.xml"
+  "xml": "Impossible NSMB Wii/Riivolution/impossible.xml",
+  "xml_fix": [
+   [
+    "<option name=\"Mod Impossible>",
+    "<option name=\"Mod Impossible\">"
+   ]
+  ]
  },
  "definition": {
   "type": "generated"
@@ -32,7 +38,9 @@
   "stage": "/impossible/Stage/",
   "texture": "/impossible/Stage/Texture/",
   "code": null,
-  "found_by": "G-c.7 discovery (archive.org mirror)"
+  "found_by": "G-c.7 discovery (archive.org mirror)",
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "archive"

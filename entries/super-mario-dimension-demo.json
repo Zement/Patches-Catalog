@@ -32,7 +32,8 @@
   "stage": "Stage",
   "texture": "Stage/Texture",
   "code": "loader",
-  "found_by": "G-c.7 discovery (archive.org mirror)"
+  "found_by": "G-c.7 discovery (archive.org mirror)",
+  "archive_memory": 20
  },
  "listed": [
   "archive"

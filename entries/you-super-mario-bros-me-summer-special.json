@@ -32,7 +32,9 @@
   "stage": "/YSMBMSS/Stage",
   "texture": "/YSMBMSS/Stage/Texture",
   "code": null,
-  "found_by": "G-c.7 discovery (archive.org mirror)"
+  "found_by": "G-c.7 discovery (archive.org mirror)",
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "archive"

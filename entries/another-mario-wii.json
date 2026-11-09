@@ -31,7 +31,9 @@
   "xml_root": null,
   "stage": null,
   "texture": "/Another/Stage/Texture",
-  "code": "kamek"
+  "code": "kamek",
+  "archive_memory": 18,
+  "fixheaps_off": false
  },
  "listed": [
   "wiki",
