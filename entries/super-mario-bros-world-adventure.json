@@ -11,10 +11,11 @@
  "source": {
   "type": "linked-source",
   "repo": "Ethan-mariofan/Super-Mario-Bros-World-Adventure",
-  "commit": "4bdc800ca45d05d80a85af629b14b8aaedb8c607"
+  "commit": "4bdc800ca45d05d80a85af629b14b8aaedb8c607",
+  "tag": null
  },
  "download": {
-  "url": "https://codeload.github.com/Ethan-mariofan/Super-Mario-Bros-World-Adventure/zip/4bdc800ca45d05d80a85af629b14b8aaedb8c607",
+  "url": "https://github.com/Ethan-mariofan/Super-Mario-Bros-World-Adventure/archive/4bdc800ca45d05d80a85af629b14b8aaedb8c607.zip",
   "size": null,
   "sha256": null,
   "root": "*"
