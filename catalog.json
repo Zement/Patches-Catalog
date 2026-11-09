@@ -36,7 +36,9 @@
     "stage": "Stage",
     "texture": null,
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -80,7 +82,9 @@
     "stage": "/Another/Stage",
     "texture": "/Another/Stage/Texture",
     "code": "kamek",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -123,7 +127,9 @@
     "xml_root": null,
     "stage": null,
     "texture": "/Another/Stage/Texture",
-    "code": "kamek"
+    "code": "kamek",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -136,6 +142,24 @@
     "path": "icons/another-mario-wii.png",
     "sha256": "b2d1e2c8da0f9cc895c2ec79a5f35b915786e98e1c0af40dbb0e1021592774a8"
    }
+  },
+  {
+   "id": "awesome-super-luigi-world-peaks",
+   "name": "Awesome Super Luigi World peaks",
+   "author": "daweegemain/Propellerman",
+   "description": "A mod of 12 worlds starring Luigi, meant as a better-quality successor to NSMB Universe.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-03-10",
+   "category": "ongoing",
+   "length": "full",
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "awesomer-super-luigi-mini",
@@ -170,7 +194,9 @@
     "xml_root": "/AwesomerSLM",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -237,7 +263,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -304,7 +332,9 @@
     "stage": "/ChaosStation/Stage",
     "texture": null,
     "code": null,
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "github"
@@ -347,7 +377,9 @@
     "xml_root": null,
     "stage": null,
     "texture": "/Chilly/Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -393,7 +425,9 @@
     "stage": "/CrackHack/Stage/",
     "texture": "/CrackHack/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -405,7 +439,7 @@
    "author": "GoronGuy123",
    "description": "A community-created patch for NSMBW.",
    "version": "v1.0",
-   "revision": 1,
+   "revision": 2,
    "date": "",
    "category": "mod",
    "length": "short",
@@ -421,7 +455,13 @@
    },
    "mod": {
     "folder": "Cliff",
-    "xml": "riivolution/CliffP.xml"
+    "xml": "riivolution/CliffP.xml",
+    "xml_fix": [
+     [
+      "<folder external=\"Layout/textures\">",
+      "<folder external=\"Layout/textures\"/>"
+     ]
+    ]
    },
    "definition": {
     "type": "generated"
@@ -432,7 +472,9 @@
     "xml_root": "/Cliff",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -477,7 +519,8 @@
     "stage": "Stage",
     "texture": "Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -523,7 +566,9 @@
     "stage": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/",
     "texture": "/Clue4u's_Ultra_Epic_Mod!!!/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -567,7 +612,9 @@
     "stage": "/coldpipes/Stage/",
     "texture": "/coldpipes/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -607,7 +654,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -651,7 +700,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.2.0",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -695,7 +746,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -740,7 +792,9 @@
     "xml_root": null,
     "stage": null,
     "texture": "/deluxe/Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -785,7 +839,9 @@
     "stage": "Stage",
     "texture": "/Depot/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -828,7 +884,8 @@
      "kitiku mwsp"
     ],
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -872,7 +929,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -917,7 +975,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -983,7 +1043,9 @@
     "stage": "/FSMBW/Stage",
     "texture": "/FSMBW/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -1027,7 +1089,9 @@
     "stage": "/Forever Alone/Stage",
     "texture": null,
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -1043,7 +1107,7 @@
    "author": "LOrb Sheddy",
    "description": "Ghostly Super Ghost Boos Wii v1.0.2 by LifeOrbShedinja (LOrbSheddy) Development time: 11.12.2013 - 31.10.2015",
    "version": "v1.0",
-   "revision": 1,
+   "revision": 2,
    "date": "",
    "category": "mod",
    "length": "short",
@@ -1059,7 +1123,13 @@
    },
    "mod": {
     "folder": "Ghostly",
-    "xml": "riivolution/GhostlyP.xml"
+    "xml": "riivolution/GhostlyP.xml",
+    "xml_fix": [
+     [
+      "<section name=\"Ghostly Super Ghost Boos Wii>",
+      "<section name=\"Ghostly Super Ghost Boos Wii\">"
+     ]
+    ]
    },
    "definition": {
     "type": "generated"
@@ -1070,7 +1140,9 @@
     "xml_root": "/Ghostly",
     "stage": null,
     "texture": "Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -1137,7 +1209,9 @@
     "stage": "/Meltdown/Stage",
     "texture": "/Meltdown/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "discord",
@@ -1182,7 +1256,9 @@
     "stage": "/HarderMario/Stage",
     "texture": "/HarderMario/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -1198,7 +1274,7 @@
    "author": "",
    "description": "A mod made to be impossible - its readme insists.",
    "version": "",
-   "revision": 1,
+   "revision": 2,
    "date": "",
    "category": "mod",
    "length": null,
@@ -1214,7 +1290,13 @@
    },
    "mod": {
     "folder": "Impossible NSMB Wii/impossible",
-    "xml": "Impossible NSMB Wii/Riivolution/impossible.xml"
+    "xml": "Impossible NSMB Wii/Riivolution/impossible.xml",
+    "xml_fix": [
+     [
+      "<option name=\"Mod Impossible>",
+      "<option name=\"Mod Impossible\">"
+     ]
+    ]
    },
    "definition": {
     "type": "generated"
@@ -1226,7 +1308,9 @@
     "stage": "/impossible/Stage/",
     "texture": "/impossible/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -1266,7 +1350,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -1316,7 +1401,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "github"
@@ -1356,7 +1443,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -1402,7 +1490,9 @@
     "stage": "Levels",
     "texture": "Stages/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord",
@@ -1465,7 +1555,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.30",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -1529,7 +1620,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -1569,7 +1662,9 @@
    "base": "retail",
    "requires": [],
    "metadata": {
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -1660,7 +1755,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.2.0",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -1704,7 +1800,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -1749,7 +1846,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "archive"
@@ -1793,7 +1891,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -1839,7 +1939,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -1927,7 +2029,9 @@
     "stage": "Stage",
     "texture": null,
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -1968,7 +2072,8 @@
    "requires": [],
    "metadata": {
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -2035,7 +2140,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -2079,7 +2186,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -2123,7 +2232,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -2187,7 +2297,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 18
    },
    "listed": [
     "discord",
@@ -2197,6 +2308,24 @@
     "path": "icons/new-super-luigi-wii.png",
     "sha256": "9cbf5275b682fb83aa28a17978f2df9e8a02140767546b08da1869dfd36f76e3"
    }
+  },
+  {
+   "id": "new-super-luigi-wii-another-timeline",
+   "name": "New Super Luigi Wii Another Timeline",
+   "author": "DanielaPC!?SFM",
+   "description": "A re-remaster of New Super Luigi Wii Another Timeline. Paused in August 2024 until its author's PC is back.",
+   "version": "",
+   "revision": 0,
+   "date": "2024-08-23",
+   "category": "ongoing",
+   "length": null,
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "new-super-mario-bowser-invasion",
@@ -2250,7 +2379,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -2290,7 +2421,9 @@
     "stage": "/delta/Stage",
     "texture": "/delta/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -2334,7 +2467,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -2400,7 +2535,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -2484,7 +2621,9 @@
     "stage": "/NSMBTH/Stage",
     "texture": "/NSMBTH/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -2528,7 +2667,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -2574,7 +2715,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -2617,7 +2760,9 @@
     "xml_root": null,
     "stage": null,
     "texture": null,
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki"
@@ -2683,7 +2828,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.0.3",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -2762,7 +2909,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "wiki",
@@ -2828,7 +2977,9 @@
     "stage": "/Wiimix Demo/Stage",
     "texture": "/Wiimix Demo/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -2868,7 +3019,9 @@
     "stage": "/NSMBWii Only UP!/Stage",
     "texture": null,
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -2981,7 +3134,9 @@
     "stage": "/spikewii/Stage",
     "texture": "/spikewii/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -3025,7 +3180,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -3069,7 +3226,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -3114,7 +3272,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.0.3",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -3160,7 +3319,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "github"
@@ -3204,7 +3365,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -3252,7 +3414,8 @@
     "stage": null,
     "texture": "Stage/Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 18
    },
    "listed": [
     "wiki",
@@ -3300,7 +3463,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "loader",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -3348,7 +3512,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -3392,7 +3558,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -3539,7 +3707,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -3589,7 +3759,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "github"
@@ -3633,7 +3805,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -3677,7 +3850,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -3721,7 +3895,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.1.1",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -3765,7 +3940,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.2.0",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord",
@@ -3810,7 +3987,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.30",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord",
@@ -3855,7 +4034,9 @@
     "stage": "/NSMB2 1-1/Stage",
     "texture": "/NSMB2 1-1/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -3895,7 +4076,9 @@
     "stage": "/NSMB2 1-Castle/Stage",
     "texture": "/NSMB2 1-Castle/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -3935,7 +4118,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -3979,7 +4164,9 @@
     "stage": "/GrandStarMode/Stage/",
     "texture": "/GrandStarMode/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4029,7 +4216,9 @@
     "stage": "/NSMBW-GreenStars/Stage/",
     "texture": "/NSMBW-GreenStars/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "github"
@@ -4069,7 +4258,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.30",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -4108,7 +4299,9 @@
     "xml_root": null,
     "stage": null,
     "texture": null,
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -4154,7 +4347,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki"
@@ -4197,7 +4391,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4291,7 +4487,8 @@
     "stage": "Stage",
     "texture": null,
     "code": "loader",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 18
    },
    "listed": [
     "github"
@@ -4341,7 +4538,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 18
    },
    "listed": [
     "github"
@@ -4381,7 +4579,9 @@
     "stage": "/rsmbw/Stage",
     "texture": "/rsmbw/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -4426,7 +4626,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.2.0",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -4442,7 +4644,7 @@
    "author": "",
    "description": "",
    "version": "",
-   "revision": 1,
+   "revision": 2,
    "date": "",
    "category": "mod",
    "length": null,
@@ -4458,7 +4660,13 @@
    },
    "mod": {
     "folder": "RVLution Wii/rvlwii",
-    "xml": "RVLution Wii/riivolution/rvlwii.xml"
+    "xml": "RVLution Wii/riivolution/rvlwii.xml",
+    "xml_fix": [
+     [
+      "</wiidisc>\r\nmory offset=\"0x80001800\" valuefile=\"Loader.bin\" />\r\n\t</patch>\r\n</wiidisc>\r\n",
+      "</wiidisc>\r\n"
+     ]
+    ]
    },
    "definition": {
     "type": "generated"
@@ -4470,7 +4678,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.0.3",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -4514,7 +4724,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.0.3",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "wiki",
@@ -4581,7 +4793,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20.125
    },
    "listed": [
     "wiki",
@@ -4626,7 +4839,9 @@
     "stage": "/SMBWonder 1-1/Stage",
     "texture": "/SMBWonder 1-1/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4670,7 +4885,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.30",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -4716,7 +4932,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4756,7 +4974,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4802,7 +5022,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -4846,7 +5068,9 @@
     "stage": "/Chilly/Stage",
     "texture": "/Chilly/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -4890,7 +5114,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -4934,7 +5160,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -4948,6 +5175,24 @@
     "path": "icons/super-luigi-land-wii.png",
     "sha256": "4c7a3b673468b808fb2439cd6149bc7b35ef4024d5368fe4b961ce47efb47f6d"
    }
+  },
+  {
+   "id": "super-luigi-midnight-isle",
+   "name": "Super Luigi Midnight Isle",
+   "author": "Fishy",
+   "description": "A mini mod of 1-2 worlds with 100-second levels and Luigi as the first player.",
+   "version": "",
+   "revision": 0,
+   "date": "2023-02-04",
+   "category": "ongoing",
+   "length": "short",
+   "source": {
+    "type": "none"
+   },
+   "links": {},
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "super-luigi-seasonal-shore",
@@ -4983,7 +5228,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -5075,7 +5321,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -5119,7 +5367,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -5193,7 +5443,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (GitHub)"
+    "found_by": "G-c.7 discovery (GitHub)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord",
@@ -5239,7 +5491,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -5322,7 +5575,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": "loader",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20
    },
    "listed": [
     "archive"
@@ -5407,7 +5661,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -5451,7 +5707,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -5495,7 +5753,9 @@
     "stage": "/SMJungleJam/Stage/",
     "texture": "/SMJungleJam/Stage/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -5539,7 +5799,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "archive"
@@ -5626,7 +5888,8 @@
    "requires": [],
    "metadata": {
     "code": "newer-1.2.0",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -5672,7 +5935,9 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -5716,7 +5981,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-1.2.0",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -5757,7 +6023,9 @@
     "xml_root": "/Vacation",
     "stage": "Stage",
     "texture": "Stage/Texture",
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki",
@@ -5804,7 +6072,9 @@
     "foreign_folders": [
      "sample"
     ],
-    "code": null
+    "code": null,
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "wiki"
@@ -5866,7 +6136,9 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -5910,7 +6182,9 @@
     "stage": "/tloy/Stage",
     "texture": "/tloy/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -5954,7 +6228,9 @@
     "stage": "/ThiagoMod/Reverse/",
     "texture": "ThiagoMod/Reverse/Texture/",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -5994,7 +6270,9 @@
     "stage": "/TimmyBrosWii/Stage",
     "texture": "/TimmyBrosWii/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -6036,7 +6314,9 @@
     "stage": "Levels",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)"
+    "found_by": "G-c.7 discovery (downloaded once, G-c.8c)",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "discord"
@@ -6105,7 +6385,8 @@
     "stage": "Stages",
     "texture": "Tilesets",
     "code": "newer-custom",
-    "fixheaps_off": true
+    "fixheaps_off": true,
+    "archive_memory": 20
    },
    "listed": [
     "wiki",
@@ -6150,7 +6431,8 @@
     "stage": "Stage",
     "texture": "Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18
    },
    "listed": [
     "archive"
@@ -6194,7 +6476,9 @@
     "stage": "/YSMBMSS/Stage",
     "texture": "/YSMBMSS/Stage/Texture",
     "code": null,
-    "found_by": "G-c.7 discovery (archive.org mirror)"
+    "found_by": "G-c.7 discovery (archive.org mirror)",
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
