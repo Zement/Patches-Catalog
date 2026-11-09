@@ -440,28 +440,22 @@
    "description": "A community-created patch for NSMBW.",
    "version": "v1.0",
    "revision": 2,
-   "date": "",
+   "date": "2026-11-09",
    "category": "mod",
    "length": "short",
    "source": {
     "type": "hosted",
-    "host": "sourceforge"
+    "tag": "cliff-mario-wii/v1.0-2"
    },
    "download": {
-    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Cliff%20Super%20Mario%20Bros.%20Wii.zip/download",
-    "size": 147702751,
-    "sha256": null,
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/cliff-mario-wii/v1.0-2/cliff-mario-wii-v1.0-2.zip",
+    "size": 149170313,
+    "sha256": "8a90146c23da47861d7b5e979b20c526e905db68a83696632a16a2ed84b5cedf",
     "root": ""
    },
    "mod": {
     "folder": "Cliff",
-    "xml": "riivolution/CliffP.xml",
-    "xml_fix": [
-     [
-      "<folder external=\"Layout/textures\">",
-      "<folder external=\"Layout/textures\"/>"
-     ]
-    ]
+    "xml": "riivolution/CliffP.xml"
    },
    "definition": {
     "type": "generated"
@@ -1108,28 +1102,22 @@
    "description": "Ghostly Super Ghost Boos Wii v1.0.2 by LifeOrbShedinja (LOrbSheddy) Development time: 11.12.2013 - 31.10.2015",
    "version": "v1.0",
    "revision": 2,
-   "date": "",
+   "date": "2026-11-09",
    "category": "mod",
    "length": "short",
    "source": {
     "type": "hosted",
-    "host": "sourceforge"
+    "tag": "ghostly-super-ghost-boos-wii/v1.0-2"
    },
    "download": {
-    "url": "https://sourceforge.net/projects/reggie-patch-catalog/files/assets/patches/Ghostly%20Super%20Ghost%20Boos%20Wii.zip/download",
-    "size": 93365100,
-    "sha256": null,
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/ghostly-super-ghost-boos-wii/v1.0-2/ghostly-super-ghost-boos-wii-v1.0-2.zip",
+    "size": 93977387,
+    "sha256": "c9ba054cb60052c791c712801cfee48b008ebd24aee95542c9dec43de76c7531",
     "root": ""
    },
    "mod": {
     "folder": "Ghostly",
-    "xml": "riivolution/GhostlyP.xml",
-    "xml_fix": [
-     [
-      "<section name=\"Ghostly Super Ghost Boos Wii>",
-      "<section name=\"Ghostly Super Ghost Boos Wii\">"
-     ]
-    ]
+    "xml": "riivolution/GhostlyP.xml"
    },
    "definition": {
     "type": "generated"
@@ -1273,30 +1261,24 @@
    "name": "Impossible New Super Mario Bros. Wii",
    "author": "",
    "description": "A mod made to be impossible - its readme insists.",
-   "version": "",
+   "version": "1",
    "revision": 2,
-   "date": "",
+   "date": "2026-11-09",
    "category": "mod",
    "length": null,
    "source": {
     "type": "hosted",
-    "host": "archive.org"
+    "tag": "impossible-new-super-mario-bros-wii/1-2"
    },
    "download": {
-    "url": "https://archive.org/download/super-mario-wii-mods/Impossible%20New%20Super%20Mario%20Bros.%20Wii.zip",
-    "size": 16975414,
-    "sha256": null,
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/impossible-new-super-mario-bros-wii/1-2/impossible-new-super-mario-bros-wii-1-2.zip",
+    "size": 16837448,
+    "sha256": "1fb6fdb739eddb7b1b7813fdbd7caf79b47ee16daf4393db8d9bb723599086e7",
     "root": ""
    },
    "mod": {
     "folder": "Impossible NSMB Wii/impossible",
-    "xml": "Impossible NSMB Wii/Riivolution/impossible.xml",
-    "xml_fix": [
-     [
-      "<option name=\"Mod Impossible>",
-      "<option name=\"Mod Impossible\">"
-     ]
-    ]
+    "xml": "Impossible NSMB Wii/Riivolution/impossible.xml"
    },
    "definition": {
     "type": "generated"
@@ -4643,30 +4625,24 @@
    "name": "RVlution revived 2025",
    "author": "",
    "description": "",
-   "version": "",
+   "version": "1",
    "revision": 2,
-   "date": "",
+   "date": "2026-11-09",
    "category": "mod",
    "length": null,
    "source": {
     "type": "hosted",
-    "host": "archive.org"
+    "tag": "rvlution-revived-2025/1-2"
    },
    "download": {
-    "url": "https://archive.org/download/super-mario-wii-mods/RVlution%20revived%202025.zip",
-    "size": 271751850,
-    "sha256": null,
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/rvlution-revived-2025/1-2/rvlution-revived-2025-1-2.zip",
+    "size": 270551936,
+    "sha256": "46e6373c054295ff847ef961114a90b2fcff4f7522da57d5347b499985adf989",
     "root": ""
    },
    "mod": {
     "folder": "RVLution Wii/rvlwii",
-    "xml": "RVLution Wii/riivolution/rvlwii.xml",
-    "xml_fix": [
-     [
-      "</wiidisc>\r\nmory offset=\"0x80001800\" valuefile=\"Loader.bin\" />\r\n\t</patch>\r\n</wiidisc>\r\n",
-      "</wiidisc>\r\n"
-     ]
-    ]
+    "xml": "RVLution Wii/riivolution/rvlwii.xml"
    },
    "definition": {
     "type": "generated"
@@ -4849,6 +4825,54 @@
    "icon": {
     "path": "icons/smbwonder-1-1-reimagined-in-nsmbw.png",
     "sha256": "39083ea54687ab1bbdfc60292d430cab4516700d6374f974e8f84f2af080b3fa"
+   }
+  },
+  {
+   "id": "snowy-super-mario-bros-wii-updated",
+   "name": "Snowy Super Mario Bros. Wii Updated",
+   "author": "VioletNATP",
+   "description": "An updated version of Snowy Super Mario Bros. Wii by VioletNATP (Dread Modders), built on NSMBWer+. Made for one player; multiplayer works, but some sections are harder with more.",
+   "version": "1",
+   "revision": 1,
+   "date": "2026-11-09",
+   "category": "mod",
+   "length": "short",
+   "source": {
+    "type": "hosted",
+    "upstream": "https://drive.google.com/drive/folders/17SdQ63etVfnsLHfLl9q9LcdR7jTn8rER",
+    "checked": "2026-11-09",
+    "tag": "snowy-super-mario-bros-wii-updated/1-1"
+   },
+   "download": {
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/snowy-super-mario-bros-wii-updated/1-1/snowy-super-mario-bros-wii-updated-1-1.zip",
+    "size": 184887611,
+    "sha256": "dc4a6548bb8d7ef5e77e1491ff987e5d73c092868d55626fe257d2d4c14c7011",
+    "root": ""
+   },
+   "mod": {
+    "folder": "Snowy/Snowy",
+    "xml": "Snowy/Riivolution/Snowy.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "nsmbwer-plus",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/Snowy",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": "newer-custom",
+    "found_by": "G-c.8c discovery; Drive folder downloaded 2026-11-09 (D-o.5 Reply 42)",
+    "archive_memory": 20,
+    "fixheaps_off": true
+   },
+   "listed": [
+    "discord"
+   ],
+   "icon": {
+    "path": "icons/snowy-super-mario-bros-wii-updated.png",
+    "sha256": "eec5544cb7acad4f1bc75edd18db4aee4d7fb908e8341d0816d609d269db1ebc"
    }
   },
   {
@@ -6193,6 +6217,50 @@
     "path": "icons/the-legend-of-yoshi.png",
     "sha256": "42aca0cf0ec94cda5e4ed8f40d146737ad093070d945b59cf57fc0f84d4748fc"
    }
+  },
+  {
+   "id": "the-shortest-new-super-mario-bros-wii-mod-ever",
+   "name": "The Shortest New Super Mario Bros. Wii Mod Ever",
+   "author": "ThankfulGio",
+   "description": "A joke mod of a single level, World 1-1.",
+   "version": "1",
+   "revision": 1,
+   "date": "2026-11-09",
+   "category": "mod",
+   "length": "short",
+   "source": {
+    "type": "hosted",
+    "upstream": "https://drive.google.com/drive/folders/1LZafCfjbvAq0-1NhSF85BEeVa9PfFLiA",
+    "checked": "2026-11-09",
+    "tag": "the-shortest-new-super-mario-bros-wii-mod-ever/1-1"
+   },
+   "download": {
+    "url": "https://github.com/Zement/Patches-Catalog/releases/download/the-shortest-new-super-mario-bros-wii-mod-ever/1-1/the-shortest-new-super-mario-bros-wii-mod-ever-1-1.zip",
+    "size": 153267,
+    "sha256": "d2e7624f1f2ff0f2955fa3f2304d7e5965c5c943543dba94e82fc20674359591",
+    "root": ""
+   },
+   "mod": {
+    "folder": "ShortestWii",
+    "xml": "riivolution/TSNSMBWME.xml"
+   },
+   "definition": {
+    "type": "generated"
+   },
+   "base": "retail",
+   "requires": [],
+   "metadata": {
+    "xml_root": "/ShortestWii",
+    "stage": "Stage",
+    "texture": "Stage/Texture",
+    "code": null,
+    "found_by": "G-c.8c discovery; Drive folder downloaded 2026-11-09 (D-o.5 Reply 42)",
+    "archive_memory": 18,
+    "fixheaps_off": false
+   },
+   "listed": [
+    "discord"
+   ]
   },
   {
    "id": "thiagomod-trio",
