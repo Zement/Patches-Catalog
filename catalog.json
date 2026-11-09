@@ -2280,7 +2280,8 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)",
-    "archive_memory": 18
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "discord",
@@ -3054,7 +3055,9 @@
     "code": "https://github.com/N-I-N-0/New-Super-Mario-Lost-Worlds"
    },
    "metadata": {
-    "found_by": "G-c.7 discovery (GitHub). The playable files are in a private repository; the public one has the source code and tools only (D-o.5 Reply 37)."
+    "found_by": "G-c.7 discovery (GitHub). The playable files are in a private repository; the public one has the source code and tools only (D-o.5 Reply 37).",
+    "archive_memory": 20,
+    "fixheaps_off": true
    },
    "listed": [
     "wiki",
@@ -4470,7 +4473,8 @@
     "texture": null,
     "code": "loader",
     "found_by": "G-c.7 discovery (GitHub)",
-    "archive_memory": 18
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "github"
@@ -4521,7 +4525,8 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (GitHub)",
-    "archive_memory": 18
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "github"
@@ -5600,7 +5605,8 @@
     "texture": "Stage/Texture",
     "code": "loader",
     "found_by": "G-c.7 discovery (archive.org mirror)",
-    "archive_memory": 20
+    "archive_memory": 20,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
@@ -6500,7 +6506,8 @@
     "texture": "Stage/Texture",
     "code": null,
     "found_by": "G-c.7 discovery (archive.org mirror)",
-    "archive_memory": 18
+    "archive_memory": 18,
+    "fixheaps_off": false
    },
    "listed": [
     "archive"
