@@ -99,6 +99,15 @@ it; left out when the code cannot show it. Reginald writes both into the definit
 code files, with range requests); Reginald's *Import Game Data* measures them in the
 running game, which settles the ones left out.
 
+## Test-plays
+
+`metadata.full_boot: true` marks a mod whose code needs the whole boot of the game:
+Reginald's test-plays otherwise skip the Wii Strap screen once a test save exists, and
+part of the boot with it. Reginald turns the definition's *Full Boot for Test-Plays*
+plugin on at install. Prankster Comets needs it (its level intro plays a sound loaded
+only in that part of the boot); add any other mod that shows an "Invalid read" warning
+in a test-play and not in plain Dolphin.
+
 ## Corrections
 
 A mod whose Riivolution XML is not well-formed - an unclosed quote, a tag left open -
