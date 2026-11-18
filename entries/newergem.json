@@ -11,10 +11,11 @@
  "source": {
   "type": "linked-source",
   "repo": "Developers-Collective/NewerGEM",
-  "commit": "7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb"
+  "commit": "7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb",
+  "tag": null
  },
  "download": {
-  "url": "https://codeload.github.com/Developers-Collective/NewerGEM/zip/7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb",
+  "url": "https://github.com/Developers-Collective/NewerGEM/archive/7bfd9ccb96ca0b73c76306e4a1c3ec9ad72fbbeb.zip",
   "size": null,
   "sha256": null,
   "root": "*"
