@@ -105,8 +105,9 @@ running game, which settles the ones left out.
 Reginald's test-plays otherwise skip the Wii Strap screen once a test save exists, and
 part of the boot with it. Reginald turns the definition's *Full Boot for Test-Plays*
 plugin on at install. Prankster Comets needs it (its level intro plays a sound loaded
-only in that part of the boot); add any other mod that shows an "Invalid read" warning
-in a test-play and not in plain Dolphin.
+only in that part of the boot), and so does Super Mario Bros. Extreme Adventure (a
+null read in `nw4r::snd::SoundArchive::ReadSoundInfo`); add any other mod that shows an
+"Invalid read" warning in a test-play and not in plain Dolphin.
 
 ## Corrections
 

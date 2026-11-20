@@ -34,7 +34,8 @@
   "texture": "Tilesets",
   "code": "newer-custom",
   "fixheaps_off": true,
-  "archive_memory": 20
+  "archive_memory": 20,
+  "full_boot": true
  },
  "listed": [
   "wiki",
